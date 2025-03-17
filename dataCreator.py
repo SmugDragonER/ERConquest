@@ -100,7 +100,7 @@ session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
 playerIDs = {
-    "SmugDragon": {"id": "1927375", "twitch": "SmugDragon"},
+    "SmugDragon": {"id": "1927375", "twitch": "SmugDragonER"},
     "HajtoNaMotorze": {"id": "1974355", "twitch": "HajtoNaMotorze"},
     "ChocolateDisco": {"id": "1000161", "twitch": "ChocolateDisco"},
     "Strawberryshawty": {"id": "1612676", "twitch": "Strawberryshawty"},
