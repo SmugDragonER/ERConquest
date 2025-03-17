@@ -2,13 +2,13 @@
     "players": [
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 8360,
-            "playerGames": 741,
+            "playerMMR": 8465,
+            "playerGames": 742,
             "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 46.0
+                    "playerCharacterPickRate": 46.1
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
