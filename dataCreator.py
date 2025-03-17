@@ -99,13 +99,13 @@ characterCodeDict = {
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
-playerIDs = dict()
-
-playerIDs["SmugDragon"] = "1927375"
-playerIDs["HajtoNaMotorze"] = "1974355"
-playerIDs["ChocolateDisco"] = "1000161"
-playerIDs["Strawberryshawty"] = "1612676"
-playerIDs["Meochi"] = "1547682"
+playerIDs = {
+    "SmugDragon": {"id": "1927375", "twitch": "SmugDragon"},
+    "HajtoNaMotorze": {"id": "1974355", "twitch": "HajtoNaMotorze"},
+    "ChocolateDisco": {"id": "1000161", "twitch": "ChocolateDisco"},
+    "Strawberryshawty": {"id": "1612676", "twitch": "Strawberryshawty"},
+    "Meochi": {"id": "1547682", "twitch": "Meochi"}
+}
 
 @sleep_and_retry
 @limits(calls=2, period=1)
@@ -132,21 +132,22 @@ def getPlayerNum(playerName):
     return userNum
 
 def getPlayerData(playerName):
-    playerNum = playerIDs.get(playerName) or getPlayerNum(playerName)
+    playerInfo = playerIDs.get(playerName)
+    playerNum = playerInfo["id"] if playerInfo else getPlayerNum(playerName)
+    twitchLink = playerInfo["twitch"] if playerInfo else ""
 
-    
     userRawInfo = getERData(f'user/stats/{playerNum}/{seasonID}')
     userInfo = userRawInfo['userStats'][0]
     userMMR = userInfo['mmr']
     userGames = userInfo['totalGames']
     userWR = int((userInfo['totalWins'] / userInfo['totalGames']) * 100) if userGames > 0 else 0
-    characterStats = userInfo['characterStats']  
+    characterStats = userInfo['characterStats']
 
-    filteredCharacters=[]
+    filteredCharacters = []
     for char in characterStats:
         characterCode = char['characterCode']
         characterName = characterCodeDict[characterCode]
-        pickRate = round((char['usages'] / userGames)*100, 1)
+        pickRate = round((char['usages'] / userGames) * 100, 1)
         filteredCharacters.append({
             'playerCharacterCode': characterName,
             'playerCharacterPickRate': pickRate
@@ -157,7 +158,8 @@ def getPlayerData(playerName):
         "playerMMR": userMMR,
         "playerGames": userGames,
         "playerWinRate": userWR,
-        "playerCharacterStats": filteredCharacters
+        "playerCharacterStats": filteredCharacters,
+        "playerTwitch": twitchLink
     }
     return playerData
 

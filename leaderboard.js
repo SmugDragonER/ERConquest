@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 ${player.playerCharacterStats[2] ? `
                 <p class="playerCharacter3"><img src="/ERConquest/images/character_icons/${player.playerCharacterStats[2].playerCharacterCode}.png" class="playerCharacter3-img"><br>${player.playerCharacterStats[2].playerCharacterPickRate}% 
                 </p>` : ""}
-                <a href="https://twitch.tv/SmugDragonER" class="twitchLink">
+                <a href="https://twitch.tv/${player.playerTwitch}" class="twitchLink">
                     <i class="fa-brands fa-twitch"></i>
                 </a>
                 <a href="https://dak.gg/er/players/${player.playerName}" class="playerDak">
