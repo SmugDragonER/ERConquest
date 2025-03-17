@@ -1,6 +1,26 @@
 {
     "players": [
         {
+            "playerName": "HajtoNaMotorze",
+            "playerMMR": 8360,
+            "playerGames": 741,
+            "playerWinRate": 13,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Silvia Mini",
+                    "playerCharacterPickRate": 46.0
+                },
+                {
+                    "playerCharacterCode": "Adina Mini",
+                    "playerCharacterPickRate": 14.8
+                },
+                {
+                    "playerCharacterCode": "Kenneth Mini",
+                    "playerCharacterPickRate": 7.7
+                }
+            ]
+        },
+        {
             "playerName": "SmugDragon",
             "playerMMR": 8308,
             "playerGames": 237,
@@ -17,26 +37,6 @@
                 {
                     "playerCharacterCode": "Laura Mini",
                     "playerCharacterPickRate": 11.8
-                }
-            ]
-        },
-        {
-            "playerName": "HajtoNaMotorze",
-            "playerMMR": 8174,
-            "playerGames": 712,
-            "playerWinRate": 13,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 45.5
-                },
-                {
-                    "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 15.4
-                },
-                {
-                    "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 7.0
                 }
             ]
         },
@@ -78,21 +78,21 @@
         },
         {
             "playerName": "Strawberryshawty",
-            "playerMMR": 3942,
-            "playerGames": 207,
+            "playerMMR": 3904,
+            "playerGames": 212,
             "playerWinRate": 5,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Charlotte Mini",
-                    "playerCharacterPickRate": 35.3
+                    "playerCharacterPickRate": 34.9
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 21.7
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 10.1
+                    "playerCharacterPickRate": 9.9
                 }
             ]
         }
