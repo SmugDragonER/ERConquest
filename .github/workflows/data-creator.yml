@@ -10,7 +10,7 @@ on:
   
 jobs:
   run-data-creator:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
@@ -28,7 +28,7 @@ jobs:
 
     - name: Run dataCreator.py
       env:
-        API_KEY: ${{ screts.API_KEY}}
+        API_KEY: ${{ secrets.API_KEY}}
       run: |
         python dataCreator.py
 
