@@ -99,13 +99,12 @@ characterCodeDict = {
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
-playerIDs = {
-    "SmugDragon": {"id": "1927375", "twitch": "SmugDragon"},
-    "HajtoNaMotorze": {"id": "1974355", "twitch": "HajtoNaMotorze"},
-    "ChocolateDisco": {"id": "1000161", "twitch": "ChocolateDisco"},
-    "Strawberryshawty": {"id": "1612676", "twitch": "Strawberryshawty"},
-    "Meochi": {"id": "1547682", "twitch": "Meochi"}
-}
+with open("player_ID.json", "r") as file:
+    playerIDs = json.load(file)
+
+lockedPlayers=[]
+unlockedPlayers=[]
+currentlyLockedPlayers = 0
 
 @sleep_and_retry
 @limits(calls=2, period=1)
@@ -163,12 +162,18 @@ def getPlayerData(playerName):
     }
     return playerData
 
+def sortPlayers(players,):
+    lockedPlayers = [p for p in players if p.get("locked")]
+    unlockedPlayers = [p for p in player if not p.get("locked")]
+
+    unlockedPlayers.sort(key=lambda x: x["playerMMR"], reverse=True)
 
 def saveDatatoJson(data,filename):
     with open(filename, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
 def saveAllPlayersToJson(playerDataList, filename):
+
     sortedPlayerDataList = sorted(playerDataList, key=lambda x: x['playerMMR'], reverse=True)
     data = {"players": sortedPlayerDataList}
     with open(filename, 'w') as json_file:
