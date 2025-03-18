@@ -1,0 +1,51 @@
+name: Run Data Creator
+
+on:
+  schedule:
+    - cron: '6 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-data-creator:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install json
+
+    - name: Run dataCreator.py
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+      run: |
+        python playerLocker.py
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Create a new branch
+      run: |
+        git checkout -b update-leaderboard
+        git add leaderboard_data.json
+        git commit -m 'Update leaderboard data'
+        git push origin update-leaderboard
+
+    - name: Create a pull request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: update-leaderboard
+        commit-message: 'Update leaderboard data'
+        title: 'Update leaderboard data'
+        body: 'This PR updates the leaderboard data.'
