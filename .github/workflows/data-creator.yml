@@ -25,22 +25,29 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests python-dotenv ratelimit
-    
-    - name: Debug environment
-    run: |
-      echo "Current directory: $(pwd)"
-      ls -la
-      echo "Python version:"
-      python --version
-      echo "Installed packages:"
-      pip list
 
     - name: Run dataCreator.py
       env:
         API_KEY: ${{ secrets.API_KEY}}
       run: |
         python dataCreator.py
+        
+    - name: Create a new branch
+      run: |
+        git checkout -b update-leaderboard
+        git add leaderboard_data.json
+        git commit -m 'Update leaderboard data'
+        git push origin update-leaderboard
 
+    - name: Create a pull request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: update-leaderboard
+        commit-message: 'Update leaderboard data'
+        title: 'Update leaderboard data'
+        body: 'This PR updates the leaderboard data.'
+        
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
