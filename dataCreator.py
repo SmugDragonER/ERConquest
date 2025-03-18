@@ -99,12 +99,22 @@ characterCodeDict = {
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
+<<<<<<< HEAD
 with open("player_ID.json", "r") as file:
     playerIDs = json.load(file)
 
 lockedPlayers=[]
 unlockedPlayers=[]
 currentlyLockedPlayers = 0
+=======
+playerIDs = {
+    "SmugDragon": {"id": "1927375", "twitch": "SmugDragonER"},
+    "HajtoNaMotorze": {"id": "1974355", "twitch": "HajtoNaMotorze"},
+    "ChocolateDisco": {"id": "1000161", "twitch": "ChocolateDisco"},
+    "Strawberryshawty": {"id": "1612676", "twitch": "Strawberryshawty"},
+    "Meochi": {"id": "1547682", "twitch": "Meochi"}
+}
+>>>>>>> 4415a2f59b4bea9743455290ae0def98a5aec290
 
 @sleep_and_retry
 @limits(calls=2, period=1)

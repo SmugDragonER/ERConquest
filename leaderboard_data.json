@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 8360,
-            "playerGames": 741,
+            "playerMMR": 8432,
+            "playerGames": 749,
             "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 46.0
+                    "playerCharacterPickRate": 46.5
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 14.8
+                    "playerCharacterPickRate": 14.7
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 7.7
+                    "playerCharacterPickRate": 7.6
                 }
             ],
             "playerTwitch": "HajtoNaMotorze"
@@ -40,7 +40,11 @@
                     "playerCharacterPickRate": 11.8
                 }
             ],
+<<<<<<< HEAD
             "playerTwitch": "SmugDragon"
+=======
+            "playerTwitch": "SmugDragonER"
+>>>>>>> 4415a2f59b4bea9743455290ae0def98a5aec290
         },
         {
             "playerName": "Meochi",
