@@ -25,7 +25,7 @@ jobs:
 
     - name: Run dataCreator.py
       env:
-        API_KEY: ${{ secrets.API_KEY}}
+        API_KEY: ${{ secrets.API_KEY }}
       run: |
         python dataCreator.py
 
