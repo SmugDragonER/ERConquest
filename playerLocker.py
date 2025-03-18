@@ -30,5 +30,5 @@ def lockLowestPlayer(player_data, leaderboard_data):
                 break
 
 if __name__ == "__main__":
-    #lockLowestPlayer(player_data, leaderboard_data)
-    unlockAllPlayer(player_data)
+
+    lockLowestPlayer(player_data, leaderboard_data)
