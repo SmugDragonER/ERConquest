@@ -36,14 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const playerCard = document.createElement('div');
             playerCard.classList.add('playerCard');
 
-            // Check if the player is locked using player_IDs.json
             const isLocked = playerIDs[player.playerName]?.locked;
-
-            if (isLocked) {
-                const lockedOverlay = document.createElement('div');
-                lockedOverlay.classList.add('lockedOverlay');
-                playerCard.appendChild(lockedOverlay);
-            }
+            console.log(`Player: ${player.playerName}, Locked: ${isLocked}`); // Debugging
 
             let rankImage;
             switch (true) {
@@ -87,6 +81,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 </a>
             `;
             leaderboard.appendChild(playerCard);
+        });
+
+        // Add overlays after rendering all player cards
+        players.forEach((player, index) => {
+            const isLocked = playerIDs[player.playerName]?.locked;
+            const playerCard = leaderboard.children[index];
+
+            if (isLocked) {
+                const lockedOverlay = document.createElement('div');
+                lockedOverlay.classList.add('lockedOverlay');
+                playerCard.appendChild(lockedOverlay);
+                console.log(`Locked overlay added for ${player.playerName}`);
+            }
         });
     })
     .catch(error => console.error('Error with getting data:', error));
