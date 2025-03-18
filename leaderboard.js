@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
-
+document.addEventListener("DOMContentLoaded", function () {
     const contactButton = document.getElementById("contact-button");
     const contactBox = document.getElementById("contact-box");
 
@@ -14,42 +13,55 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
 
-    fetch('leaderboard_data.json')
-        .then(response => {
+    // Fetch both leaderboard_data.json and player_IDs.json
+    Promise.all([
+        fetch('leaderboard_data.json').then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        }),
+        fetch('player_IDs.json').then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
             return response.json();
         })
-    .then(data => {
+    ])
+    .then(([leaderboardData, playerIDs]) => {
         const leaderboard = document.getElementById('leaderboard');
-        const players = data.players;
+        const players = leaderboardData.players;
 
-
-        players.forEach((player,index) => {
-            const playerCard = document.createElement('div')
+        players.forEach((player, index) => {
+            const playerCard = document.createElement('div');
             playerCard.classList.add('playerCard');
 
+            // Check if the player is locked using player_IDs.json
+            const isLocked = playerIDs[player.playerName]?.locked;
+
+            if (isLocked) {
+                const lockedOverlay = document.createElement('div');
+                lockedOverlay.classList.add('lockedOverlay');
+                playerCard.appendChild(lockedOverlay);
+            }
 
             let rankImage;
             switch (true) {
-                case(player.playerMMR >= 7000):
+                case (player.playerMMR >= 7000):
                     rankImage = "Immortal.png";
                     break;
-                case(player.playerMMR >= 6400):
+                case (player.playerMMR >= 6400):
                     rankImage = "Meteorite.png";
                     break;
-                case(player.playerMMR >= 5000):
+                case (player.playerMMR >= 5000):
                     rankImage = "Diamond.png";
                     break;
-                case(player.playerMMR >= 3600):
-                    rankImage = "Platinum.png"
+                case (player.playerMMR >= 3600):
+                    rankImage = "Platinum.png";
                     break;
                 default:
-                    rankImage="Unranked.png";
+                    rankImage = "Unranked.png";
             }
-
-            console.log(`Player ${index + 1}: ${player.playerName}, MMR: ${player.playerMMR}`);
 
             playerCard.innerHTML = `
                 <p class="rank">${index + 1}</p>
@@ -77,5 +89,5 @@ document.addEventListener("DOMContentLoaded", function(){
             leaderboard.appendChild(playerCard);
         });
     })
-    .catch(error => console.error('Error with getting data'))
+    .catch(error => console.error('Error with getting data:', error));
 });

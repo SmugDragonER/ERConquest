@@ -213,7 +213,21 @@ header {
         width: 100%;
         border: var(--border-color) solid 1px;
         justify-items: left;
+        position: relative;
     }
+
+    .locked-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent grey */
+        z-index: 1; /* Ensure it appears above the playerCard */
+        pointer-events: none; /* Allow clicks to pass through */
+        border-radius: var(--border-radius-medium); /* Optional: match the card's border radius */
+    }
+
         /* Player Stats */
         .rank {
             font-family: 'Signika Negative', sans-serif;
