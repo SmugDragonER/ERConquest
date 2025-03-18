@@ -31,7 +31,12 @@ jobs:
         API_KEY: ${{ secrets.API_KEY}}
       run: |
         python dataCreator.py
-        
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
     - name: Create a new branch
       run: |
         git checkout -b update-leaderboard
@@ -47,7 +52,7 @@ jobs:
         commit-message: 'Update leaderboard data'
         title: 'Update leaderboard data'
         body: 'This PR updates the leaderboard data.'
-        
+
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
