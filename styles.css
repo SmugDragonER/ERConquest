@@ -216,7 +216,7 @@ header {
         position: relative;
     }
 
-    .locked-overlay {
+    .lockedOverlay {
         position: absolute;
         top: 0;
         left: 0;

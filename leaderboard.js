@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             return response.json();
         }),
-        fetch('player_IDs.json').then(response => {
+        fetch('player_ID.json').then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
