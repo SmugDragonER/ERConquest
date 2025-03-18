@@ -20,8 +20,8 @@
     "Strawberryshawty": {
         "id": "1612676",
         "twitch": "Strawberryshawty",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 4
     },
     "Meochi": {
         "id": "1547682",
