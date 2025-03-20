@@ -1,6 +1,6 @@
 :root {
     /* Color Variables */
-    --primary-color: #e19c00;
+    --primary-color: #c4a15a;
     --secondary-color: #0b3865;
     --primary-color-light: #fdd60e;
     --secondary-color-dark:#011d3d;
@@ -77,7 +77,7 @@ h1 {
 header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
-    color: #e19c00;
+    color: var(--primary-color);
     padding-left: var(--spacing-small);
     padding-right: var(--spacing-small);
     display: flex;
@@ -165,16 +165,17 @@ header {
     font-family: 'Signika Negative', sans-serif;
     font-size: var(--font-size-xlarge);
     color: var(--white-color);
-    margin-top: var(--spacing-xxlarge);
+    margin-top: var(--spacing-xlarge);
     margin-bottom: var(--spacing-xsmall);
     gap: var(--spacing-small);
     grid-area: "title";
 }
+    
     .titleimg{
         position: relative;
         top: -30px;
         vertical-align: middle;
-        height: 100px;
+        height: 200px;
     }
     .lurkLogot{
         vertical-align: middle;
@@ -335,7 +336,7 @@ footer {
     margin-top: var(--spacing-xxlarge);
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
-    color: #e19c00;
+    color: var(--primary-color);
     padding-left: var(--spacing-small);
     padding-right: var(--spacing-small);
     display: flex;
