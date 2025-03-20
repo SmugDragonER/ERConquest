@@ -14,8 +14,8 @@
     "ChocolateDisco": {
         "id": "1000161",
         "twitch": "ChocolateDisco",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 3
     },
     "Strawberryshawty": {
         "id": "1612676",
@@ -26,7 +26,7 @@
     "Meochi": {
         "id": "1547682",
         "twitch": "Meochi",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 2
     }
 }
