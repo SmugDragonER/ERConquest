@@ -26,7 +26,7 @@
     "Meochi": {
         "id": "1547682",
         "twitch": "Meochi",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 2
     }
 }
