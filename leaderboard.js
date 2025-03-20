@@ -59,19 +59,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
             playerCard.innerHTML = `
                 <p class="rank">${index + 1}</p>
-                <img class="playerIcon" src="/ERConquest/images/${player.playerName}.png" alt="${player.playerName}s Icon">
-                <p class="playerMMR"><img src="/ERConquest/images/${rankImage}" class="rankImage"><br><span class="playerMMRNumber">${player.playerMMR} RP</span></p>
+                <img class="playerIcon" src="images/${player.playerName}.png" alt="${player.playerName}s Icon">
+                <p class="playerMMR"><img src="images/${rankImage}" class="rankImage"><br><span class="playerMMRNumber">${player.playerMMR} RP</span></p>
                 <p class="playerName">${player.playerName}</p>
                 <p class="playerWinRate"><span class="stat-label">Winrate:<br></span> ${player.playerWinRate}%</p>
                 <p class="playerGames"><span class="stat-label">Games:<br></span> ${player.playerGames}</p>
-                <p class="playerCharacter1"><img src="/ERConquest/images/character_icons/${player.playerCharacterStats[0].playerCharacterCode}.png" class="playerCharacter1-img"><br>${player.playerCharacterStats[0].playerCharacterPickRate}% </p>
+                <p class="playerCharacter1"><img src="images/character_icons/${player.playerCharacterStats[0].playerCharacterCode}.png" class="playerCharacter1-img"><br>${player.playerCharacterStats[0].playerCharacterPickRate}% </p>
                 
                 ${player.playerCharacterStats[1] ? `
-                <p class="playerCharacter2"><img src="/ERConquest/images/character_icons/${player.playerCharacterStats[1].playerCharacterCode}.png" class="playerCharacter2-img"><br>${player.playerCharacterStats[1].playerCharacterPickRate}% 
+                <p class="playerCharacter2"><img src="images/character_icons/${player.playerCharacterStats[1].playerCharacterCode}.png" class="playerCharacter2-img"><br>${player.playerCharacterStats[1].playerCharacterPickRate}% 
                 </p>` : ""}
                 
                 ${player.playerCharacterStats[2] ? `
-                <p class="playerCharacter3"><img src="/ERConquest/images/character_icons/${player.playerCharacterStats[2].playerCharacterCode}.png" class="playerCharacter3-img"><br>${player.playerCharacterStats[2].playerCharacterPickRate}% 
+                <p class="playerCharacter3"><img src="images/character_icons/${player.playerCharacterStats[2].playerCharacterCode}.png" class="playerCharacter3-img"><br>${player.playerCharacterStats[2].playerCharacterPickRate}% 
                 </p>` : ""}
                 <a href="https://twitch.tv/${player.playerTwitch}" class="twitchLink">
                     <i class="fa-brands fa-twitch"></i>
