@@ -2,8 +2,8 @@
     "SmugDragon": {
         "id": "1927375",
         "twitch": "SmugDragon",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 1
     },
     "HajtoNaMotorze": {
         "id": "1974355",
