@@ -9,7 +9,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 BASE_URL = "https://open-api.bser.io/v1"
-seasonID = 29
+seasonID = 31
 matchingTeamMode = 3
 characterCodeDict = {
     1: "Aya Mini", 2: "Hyunwoo Mini", 3: "Jackie Mini", 4: "Magnus Mini", 5: "Fiora Mini",
