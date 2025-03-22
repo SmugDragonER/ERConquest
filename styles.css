@@ -235,8 +235,7 @@ header {
         /* Player Card Stats */
         .rank {
             font-family: 'Signika Negative', sans-serif;
-            padding-left: var(--spacing-medium);
-            padding-right: var(--spacing-medium);
+            justify-self: center;
             grid-column: span 1;
             font-size: var(--font-size-xxlarge);
         }
