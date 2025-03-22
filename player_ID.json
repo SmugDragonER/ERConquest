@@ -2,31 +2,31 @@
     "SmugDragon": {
         "id": "1927375",
         "twitch": "SmugDragon",
-        "locked": true,
-        "lockedRank": 1
+        "locked": false,
+        "lockedRank": null
     },
     "HajtoNaMotorze": {
         "id": "1974355",
         "twitch": "HajtoNaMotorze",
-        "locked": true,
-        "lockedRank": 0
+        "locked": false,
+        "lockedRank": null
     },
     "ChocolateDisco": {
         "id": "1000161",
         "twitch": "ChocolateDisco",
-        "locked": true,
-        "lockedRank": 3
+        "locked": false,
+        "lockedRank": null
     },
     "Strawberryshawty": {
         "id": "1612676",
         "twitch": "Strawberryshawty",
-        "locked": true,
-        "lockedRank": 4
+        "locked": false,
+        "lockedRank": null
     },
     "Meochi": {
         "id": "1547682",
         "twitch": "Meochi",
-        "locked": true,
-        "lockedRank": 2
+        "locked": false,
+        "lockedRank": null
     }
 }
