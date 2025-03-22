@@ -1,31 +1,91 @@
 {
     "SmugDragon": {
-        "id": "1927375",
+        "id": 1927375,
         "twitch": "SmugDragon",
         "locked": false,
         "lockedRank": null
     },
+    "SalmonFish": {
+        "id": 3605265,
+        "twitch": "iSalmonFish",
+        "locked": false,
+        "lockedRank": null
+    },
+    "MajinTenshinhan": {
+        "id": 1544210,
+        "twitch": "MajinTenshinhan",
+        "locked": false,
+        "lockedRank": null
+    },
+    "ImpVivi": {
+        "id": 118981,
+        "twitch": "Imp_Vivi",
+        "locked": false,
+        "lockedRank": null
+    },
+    "kspiegler": {
+        "id": 4833234,
+        "twitch": "kspiegler",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Arkyー": {
+        "id": 2483262,
+        "twitch": "Arky_ER",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Quip": {
+        "id": 205538,
+        "twitch": "quip_er",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Leitnessen": {
+        "id": 4914463,
+        "twitch": "Leitnessen",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Johnjuice": {
+        "id": 3189470,
+        "twitch": "Johnjuice",
+        "locked": false,
+        "lockedRank": null
+    },
     "HajtoNaMotorze": {
-        "id": "1974355",
-        "twitch": "HajtoNaMotorze",
+        "id": 1974355,
+        "twitch": "hajtonamotorze",
         "locked": false,
         "lockedRank": null
     },
-    "ChocolateDisco": {
-        "id": "1000161",
-        "twitch": "ChocolateDisco",
+    "Connax": {
+        "id": 233292,
+        "twitch": "connax_",
         "locked": false,
         "lockedRank": null
     },
-    "Strawberryshawty": {
-        "id": "1612676",
-        "twitch": "Strawberryshawty",
+    "Baumi": {
+        "id": 1620982,
+        "twitch": "baumi_er",
         "locked": false,
         "lockedRank": null
     },
-    "Meochi": {
-        "id": "1547682",
-        "twitch": "Meochi",
+    "Aghilas": {
+        "id": 2398723,
+        "twitch": "Aghilask",
+        "locked": false,
+        "lockedRank": null
+    },
+    "INTA": {
+        "id": 2487999,
+        "twitch": "Kudetaa",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Pom": {
+        "id": 144530,
+        "twitch": "reapom",
         "locked": false,
         "lockedRank": null
     }

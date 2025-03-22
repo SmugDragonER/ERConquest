@@ -9,7 +9,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 BASE_URL = "https://open-api.bser.io/v1"
-seasonID = 31
+seasonID = 29
 matchingTeamMode = 3
 characterCodeDict = {
     1: "Aya Mini", 2: "Hyunwoo Mini", 3: "Jackie Mini", 4: "Magnus Mini", 5: "Fiora Mini",
@@ -61,9 +61,14 @@ def getERData(endpoint: str, params: dict = None, retries: int = 5) -> dict:
 
 def getPlayerNum(playerName):
     userInfo = getERData('user/nickname', {'query': playerName})
+    print(f"API Response for {playerName}: {userInfo}")  # Log the response
     userNum = userInfo['user']['userNum']
-    playerIDs[playerName] = userNum
     return userNum
+
+def updatePlayerNum(playerIDs):
+    for player in playerIDs.keys():
+       userNum = getPlayerNum(player)
+       playerIDs[player]['id'] = userNum
 
 def getPlayerData(playerName):
     playerInfo = playerIDs.get(playerName)
@@ -128,6 +133,7 @@ def saveAllPlayersToJson(playerDataList, filename):
         json.dump(data, json_file, indent=4)
 
 if __name__ == "__main__":
+    
     allPlayerData = []
     for player in playerIDs.keys():
         try:
@@ -138,3 +144,6 @@ if __name__ == "__main__":
 
     sortedPlayers = sortPlayers(playerIDs,allPlayerData)
     saveAllPlayersToJson(sortedPlayers, 'leaderboard_data.json')
+    print("done")
+    #  updatePlayerNum(playerIDs)
+    #  saveDatatoJson(playerIDs, "player_ID.json")
