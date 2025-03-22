@@ -2,7 +2,7 @@ name: Run Data Creator
 
 on:
   schedule:
-    - cron: '0 17,19,21,23,1 * * *'
+    - cron: '0 19-23, 0-3 * * *' #every day from 19-3
   workflow_dispatch:
 
 jobs:
