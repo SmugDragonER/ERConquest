@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const contactButton = document.getElementById("contact-button");
     const contactBox = document.getElementById("contact-box");
 
+    const lastUpdatedElement = document.getElementById("last-updated");
+
     contactButton.addEventListener("click", () => {
         contactBox.style.display = (contactBox.style.display === "block") ? "none" : "block";
     });
@@ -12,6 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
             contactBox.style.display = "none";
         }
     });
+
+        // Fetch and display the last updated time
+        fetch('last_updated.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to fetch last updated time: ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            lastUpdatedElement.textContent = `Last updated: ${data.last_updated}`;
+        })
+        .catch(error => {
+            console.error('Error fetching last updated time: Contact Smug', error);
+            lastUpdatedElement.textContent = 'Error fetching last updated time';
+        });
 
     // Fetch both leaderboard_data.json and player_IDs.json
     Promise.all([

@@ -39,8 +39,16 @@ jobs:
       run: |
         python dataCreator.py
 
+    - name: Save last updated time
+      run: |
+        TZ=Europe/Berlin date +'%Y-%m-%d %H:%M:%S CET' > last_updated.json
+
     - name: Commit and push changes
       run: |
         git add leaderboard_data.json
-        git commit -m 'Update leaderboard data' || echo "No changes to commit"
-        git push origin main  # Adjust 'main' if your default branch has a different name
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m 'Update leaderboard data' || echo "No changes to commit"
+          git push origin main  # Adjust 'main' if your default branch has a different name
+        fi
