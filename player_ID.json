@@ -29,7 +29,7 @@
         "locked": false,
         "lockedRank": null
     },
-    "Arkyー": {
+    "Arky\u30fc": {
         "id": 2483262,
         "twitch": "Arky_ER",
         "locked": false,
@@ -92,8 +92,8 @@
     "VeryNiceAshe": {
         "id": 4415315,
         "twitch": "xVeryNiceAshe",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 21
     },
     "MoskesAcabe": {
         "id": 2523169,
