@@ -32,7 +32,7 @@ characterCodeDict = {
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
-with open("player_ID.json", "r") as file:
+with open("player_ID.json", "r", encoding="utf-8") as file:
     playerIDs = json.load(file)
 
 lockedPlayers=[]
