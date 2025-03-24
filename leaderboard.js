@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
         })
         .then(data => {
-            lastUpdatedElement.textContent = `Last updated: ${data.last_updated}`;
+            lastUpdatedElement.textContent = `${data}`;
         })
         .catch(error => {
             console.error('Error fetching last updated time: Contact Smug', error);

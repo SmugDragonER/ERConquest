@@ -88,5 +88,47 @@
         "twitch": "reapom",
         "locked": false,
         "lockedRank": null
+    },
+    "VeryNiceAshe": {
+        "id": 4415315,
+        "twitch": "xVeryNiceAshe",
+        "locked": false,
+        "lockedRank": null
+    },
+    "MoskesAcabe": {
+        "id": 2523169,
+        "twitch": "MoskesAcabe",
+        "locked": false,
+        "lockedRank": null
+    },
+    "GuiltyChallenger": {
+        "id": 3759987,
+        "twitch": "itsmebobou",
+        "locked": false,
+        "lockedRank": null
+    },
+    "FishyFishy": {
+        "id": 2636096,
+        "twitch": "FishyFishy__",
+        "locked": false,
+        "lockedRank": null
+    },
+    "Yazidron": {
+        "id": 524439,
+        "twitch": "yazidron",
+        "locked": false,
+        "lockedRank": null
+    },
+    "FDGood": {
+        "id": 2109856,
+        "twitch": "FDGoodVX",
+        "locked": false,
+        "lockedRank": null
+    },
+    "BLM": {
+        "id": 4139303,
+        "twitch": "bumholey29",
+        "locked": false,
+        "lockedRank": null
     }
 }

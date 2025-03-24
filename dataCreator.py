@@ -1,9 +1,7 @@
 from dotenv import load_dotenv
 import requests
 from ratelimit import limits, sleep_and_retry
-import time
-import os
-import json
+import time, os, json, datetime, pytz
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
@@ -132,11 +130,22 @@ def saveAllPlayersToJson(playerDataList, filename):
     with open(filename, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
+def saveCurrentTime() -> None :
+    cet_timezone = pytz.timezone("CET")
+    currentTime = datetime.datetime.now(cet_timezone)
+    formattedTime = currentTime.strftime("Last Update: %d.%m at %H:00 CET")
+    print(formattedTime)
+    with open("last_updated.json",'w') as json_file:
+        json.dump(formattedTime,json_file, indent=4)
+    print("Current Time Saved")
+
 if __name__ == "__main__":
     
+    print("Data Creation Started")
     allPlayerData = []
     for player in playerIDs.keys():
         try:
+            print(f"Doing {player} atm")
             playerData = getPlayerData(player)
             allPlayerData.append(playerData)
         except Exception as e:
@@ -144,6 +153,11 @@ if __name__ == "__main__":
 
     sortedPlayers = sortPlayers(playerIDs,allPlayerData)
     saveAllPlayersToJson(sortedPlayers, 'leaderboard_data.json')
-    print("done")
-    #  updatePlayerNum(playerIDs)
-    #  saveDatatoJson(playerIDs, "player_ID.json")
+    print("Data Creation Done")
+
+
+    # updatePlayerNum(playerIDs)
+    # saveDatatoJson(playerIDs, "player_ID.json")
+
+    saveCurrentTime()
+    print("Current Time Saved")
