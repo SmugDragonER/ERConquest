@@ -39,10 +39,6 @@ jobs:
       run: |
         python dataCreator.py
 
-    - name: Save last updated time
-      run: |
-        TZ=Europe/Berlin date +'%Y-%m-%d %H:%M:%S CET' > last_updated.json
-
     - name: Commit and push changes
       run: |
         git add leaderboard_data.json
