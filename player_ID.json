@@ -38,8 +38,8 @@
     "Quip": {
         "id": 205538,
         "twitch": "quip_er",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 19
     },
     "Leitnessen": {
         "id": 4914463,
