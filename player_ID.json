@@ -8,8 +8,8 @@
     "SalmonFish": {
         "id": 3605265,
         "twitch": "iSalmonFish",
-        "locked": true,
-        "lockedRank": 20
+        "locked": false,
+        "lockedRank": null
     },
     "MajinTenshinhan": {
         "id": 1544210,
@@ -38,14 +38,14 @@
     "Quip": {
         "id": 205538,
         "twitch": "quip_er",
-        "locked": true,
-        "lockedRank": 19
+        "locked": false,
+        "lockedRank": null
     },
     "Leitnessen": {
         "id": 4914463,
         "twitch": "Leitnessen",
-        "locked": true,
-        "lockedRank": 18
+        "locked": false,
+        "lockedRank": null
     },
     "Johnjuice": {
         "id": 3189470,
@@ -92,8 +92,8 @@
     "VeryNiceAshe": {
         "id": 4415315,
         "twitch": "xVeryNiceAshe",
-        "locked": true,
-        "lockedRank": 21
+        "locked": false,
+        "lockedRank": null
     },
     "MoskesAcabe": {
         "id": 2523169,
