@@ -8,8 +8,8 @@
     "SalmonFish": {
         "id": 3605265,
         "twitch": "iSalmonFish",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 20
     },
     "MajinTenshinhan": {
         "id": 1544210,
