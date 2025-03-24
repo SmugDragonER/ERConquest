@@ -44,8 +44,8 @@
     "Leitnessen": {
         "id": 4914463,
         "twitch": "Leitnessen",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 18
     },
     "Johnjuice": {
         "id": 3189470,
