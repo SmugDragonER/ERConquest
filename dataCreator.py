@@ -137,7 +137,7 @@ def saveCurrentTime() -> None :
     if currentTime.minute >= 30:
         currentTime = currentTime + datetime.timedelta(hours=1)
     roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
-    
+
     formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:00 CET")
     print(formattedTime)
     with open("last_updated.json",'w') as json_file:

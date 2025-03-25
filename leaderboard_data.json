@@ -442,6 +442,27 @@
             "playerTwitch": "quip_er"
         },
         {
+            "playerName": "LewMalpa",
+            "playerMMR": 7000,
+            "playerGames": 146,
+            "playerWinRate": 19,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Camilo Mini",
+                    "playerCharacterPickRate": 59.6
+                },
+                {
+                    "playerCharacterCode": "Yumin Mini",
+                    "playerCharacterPickRate": 32.9
+                },
+                {
+                    "playerCharacterCode": "Hyunwoo Mini",
+                    "playerCharacterPickRate": 2.7
+                }
+            ],
+            "playerTwitch": "ZuniM8"
+        },
+        {
             "playerName": "SalmonFish",
             "playerMMR": 6466,
             "playerGames": 44,
