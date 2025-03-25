@@ -10,8 +10,8 @@ BASE_URL = "https://open-api.bser.io/v1"
 seasonID = 29
 matchingTeamMode = 3
 characterCodeDict = {
-    1: "Aya Mini", 2: "Hyunwoo Mini", 3: "Jackie Mini", 4: "Magnus Mini", 5: "Fiora Mini",
-    6: "Nadine Mini", 7: "Zahir Mini", 8: "Hart Mini", 9: "Isol Mini", 10: "Li Dailin Mini",
+    1: "Jackie Mini", 2: "Aya Mini", 3: "Fiora Mini", 4: "Magnus Mini", 5: "Zahir Mini",
+    6: "Nadine Mini", 7: "Hyunwoo Mini", 8: "Hart Mini", 9: "Isol Mini", 10: "Li Dailin Mini",
     11: "Yuki Mini", 12: "Hyejin Mini", 13: "Xiukai Mini", 14: "Chiara Mini", 15: "Sissela Mini",
     16: "Silvia Mini", 17: "Adriana Mini", 18: "Shoichi Mini", 19: "Emma Mini", 20: "Lenox Mini",
     21: "Rozzi Mini", 22: "Luke Mini", 23: "Cathy Mini", 24: "Adela Mini", 25: "Bernice Mini", 
