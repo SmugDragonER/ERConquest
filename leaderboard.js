@@ -54,6 +54,18 @@ document.addEventListener("DOMContentLoaded", function () {
             const playerCard = document.createElement('div');
             playerCard.classList.add('playerCard');
 
+            switch (index) {
+                case 0:
+                    playerCard.classList.add('firstPlace');
+                    break;
+                case 1:
+                    playerCard.classList.add('secondPlace');
+                    break;
+                case 2:
+                    playerCard.classList.add('thirdPlace');
+                    break;
+            };
+
             const isLocked = playerIDs[player.playerName]?.locked;
             console.log(`Player: ${player.playerName}, Locked: ${isLocked}`); // Debugging
 
@@ -112,6 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 playerCard.appendChild(lockedOverlay);
                 console.log(`Locked overlay added for ${player.playerName}`);
             }
+
         });
     })
     .catch(error => console.error('Error with getting data:', error));
