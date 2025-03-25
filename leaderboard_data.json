@@ -1,6 +1,27 @@
 {
     "players": [
         {
+            "playerName": "Patreii",
+            "playerMMR": 10380,
+            "playerGames": 243,
+            "playerWinRate": 32,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Chiara Mini",
+                    "playerCharacterPickRate": 86.4
+                },
+                {
+                    "playerCharacterCode": "Sua Mini",
+                    "playerCharacterPickRate": 2.9
+                },
+                {
+                    "playerCharacterCode": "Ly Anh Mini",
+                    "playerCharacterPickRate": 2.5
+                }
+            ],
+            "playerTwitch": "Patreii"
+        },
+        {
             "playerName": "FDGood",
             "playerMMR": 10010,
             "playerGames": 420,

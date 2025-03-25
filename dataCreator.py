@@ -155,7 +155,7 @@ if __name__ == "__main__":
     saveAllPlayersToJson(sortedPlayers, 'leaderboard_data.json')
     print("Data Creation Done")
 
-
+    # Used for Player IDs
     # updatePlayerNum(playerIDs)
     # saveDatatoJson(playerIDs, "player_ID.json")
 
