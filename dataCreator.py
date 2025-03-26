@@ -7,7 +7,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
 BASE_URL = "https://open-api.bser.io/v1"
-seasonID = 29
+seasonID = 31
 matchingTeamMode = 3
 characterCodeDict = {
     1: "Jackie Mini", 2: "Aya Mini", 3: "Fiora Mini", 4: "Magnus Mini", 5: "Zahir Mini",
@@ -155,6 +155,18 @@ if __name__ == "__main__":
             allPlayerData.append(playerData)
         except Exception as e:
             print(f"Error with player {player}")
+            # fill everything with 0
+            playerInfo = playerIDs.get(player)
+            twitchLink = playerInfo["twitch"]
+            playerData = {
+        "playerName": player,
+        "playerMMR": 0,
+        "playerGames": 0,
+        "playerWinRate": 0,
+        "playerCharacterStats": None,
+        "playerTwitch": twitchLink
+    }
+            allPlayerData.append(playerData)
 
     sortedPlayers = sortPlayers(playerIDs,allPlayerData)
     saveAllPlayersToJson(sortedPlayers, 'leaderboard_data.json')

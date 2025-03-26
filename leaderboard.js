@@ -94,15 +94,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p class="playerName">${player.playerName}</p>
                 <p class="playerWinRate"><span class="stat-label">Winrate:<br></span> ${player.playerWinRate}%</p>
                 <p class="playerGames"><span class="stat-label">Games:<br></span> ${player.playerGames}</p>
-                <p class="playerCharacter1"><img src="images/character_icons/${player.playerCharacterStats[0].playerCharacterCode}.png" class="playerCharacter1-img"><br>${player.playerCharacterStats[0].playerCharacterPickRate}% </p>
-                
-                ${player.playerCharacterStats[1] ? `
-                <p class="playerCharacter2"><img src="images/character_icons/${player.playerCharacterStats[1].playerCharacterCode}.png" class="playerCharacter2-img"><br>${player.playerCharacterStats[1].playerCharacterPickRate}% 
-                </p>` : ""}
-                
-                ${player.playerCharacterStats[2] ? `
-                <p class="playerCharacter3"><img src="images/character_icons/${player.playerCharacterStats[2].playerCharacterCode}.png" class="playerCharacter3-img"><br>${player.playerCharacterStats[2].playerCharacterPickRate}% 
-                </p>` : ""}
+                ${player.playerCharacterStats && Array.isArray(player.playerCharacterStats) ?`
+                    ${player.playerCharacterStats[0] ? `
+                    <p class="playerCharacter1"><img src="images/character_icons/${player.playerCharacterStats[0].playerCharacterCode}.png" class="playerCharacter1-img"><br>${player.playerCharacterStats[0].playerCharacterPickRate}%
+                    </p>`:""}
+                    
+                    ${player.playerCharacterStats[1] ? `
+                    <p class="playerCharacter2"><img src="images/character_icons/${player.playerCharacterStats[1].playerCharacterCode}.png" class="playerCharacter2-img"><br>${player.playerCharacterStats[1].playerCharacterPickRate}% 
+                    </p>` : ""}
+                    
+                    ${player.playerCharacterStats[2] ? `
+                    <p class="playerCharacter3"><img src="images/character_icons/${player.playerCharacterStats[2].playerCharacterCode}.png" class="playerCharacter3-img"><br>${player.playerCharacterStats[2].playerCharacterPickRate}% 
+                    </p>` : ""}
+                `: ""}
                 <a href="https://twitch.tv/${player.playerTwitch}" class="twitchLink">
                     <i class="fa-brands fa-twitch"></i>
                 </a>

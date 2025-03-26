@@ -185,7 +185,7 @@ header {
         grid-column: 3;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         text-align: start;
     }
         .Rules{
