@@ -1,6 +1,19 @@
 {
     "players": [
         {
+            "playerName": "VeryNiceAshe",
+            "playerMMR": 214,
+            "playerGames": 1,
+            "playerWinRate": 0,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Sissela Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "xVeryNiceAshe"
+        },
+        {
             "playerName": "SmugDragon",
             "playerMMR": 0,
             "playerGames": 0,
@@ -119,14 +132,6 @@
             "playerWinRate": 0,
             "playerCharacterStats": null,
             "playerTwitch": "reapom"
-        },
-        {
-            "playerName": "VeryNiceAshe",
-            "playerMMR": 0,
-            "playerGames": 0,
-            "playerWinRate": 0,
-            "playerCharacterStats": null,
-            "playerTwitch": "xVeryNiceAshe"
         },
         {
             "playerName": "MoskesAcabe",
