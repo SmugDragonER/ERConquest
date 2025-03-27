@@ -96,17 +96,17 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 4743,
-            "playerGames": 4,
-            "playerWinRate": 25,
+            "playerMMR": 4722,
+            "playerGames": 5,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nicky Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterPickRate": 60.0
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterPickRate": 40.0
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -131,6 +131,19 @@
                 }
             ],
             "playerTwitch": "yazidron"
+        },
+        {
+            "playerName": "MoskesAcabe",
+            "playerMMR": 4629,
+            "playerGames": 1,
+            "playerWinRate": 0,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Leon Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "MoskesAcabe"
         },
         {
             "playerName": "Arky\u30fc",
@@ -195,16 +208,16 @@
         {
             "playerName": "Leitnessen",
             "playerMMR": 4358,
-            "playerGames": 2,
+            "playerGames": 3,
             "playerWinRate": 0,
             "playerCharacterStats": [
                 {
-                    "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterCode": "Leon Mini",
+                    "playerCharacterPickRate": 66.7
                 },
                 {
-                    "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterCode": "Leni Mini",
+                    "playerCharacterPickRate": 33.3
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -282,14 +295,6 @@
             "playerWinRate": 0,
             "playerCharacterStats": null,
             "playerTwitch": "reapom"
-        },
-        {
-            "playerName": "MoskesAcabe",
-            "playerMMR": 0,
-            "playerGames": 0,
-            "playerWinRate": 0,
-            "playerCharacterStats": null,
-            "playerTwitch": "MoskesAcabe"
         },
         {
             "playerName": "BLM",
