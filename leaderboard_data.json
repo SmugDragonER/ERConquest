@@ -27,6 +27,19 @@
             "playerTwitch": "FDGoodVX"
         },
         {
+            "playerName": "Connax",
+            "playerMMR": 4844,
+            "playerGames": 2,
+            "playerWinRate": 50,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Kenneth Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "connax_"
+        },
+        {
             "playerName": "HajtoNaMotorze",
             "playerMMR": 4747,
             "playerGames": 1,
@@ -38,32 +51,6 @@
                 }
             ],
             "playerTwitch": "hajtonamotorze"
-        },
-        {
-            "playerName": "Connax",
-            "playerMMR": 4747,
-            "playerGames": 1,
-            "playerWinRate": 0,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 100.0
-                }
-            ],
-            "playerTwitch": "connax_"
-        },
-        {
-            "playerName": "Arky\u30fc",
-            "playerMMR": 4657,
-            "playerGames": 1,
-            "playerWinRate": 0,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 100.0
-                }
-            ],
-            "playerTwitch": "Arky_ER"
         },
         {
             "playerName": "FishyFishy",
@@ -79,9 +66,22 @@
             "playerTwitch": "FishyFishy__"
         },
         {
-            "playerName": "GuiltyChallenger",
-            "playerMMR": 4642,
+            "playerName": "ImpVivi",
+            "playerMMR": 4654,
             "playerGames": 1,
+            "playerWinRate": 0,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Isaac Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "Imp_Vivi"
+        },
+        {
+            "playerName": "GuiltyChallenger",
+            "playerMMR": 4653,
+            "playerGames": 2,
             "playerWinRate": 0,
             "playerCharacterStats": [
                 {
@@ -122,21 +122,51 @@
             "playerTwitch": "Kudetaa"
         },
         {
-            "playerName": "Yazidron",
-            "playerMMR": 4610,
+            "playerName": "Arky\u30fc",
+            "playerMMR": 4620,
             "playerGames": 2,
             "playerWinRate": 0,
             "playerCharacterStats": [
                 {
+                    "playerCharacterCode": "Katja Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "Arky_ER"
+        },
+        {
+            "playerName": "Yazidron",
+            "playerMMR": 4576,
+            "playerGames": 3,
+            "playerWinRate": 0,
+            "playerCharacterStats": [
+                {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterPickRate": 33.3
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterPickRate": 33.3
+                },
+                {
+                    "playerCharacterCode": "Kenneth Mini",
+                    "playerCharacterPickRate": 33.3
                 }
             ],
             "playerTwitch": "yazidron"
+        },
+        {
+            "playerName": "LewMalpa",
+            "playerMMR": 4281,
+            "playerGames": 1,
+            "playerWinRate": 0,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Camilo Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "ZuniM8"
         },
         {
             "playerName": "VeryNiceAshe",
@@ -174,14 +204,6 @@
             "playerWinRate": 0,
             "playerCharacterStats": null,
             "playerTwitch": "MajinTenshinhan"
-        },
-        {
-            "playerName": "ImpVivi",
-            "playerMMR": 0,
-            "playerGames": 0,
-            "playerWinRate": 0,
-            "playerCharacterStats": null,
-            "playerTwitch": "Imp_Vivi"
         },
         {
             "playerName": "kspiegler",
@@ -246,14 +268,6 @@
             "playerWinRate": 0,
             "playerCharacterStats": null,
             "playerTwitch": "Patreii"
-        },
-        {
-            "playerName": "LewMalpa",
-            "playerMMR": 0,
-            "playerGames": 0,
-            "playerWinRate": 0,
-            "playerCharacterStats": null,
-            "playerTwitch": "ZuniM8"
         }
     ]
 }
