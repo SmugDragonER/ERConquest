@@ -127,6 +127,30 @@ header {
     gap: var(--spacing-medium);
     width: 100%;
     padding: var(--spacing-large) 0;
+    
+    background-image: url(images/s7background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+
+    padding-bottom: var(--spacing-xxlarge);
+}
+
+.main-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.content-container{
+    z-index: 2;
 }
 
 .title {
@@ -136,9 +160,9 @@ header {
     font-family: 'Signika Negative', sans-serif;
     font-size: var(--font-size-xlarge);
     color: var(--white-color);
-    margin-top: var(--spacing-xlarge);
+    margin-top: var(--spacing-large);
     margin-bottom: var(--spacing-xsmall);
-    gap: var(--spacing-medium);
+    gap: var(--spacing-small);
     grid-area: "title";
 }
     
@@ -146,7 +170,7 @@ header {
         position: relative;
         top: -30px;
         vertical-align: middle;
-        height: 200px;
+        height: 325px;
     }
     .lurkLogot{
         display: block;
@@ -218,21 +242,35 @@ header {
         border: var(--border-color) solid 1px;
         justify-items: left;
         position: relative;
+        z-index: 2;
     }
 
-    .firstPlace{
-        background-color: rgba(255, 217, 0, 0.2);
+    .firstPlace::before,
+    .secondPlace::before,
+    .thirdPlace::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 2px); /* Adjust to account for the border width */
+        height: calc(100% - 2px); /* Adjust to account for the border width */
+        z-index: -1; /* Ensure it stays behind the content */
+        border-radius: var(--border-radius-medium); /* Match the card's border radius */
+    }
+    
+    .firstPlace::before {
         border: 2px solid gold;
+        background-color: rgba(255, 217, 0, 0.2); /* Transparent gold overlay */
     }
-
-    .secondPlace{
-        background-color: rgba(192, 192, 192, 0.2);
+    
+    .secondPlace::before {
         border: 2px solid silver;
+        background-color: rgba(192, 192, 192, 0.2); /* Transparent silver overlay */
     }
-
-    .thirdPlace{
-        background-color: rgba(255, 127, 80, 0.2);
+    
+    .thirdPlace::before {
         border: 2px solid coral;
+        background-color: rgba(255, 127, 80, 0.2); /* Transparent coral overlay */
     }
 
     .lockedOverlay {
@@ -349,7 +387,6 @@ header {
 
 /* Footer Styles */
 footer {
-    margin-top: var(--spacing-xxlarge);
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
     color: var(--primary-color);
