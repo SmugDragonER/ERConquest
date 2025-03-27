@@ -41,7 +41,7 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git add leaderboard_data.json
+        git add leaderboard_data.json last_updated.json
         if git diff --cached --quiet; then
           echo "No changes to commit."
         else
