@@ -134,9 +134,15 @@ def saveCurrentTime() -> None :
     cet_timezone = pytz.timezone("CET")
     currentTime = datetime.datetime.now(cet_timezone)
 
-    if currentTime.minute >= 30:
+    if currentTime.minute >= 15 & currentTime.minute < 44:
+        roundedTime = currentTime.replace(minute=30, second=0, microsecond=0)
+
+    if currentTime.minute >= 45:
         currentTime = currentTime + datetime.timedelta(hours=1)
-    roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
+        roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
+
+    if currentTime.minute < 15:
+        roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
 
     formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:00 CET")
     print(formattedTime)
