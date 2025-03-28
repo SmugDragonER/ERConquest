@@ -48,6 +48,19 @@
             "playerTwitch": "Patreii"
         },
         {
+            "playerName": "kspiegler",
+            "playerMMR": 5213,
+            "playerGames": 10,
+            "playerWinRate": 30,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Jackie Mini",
+                    "playerCharacterPickRate": 100.0
+                }
+            ],
+            "playerTwitch": "kspiegler"
+        },
+        {
             "playerName": "Aghilas",
             "playerMMR": 5173,
             "playerGames": 19,
@@ -69,17 +82,25 @@
             "playerTwitch": "Aghilask"
         },
         {
-            "playerName": "kspiegler",
-            "playerMMR": 5122,
-            "playerGames": 9,
-            "playerWinRate": 33,
+            "playerName": "INTA",
+            "playerMMR": 5130,
+            "playerGames": 10,
+            "playerWinRate": 40,
             "playerCharacterStats": [
                 {
-                    "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 100.0
+                    "playerCharacterCode": "Nadine Mini",
+                    "playerCharacterPickRate": 30.0
+                },
+                {
+                    "playerCharacterCode": "Laura Mini",
+                    "playerCharacterPickRate": 30.0
+                },
+                {
+                    "playerCharacterCode": "Celine Mini",
+                    "playerCharacterPickRate": 20.0
                 }
             ],
-            "playerTwitch": "kspiegler"
+            "playerTwitch": "Kudetaa"
         },
         {
             "playerName": "BLM",
@@ -97,27 +118,6 @@
                 }
             ],
             "playerTwitch": "bumholey29"
-        },
-        {
-            "playerName": "INTA",
-            "playerMMR": 5057,
-            "playerGames": 9,
-            "playerWinRate": 33,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 33.3
-                },
-                {
-                    "playerCharacterCode": "Laura Mini",
-                    "playerCharacterPickRate": 33.3
-                },
-                {
-                    "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 11.1
-                }
-            ],
-            "playerTwitch": "Kudetaa"
         },
         {
             "playerName": "HajtoNaMotorze",
