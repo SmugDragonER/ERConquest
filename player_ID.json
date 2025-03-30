@@ -50,8 +50,8 @@
     "Johnjuice": {
         "id": 3189470,
         "twitch": "Johnjuice",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 22
     },
     "HajtoNaMotorze": {
         "id": 1974355,
@@ -92,8 +92,8 @@
     "VeryNiceAshe": {
         "id": 4415315,
         "twitch": "xVeryNiceAshe",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 23
     },
     "MoskesAcabe": {
         "id": 2523169,
@@ -140,7 +140,7 @@
     "LewMalpa": {
         "id": 2145240,
         "twitch": "ZuniM8",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 21
     }
 }
