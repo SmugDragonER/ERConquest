@@ -114,8 +114,7 @@ def sortPlayers(playerIDs,allPlayerData):
 
 
     unlockedPlayers.sort(key=lambda x: x["playerMMR"], reverse=True)
-    lockedPlayers.sort(key=lambda x: playerIDs.get(x["lockedRank"], reverse=False))
-
+    lockedPlayers.sort(key=lambda x: playerIDs.get(x["playerName"], {}).get("lockedRank", float('inf')))
     sortedLeaderboard = unlockedPlayers + lockedPlayers
 
     return sortedLeaderboard
