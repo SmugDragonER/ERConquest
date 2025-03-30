@@ -1,6 +1,27 @@
 {
     "players": [
         {
+            "playerName": "FDGood",
+            "playerMMR": 5786,
+            "playerGames": 48,
+            "playerWinRate": 16,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Li Dailin Mini",
+                    "playerCharacterPickRate": 43.8
+                },
+                {
+                    "playerCharacterCode": "Piolo Mini",
+                    "playerCharacterPickRate": 33.3
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 20.8
+                }
+            ],
+            "playerTwitch": "FDGoodVX"
+        },
+        {
             "playerName": "Patreii",
             "playerMMR": 5744,
             "playerGames": 22,
@@ -20,27 +41,6 @@
                 }
             ],
             "playerTwitch": "Patreii"
-        },
-        {
-            "playerName": "FDGood",
-            "playerMMR": 5696,
-            "playerGames": 47,
-            "playerWinRate": 14,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 42.6
-                },
-                {
-                    "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 34.0
-                },
-                {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 21.3
-                }
-            ],
-            "playerTwitch": "FDGoodVX"
         },
         {
             "playerName": "Aghilas",
