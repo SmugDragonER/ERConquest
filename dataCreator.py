@@ -131,7 +131,7 @@ def saveAllPlayersToJson(playerDataList, filename):
         json.dump(data, json_file, indent=4)
 
 def saveCurrentTime() -> None :
-    cet_timezone = pytz.timezone("CET")
+    cet_timezone = pytz.timezone("Europe/Paris")
     currentTime = datetime.datetime.now(cet_timezone)
 
     if currentTime.minute >= 15 and currentTime.minute < 44:
@@ -144,7 +144,7 @@ def saveCurrentTime() -> None :
     else: #currentTime.minute < 15:
         roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
 
-    formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:%M CET")
+    formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:%M CEST")
     print(formattedTime)
     with open("last_updated.json",'w') as json_file:
         json.dump(formattedTime,json_file, indent=4)
