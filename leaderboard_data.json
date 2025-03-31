@@ -73,6 +73,27 @@
             "playerTwitch": "baumi_er"
         },
         {
+            "playerName": "kspiegler",
+            "playerMMR": 5618,
+            "playerGames": 25,
+            "playerWinRate": 24,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Jackie Mini",
+                    "playerCharacterPickRate": 76.0
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 20.0
+                },
+                {
+                    "playerCharacterCode": "Hisui Mini",
+                    "playerCharacterPickRate": 4.0
+                }
+            ],
+            "playerTwitch": "kspiegler"
+        },
+        {
             "playerName": "FDGood",
             "playerMMR": 5600,
             "playerGames": 55,
@@ -115,52 +136,52 @@
             "playerTwitch": "yazidron"
         },
         {
-            "playerName": "kspiegler",
-            "playerMMR": 5504,
-            "playerGames": 24,
-            "playerWinRate": 20,
+            "playerName": "HajtoNaMotorze",
+            "playerMMR": 5392,
+            "playerGames": 62,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
-                    "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 79.2
+                    "playerCharacterCode": "Chiara Mini",
+                    "playerCharacterPickRate": 32.3
                 },
                 {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterCode": "Silvia Mini",
+                    "playerCharacterPickRate": 27.4
                 },
                 {
-                    "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 4.2
+                    "playerCharacterCode": "Adina Mini",
+                    "playerCharacterPickRate": 17.7
                 }
             ],
-            "playerTwitch": "kspiegler"
+            "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5417,
-            "playerGames": 32,
+            "playerMMR": 5391,
+            "playerGames": 33,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 84.4
+                    "playerCharacterPickRate": 84.8
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 6.2
+                    "playerCharacterPickRate": 6.1
                 },
                 {
                     "playerCharacterCode": "Nathapon Mini",
-                    "playerCharacterPickRate": 3.1
+                    "playerCharacterPickRate": 3.0
                 }
             ],
             "playerTwitch": "FishyFishy__"
         },
         {
             "playerName": "Pom",
-            "playerMMR": 5403,
-            "playerGames": 21,
-            "playerWinRate": 23,
+            "playerMMR": 5374,
+            "playerGames": 22,
+            "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -168,27 +189,6 @@
                 }
             ],
             "playerTwitch": "reapom"
-        },
-        {
-            "playerName": "HajtoNaMotorze",
-            "playerMMR": 5358,
-            "playerGames": 61,
-            "playerWinRate": 13,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 32.8
-                },
-                {
-                    "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 27.9
-                },
-                {
-                    "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 18.0
-                }
-            ],
-            "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "MoskesAcabe",
