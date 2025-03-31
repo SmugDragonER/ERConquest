@@ -74,9 +74,9 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 5671,
-            "playerGames": 29,
-            "playerWinRate": 24,
+            "playerMMR": 5638,
+            "playerGames": 30,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -246,43 +246,22 @@
             "playerTwitch": "iSalmonFish"
         },
         {
-            "playerName": "MajinTenshinhan",
-            "playerMMR": 5258,
-            "playerGames": 58,
-            "playerWinRate": 5,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 27.6
-                },
-                {
-                    "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 25.9
-                },
-                {
-                    "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 24.1
-                }
-            ],
-            "playerTwitch": "MajinTenshinhan"
-        },
-        {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5248,
-            "playerGames": 68,
+            "playerMMR": 5231,
+            "playerGames": 69,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 16.2
+                    "playerCharacterPickRate": 15.9
                 },
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 13.2
+                    "playerCharacterPickRate": 14.5
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 13.2
+                    "playerCharacterPickRate": 13.0
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -307,6 +286,27 @@
                 }
             ],
             "playerTwitch": "Leitnessen"
+        },
+        {
+            "playerName": "MajinTenshinhan",
+            "playerMMR": 5221,
+            "playerGames": 59,
+            "playerWinRate": 5,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Mai Mini",
+                    "playerCharacterPickRate": 28.8
+                },
+                {
+                    "playerCharacterCode": "Emma Mini",
+                    "playerCharacterPickRate": 25.4
+                },
+                {
+                    "playerCharacterCode": "Garnet Mini",
+                    "playerCharacterPickRate": 23.7
+                }
+            ],
+            "playerTwitch": "MajinTenshinhan"
         },
         {
             "playerName": "Connax",
