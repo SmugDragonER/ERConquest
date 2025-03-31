@@ -150,21 +150,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5355,
-            "playerGames": 59,
+            "playerMMR": 5370,
+            "playerGames": 60,
             "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 33.9
+                    "playerCharacterPickRate": 33.3
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 27.1
+                    "playerCharacterPickRate": 26.7
                 },
                 {
-                    "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 16.9
+                    "playerCharacterCode": "Kenneth Mini",
+                    "playerCharacterPickRate": 18.3
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -310,21 +310,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5114,
-            "playerGames": 46,
+            "playerMMR": 5124,
+            "playerGames": 47,
             "playerWinRate": 4,
             "playerCharacterStats": [
                 {
-                    "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 28.3
+                    "playerCharacterCode": "Emma Mini",
+                    "playerCharacterPickRate": 27.7
                 },
                 {
-                    "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 26.1
+                    "playerCharacterCode": "Garnet Mini",
+                    "playerCharacterPickRate": 27.7
                 },
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 23.4
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
