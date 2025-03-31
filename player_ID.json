@@ -20,8 +20,8 @@
     "ImpVivi": {
         "id": 118981,
         "twitch": "Imp_Vivi",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 20
     },
     "kspiegler": {
         "id": 4833234,
@@ -32,14 +32,14 @@
     "Arky\u30fc": {
         "id": 2483262,
         "twitch": "Arky_ER",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 19
     },
     "Quip": {
         "id": 205538,
         "twitch": "quip_er",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 18
     },
     "Leitnessen": {
         "id": 4914463,
