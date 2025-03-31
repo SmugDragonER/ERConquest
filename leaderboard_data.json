@@ -18,6 +18,27 @@
             "playerTwitch": "bumholey29"
         },
         {
+            "playerName": "Aghilas",
+            "playerMMR": 5852,
+            "playerGames": 46,
+            "playerWinRate": 15,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Luke Mini",
+                    "playerCharacterPickRate": 43.5
+                },
+                {
+                    "playerCharacterCode": "Jan Mini",
+                    "playerCharacterPickRate": 39.1
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 8.7
+                }
+            ],
+            "playerTwitch": "Aghilask"
+        },
+        {
             "playerName": "Patreii",
             "playerMMR": 5845,
             "playerGames": 33,
@@ -52,27 +73,6 @@
             "playerTwitch": "baumi_er"
         },
         {
-            "playerName": "Aghilas",
-            "playerMMR": 5733,
-            "playerGames": 42,
-            "playerWinRate": 14,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Luke Mini",
-                    "playerCharacterPickRate": 42.9
-                },
-                {
-                    "playerCharacterCode": "Jan Mini",
-                    "playerCharacterPickRate": 38.1
-                },
-                {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 9.5
-                }
-            ],
-            "playerTwitch": "Aghilask"
-        },
-        {
             "playerName": "FDGood",
             "playerMMR": 5600,
             "playerGames": 55,
@@ -95,21 +95,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5569,
-            "playerGames": 56,
+            "playerMMR": 5580,
+            "playerGames": 59,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 23.2
+                    "playerCharacterPickRate": 23.7
                 },
                 {
                     "playerCharacterCode": "Luke Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 13.6
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.5
+                    "playerCharacterPickRate": 11.9
                 }
             ],
             "playerTwitch": "yazidron"
@@ -212,27 +212,6 @@
             "playerTwitch": "MoskesAcabe"
         },
         {
-            "playerName": "GuiltyChallenger",
-            "playerMMR": 5280,
-            "playerGames": 64,
-            "playerWinRate": 9,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 15.6
-                },
-                {
-                    "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 14.1
-                },
-                {
-                    "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 14.1
-                }
-            ],
-            "playerTwitch": "itsmebobou"
-        },
-        {
             "playerName": "SalmonFish",
             "playerMMR": 5272,
             "playerGames": 49,
@@ -244,6 +223,27 @@
                 }
             ],
             "playerTwitch": "iSalmonFish"
+        },
+        {
+            "playerName": "GuiltyChallenger",
+            "playerMMR": 5248,
+            "playerGames": 68,
+            "playerWinRate": 8,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Magnus Mini",
+                    "playerCharacterPickRate": 16.2
+                },
+                {
+                    "playerCharacterCode": "Elena Mini",
+                    "playerCharacterPickRate": 13.2
+                },
+                {
+                    "playerCharacterCode": "Alex Mini",
+                    "playerCharacterPickRate": 13.2
+                }
+            ],
+            "playerTwitch": "itsmebobou"
         },
         {
             "playerName": "SmugDragon",
