@@ -14,8 +14,8 @@
     "MajinTenshinhan": {
         "id": 1544210,
         "twitch": "MajinTenshinhan",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 15
     },
     "ImpVivi": {
         "id": 118981,
@@ -62,8 +62,8 @@
     "Connax": {
         "id": 233292,
         "twitch": "connax_",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 16
     },
     "Baumi": {
         "id": 1620982,
@@ -80,8 +80,8 @@
     "INTA": {
         "id": 2487999,
         "twitch": "Kudetaa",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 17
     },
     "Pom": {
         "id": 144530,
