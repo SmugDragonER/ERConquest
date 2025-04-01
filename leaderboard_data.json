@@ -73,27 +73,6 @@
             "playerTwitch": "baumi_er"
         },
         {
-            "playerName": "Yazidron",
-            "playerMMR": 5692,
-            "playerGames": 70,
-            "playerWinRate": 11,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 24.3
-                },
-                {
-                    "playerCharacterCode": "Luke Mini",
-                    "playerCharacterPickRate": 12.9
-                },
-                {
-                    "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 11.4
-                }
-            ],
-            "playerTwitch": "yazidron"
-        },
-        {
             "playerName": "Pom",
             "playerMMR": 5688,
             "playerGames": 35,
@@ -109,6 +88,27 @@
                 }
             ],
             "playerTwitch": "reapom"
+        },
+        {
+            "playerName": "Yazidron",
+            "playerMMR": 5687,
+            "playerGames": 71,
+            "playerWinRate": 11,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Theodore Mini",
+                    "playerCharacterPickRate": 23.9
+                },
+                {
+                    "playerCharacterCode": "Luke Mini",
+                    "playerCharacterPickRate": 12.7
+                },
+                {
+                    "playerCharacterCode": "Daniel Mini",
+                    "playerCharacterPickRate": 11.3
+                }
+            ],
+            "playerTwitch": "yazidron"
         },
         {
             "playerName": "MoskesAcabe",
