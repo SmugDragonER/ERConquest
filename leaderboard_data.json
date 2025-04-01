@@ -174,6 +174,27 @@
             "playerTwitch": "kspiegler"
         },
         {
+            "playerName": "HajtoNaMotorze",
+            "playerMMR": 5515,
+            "playerGames": 68,
+            "playerWinRate": 11,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Chiara Mini",
+                    "playerCharacterPickRate": 29.4
+                },
+                {
+                    "playerCharacterCode": "Silvia Mini",
+                    "playerCharacterPickRate": 25.0
+                },
+                {
+                    "playerCharacterCode": "Adina Mini",
+                    "playerCharacterPickRate": 22.1
+                }
+            ],
+            "playerTwitch": "hajtonamotorze"
+        },
+        {
             "playerName": "SmugDragon",
             "playerMMR": 5499,
             "playerGames": 23,
@@ -195,43 +216,22 @@
             "playerTwitch": "SmugDragonER"
         },
         {
-            "playerName": "HajtoNaMotorze",
-            "playerMMR": 5457,
-            "playerGames": 67,
-            "playerWinRate": 11,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 29.9
-                },
-                {
-                    "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 25.4
-                },
-                {
-                    "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 20.9
-                }
-            ],
-            "playerTwitch": "hajtonamotorze"
-        },
-        {
             "playerName": "FishyFishy",
-            "playerMMR": 5346,
-            "playerGames": 38,
-            "playerWinRate": 13,
+            "playerMMR": 5348,
+            "playerGames": 40,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 84.2
+                    "playerCharacterPickRate": 85.0
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 5.3
+                    "playerCharacterPickRate": 5.0
                 },
                 {
                     "playerCharacterCode": "Nathapon Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterPickRate": 2.5
                 }
             ],
             "playerTwitch": "FishyFishy__"
