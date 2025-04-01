@@ -44,17 +44,17 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6003,
-            "playerGames": 45,
-            "playerWinRate": 24,
+            "playerMMR": 5994,
+            "playerGames": 46,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 57.8
+                    "playerCharacterPickRate": 56.5
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 40.0
+                    "playerCharacterPickRate": 41.3
                 },
                 {
                     "playerCharacterCode": "Hart Mini",
@@ -238,21 +238,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5475,
-            "playerGames": 76,
+            "playerMMR": 5485,
+            "playerGames": 77,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 21.1
+                    "playerCharacterPickRate": 22.1
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 14.5
+                    "playerCharacterPickRate": 14.3
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 11.8
+                    "playerCharacterPickRate": 11.7
                 }
             ],
             "playerTwitch": "itsmebobou"
