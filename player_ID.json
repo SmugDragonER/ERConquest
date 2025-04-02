@@ -26,8 +26,8 @@
     "kspiegler": {
         "id": 4833234,
         "twitch": "kspiegler",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 12
     },
     "Arky\u30fc": {
         "id": 2483262,
@@ -44,8 +44,8 @@
     "Leitnessen": {
         "id": 4914463,
         "twitch": "Leitnessen",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 14
     },
     "Johnjuice": {
         "id": 3189470,
@@ -56,8 +56,8 @@
     "HajtoNaMotorze": {
         "id": 1974355,
         "twitch": "hajtonamotorze",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 13
     },
     "Connax": {
         "id": 233292,
