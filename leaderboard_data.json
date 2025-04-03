@@ -120,21 +120,21 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 5932,
-            "playerGames": 50,
-            "playerWinRate": 14,
+            "playerMMR": 5897,
+            "playerGames": 51,
+            "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 78.0
+                    "playerCharacterPickRate": 78.4
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 6.0
+                    "playerCharacterPickRate": 5.9
                 },
                 {
                     "playerCharacterCode": "Lenox Mini",
-                    "playerCharacterPickRate": 4.0
+                    "playerCharacterPickRate": 3.9
                 }
             ],
             "playerTwitch": "Patreii"
@@ -162,17 +162,17 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5722,
-            "playerGames": 73,
-            "playerWinRate": 19,
+            "playerMMR": 5693,
+            "playerGames": 74,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 82.2
+                    "playerCharacterPickRate": 81.1
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 17.8
+                    "playerCharacterPickRate": 18.9
                 }
             ],
             "playerTwitch": "iSalmonFish"
