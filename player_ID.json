@@ -104,20 +104,20 @@
     "GuiltyChallenger": {
         "id": 3759987,
         "twitch": "itsmebobou",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 11
     },
     "FishyFishy": {
         "id": 2636096,
         "twitch": "FishyFishy__",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 10
     },
     "Yazidron": {
         "id": 524439,
         "twitch": "yazidron",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 9
     },
     "FDGood": {
         "id": 2109856,
