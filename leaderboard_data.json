@@ -162,38 +162,38 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5768,
-            "playerGames": 72,
+            "playerMMR": 5722,
+            "playerGames": 73,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 81.9
+                    "playerCharacterPickRate": 82.2
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 18.1
+                    "playerCharacterPickRate": 17.8
                 }
             ],
             "playerTwitch": "iSalmonFish"
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5764,
-            "playerGames": 93,
-            "playerWinRate": 10,
+            "playerMMR": 5842,
+            "playerGames": 94,
+            "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 25.8
+                    "playerCharacterPickRate": 25.5
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 14.0
+                    "playerCharacterPickRate": 13.8
                 },
                 {
-                    "playerCharacterCode": "Luke Mini",
-                    "playerCharacterPickRate": 10.8
+                    "playerCharacterCode": "Daniel Mini",
+                    "playerCharacterPickRate": 10.6
                 }
             ],
             "playerTwitch": "yazidron"
