@@ -8,8 +8,8 @@
     "SalmonFish": {
         "id": 3605265,
         "twitch": "iSalmonFish",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 8
     },
     "MajinTenshinhan": {
         "id": 1544210,
@@ -98,8 +98,8 @@
     "MoskesAcabe": {
         "id": 2523169,
         "twitch": "MoskesAcabe",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 7
     },
     "GuiltyChallenger": {
         "id": 3759987,
@@ -128,8 +128,8 @@
     "BLM": {
         "id": 4139303,
         "twitch": "bumholey29",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 6
     },
     "Patreii": {
         "id": 1542445,
