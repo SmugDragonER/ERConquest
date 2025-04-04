@@ -56,27 +56,6 @@
             "playerTwitch": "baumi_er"
         },
         {
-            "playerName": "SmugDragon",
-            "playerMMR": 6189,
-            "playerGames": 47,
-            "playerWinRate": 19,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 93.6
-                },
-                {
-                    "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 2.1
-                },
-                {
-                    "playerCharacterCode": "Irem Mini",
-                    "playerCharacterPickRate": 2.1
-                }
-            ],
-            "playerTwitch": "SmugDragonER"
-        },
-        {
             "playerName": "Aghilas",
             "playerMMR": 6155,
             "playerGames": 87,
@@ -98,22 +77,43 @@
             "playerTwitch": "Aghilask"
         },
         {
+            "playerName": "SmugDragon",
+            "playerMMR": 6154,
+            "playerGames": 48,
+            "playerWinRate": 18,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Nadine Mini",
+                    "playerCharacterPickRate": 93.8
+                },
+                {
+                    "playerCharacterCode": "Sua Mini",
+                    "playerCharacterPickRate": 2.1
+                },
+                {
+                    "playerCharacterCode": "Irem Mini",
+                    "playerCharacterPickRate": 2.1
+                }
+            ],
+            "playerTwitch": "SmugDragonER"
+        },
+        {
             "playerName": "Pom",
-            "playerMMR": 6141,
-            "playerGames": 57,
-            "playerWinRate": 21,
+            "playerMMR": 6098,
+            "playerGames": 58,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 64.9
+                    "playerCharacterPickRate": 65.5
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 26.3
+                    "playerCharacterPickRate": 25.9
                 },
                 {
                     "playerCharacterCode": "Cathy Mini",
-                    "playerCharacterPickRate": 5.3
+                    "playerCharacterPickRate": 5.2
                 }
             ],
             "playerTwitch": "reapom"
