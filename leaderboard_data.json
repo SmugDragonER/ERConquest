@@ -44,9 +44,9 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 6309,
-            "playerGames": 34,
-            "playerWinRate": 23,
+            "playerMMR": 6285,
+            "playerGames": 35,
+            "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -54,6 +54,27 @@
                 }
             ],
             "playerTwitch": "baumi_er"
+        },
+        {
+            "playerName": "SmugDragon",
+            "playerMMR": 6189,
+            "playerGames": 47,
+            "playerWinRate": 19,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Nadine Mini",
+                    "playerCharacterPickRate": 93.6
+                },
+                {
+                    "playerCharacterCode": "Sua Mini",
+                    "playerCharacterPickRate": 2.1
+                },
+                {
+                    "playerCharacterCode": "Irem Mini",
+                    "playerCharacterPickRate": 2.1
+                }
+            ],
+            "playerTwitch": "SmugDragonER"
         },
         {
             "playerName": "Aghilas",
@@ -78,45 +99,24 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6151,
-            "playerGames": 56,
+            "playerMMR": 6141,
+            "playerGames": 57,
             "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 64.3
+                    "playerCharacterPickRate": 64.9
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 26.8
+                    "playerCharacterPickRate": 26.3
                 },
                 {
                     "playerCharacterCode": "Cathy Mini",
-                    "playerCharacterPickRate": 5.4
+                    "playerCharacterPickRate": 5.3
                 }
             ],
             "playerTwitch": "reapom"
-        },
-        {
-            "playerName": "SmugDragon",
-            "playerMMR": 6066,
-            "playerGames": 46,
-            "playerWinRate": 17,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 93.5
-                },
-                {
-                    "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 2.2
-                },
-                {
-                    "playerCharacterCode": "Irem Mini",
-                    "playerCharacterPickRate": 2.2
-                }
-            ],
-            "playerTwitch": "SmugDragonER"
         },
         {
             "playerName": "BLM",
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 5514,
-            "playerGames": 27,
+            "playerMMR": 5515,
+            "playerGames": 28,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 59.3
+                    "playerCharacterPickRate": 57.1
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 25.0
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 3.7
+                    "playerCharacterPickRate": 3.6
                 }
             ],
             "playerTwitch": "connax_"
