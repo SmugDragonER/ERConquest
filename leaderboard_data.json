@@ -1,6 +1,27 @@
 {
     "players": [
         {
+            "playerName": "FDGood",
+            "playerMMR": 6799,
+            "playerGames": 98,
+            "playerWinRate": 17,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Li Dailin Mini",
+                    "playerCharacterPickRate": 62.2
+                },
+                {
+                    "playerCharacterCode": "Piolo Mini",
+                    "playerCharacterPickRate": 21.4
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 13.3
+                }
+            ],
+            "playerTwitch": "FDGoodVX"
+        },
+        {
             "playerName": "Patreii",
             "playerMMR": 6751,
             "playerGames": 62,
@@ -20,27 +41,6 @@
                 }
             ],
             "playerTwitch": "Patreii"
-        },
-        {
-            "playerName": "FDGood",
-            "playerMMR": 6664,
-            "playerGames": 97,
-            "playerWinRate": 16,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 61.9
-                },
-                {
-                    "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 21.6
-                },
-                {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 13.4
-                }
-            ],
-            "playerTwitch": "FDGoodVX"
         },
         {
             "playerName": "Baumi",
@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5793,
-            "playerGames": 98,
+            "playerMMR": 5803,
+            "playerGames": 99,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 24.2
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 14.1
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 13.3
+                    "playerCharacterPickRate": 14.1
                 }
             ],
             "playerTwitch": "yazidron"
