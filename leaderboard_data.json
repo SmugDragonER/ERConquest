@@ -1,31 +1,10 @@
 {
     "players": [
         {
-            "playerName": "FDGood",
-            "playerMMR": 6938,
-            "playerGames": 103,
-            "playerWinRate": 18,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 64.1
-                },
-                {
-                    "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 20.4
-                },
-                {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 12.6
-                }
-            ],
-            "playerTwitch": "FDGoodVX"
-        },
-        {
             "playerName": "Baumi",
-            "playerMMR": 6898,
-            "playerGames": 54,
-            "playerWinRate": 25,
+            "playerMMR": 7002,
+            "playerGames": 55,
+            "playerWinRate": 27,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -35,22 +14,43 @@
             "playerTwitch": "baumi_er"
         },
         {
+            "playerName": "FDGood",
+            "playerMMR": 6927,
+            "playerGames": 104,
+            "playerWinRate": 18,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Li Dailin Mini",
+                    "playerCharacterPickRate": 64.4
+                },
+                {
+                    "playerCharacterCode": "Piolo Mini",
+                    "playerCharacterPickRate": 20.2
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 12.5
+                }
+            ],
+            "playerTwitch": "FDGoodVX"
+        },
+        {
             "playerName": "Patreii",
-            "playerMMR": 6859,
-            "playerGames": 66,
+            "playerMMR": 6877,
+            "playerGames": 68,
             "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 81.8
+                    "playerCharacterPickRate": 82.4
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 4.5
+                    "playerCharacterPickRate": 4.4
                 },
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 3.0
+                    "playerCharacterPickRate": 2.9
                 }
             ],
             "playerTwitch": "Patreii"
@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5633,
-            "playerGames": 83,
+            "playerMMR": 5641,
+            "playerGames": 84,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 33.7
+                    "playerCharacterPickRate": 34.5
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 25.3
+                    "playerCharacterPickRate": 25.0
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 15.7
+                    "playerCharacterPickRate": 15.5
                 }
             ],
             "playerTwitch": "Leitnessen"
