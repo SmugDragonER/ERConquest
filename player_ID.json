@@ -2,8 +2,8 @@
     "SmugDragon": {
         "id": 1927375,
         "twitch": "SmugDragonER",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 3
     },
     "SalmonFish": {
         "id": 3605265,
@@ -74,8 +74,8 @@
     "Aghilas": {
         "id": 2398723,
         "twitch": "Aghilask",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 4
     },
     "INTA": {
         "id": 2487999,
@@ -86,8 +86,8 @@
     "Pom": {
         "id": 144530,
         "twitch": "reapom",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 5
     },
     "VeryNiceAshe": {
         "id": 4415315,
