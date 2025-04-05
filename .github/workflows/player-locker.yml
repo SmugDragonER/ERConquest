@@ -4,9 +4,9 @@ on:
   schedule:
     # Main elim (3 times)
     - cron: '0 5 30,31 * *'  # Runs at 5:00 AM on the 30th and 31st of every month
-    - cron: '0 5 1-6 * *'    # Runs at 5:00 AM on the 1st to 6th of every month
+    - cron: '0 5 1-5 * *'    # Runs at 5:00 AM on the 1st to 5th of every month
     # Top 3 elim (1 time)
-    - cron: '0 5 7-8 4 *'    # Runs at 5:00 AM on the 7th and 8th of April
+    - cron: '0 5 6-7 4 *'    # Runs at 5:00 AM on the 6th and 7th of April
   workflow_dispatch:
 
 jobs:
@@ -38,7 +38,7 @@ jobs:
 
     # Main Elim (Run 1)
     - name: Run playerLocker.py (Main Elim - Run 1)
-      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-6 * *'
+      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-5 * *'
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
@@ -46,7 +46,7 @@ jobs:
 
     # Main Elim (Run 2)
     - name: Run playerLocker.py (Main Elim - Run 2)
-      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-6 * *'
+      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-5 * *'
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
@@ -54,7 +54,7 @@ jobs:
 
     # Main Elim (Run 3)
     - name: Run playerLocker.py (Main Elim - Run 3)
-      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-6 * *'
+      if: github.event.schedule == '0 5 30,31 * *' || github.event.schedule == '0 5 1-5 * *'
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
@@ -62,7 +62,7 @@ jobs:
 
     # Top 3 Elim
     - name: Run playerLocker.py (Top 3 Run)
-      if: github.event.schedule == '0 5 7-8 4 *'
+      if: github.event.schedule == '0 5 6-7 4 *'
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
