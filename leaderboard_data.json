@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 6859,
-            "playerGames": 100,
+            "playerMMR": 6932,
+            "playerGames": 101,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 63.0
+                    "playerCharacterPickRate": 63.4
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 21.0
+                    "playerCharacterPickRate": 20.8
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 13.0
+                    "playerCharacterPickRate": 12.9
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -44,9 +44,9 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 6539,
-            "playerGames": 51,
-            "playerWinRate": 23,
+            "playerMMR": 6706,
+            "playerGames": 52,
+            "playerWinRate": 25,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -204,17 +204,17 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5676,
-            "playerGames": 77,
+            "playerMMR": 5738,
+            "playerGames": 79,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 92.2
+                    "playerCharacterPickRate": 92.4
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterPickRate": 2.5
                 },
                 {
                     "playerCharacterCode": "Nathapon Mini",
