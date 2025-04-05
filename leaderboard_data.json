@@ -57,21 +57,21 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6371,
-            "playerGames": 60,
-            "playerWinRate": 20,
+            "playerMMR": 6376,
+            "playerGames": 61,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 95.0
+                    "playerCharacterPickRate": 95.1
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 1.7
+                    "playerCharacterPickRate": 1.6
                 },
                 {
                     "playerCharacterCode": "Irem Mini",
-                    "playerCharacterPickRate": 1.7
+                    "playerCharacterPickRate": 1.6
                 }
             ],
             "playerTwitch": "SmugDragonER"
