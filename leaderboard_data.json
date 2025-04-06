@@ -23,9 +23,9 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7037,
-            "playerGames": 61,
-            "playerWinRate": 26,
+            "playerMMR": 7058,
+            "playerGames": 62,
+            "playerWinRate": 27,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -204,13 +204,13 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5847,
-            "playerGames": 83,
+            "playerMMR": 5874,
+            "playerGames": 84,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 91.6
+                    "playerCharacterPickRate": 91.7
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
