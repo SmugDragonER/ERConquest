@@ -134,8 +134,8 @@
     "Patreii": {
         "id": 1542445,
         "twitch": "Patreii",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 2
     },
     "LewMalpa": {
         "id": 2145240,
