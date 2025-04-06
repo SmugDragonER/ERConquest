@@ -23,8 +23,8 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 6994,
-            "playerGames": 60,
+            "playerMMR": 7037,
+            "playerGames": 61,
             "playerWinRate": 26,
             "playerCharacterStats": [
                 {
@@ -267,21 +267,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5614,
-            "playerGames": 98,
-            "playerWinRate": 11,
+            "playerMMR": 5753,
+            "playerGames": 99,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 28.6
+                    "playerCharacterPickRate": 29.3
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 23.5
+                    "playerCharacterPickRate": 23.2
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 18.4
+                    "playerCharacterPickRate": 18.2
                 }
             ],
             "playerTwitch": "hajtonamotorze"
