@@ -23,9 +23,9 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7058,
-            "playerGames": 62,
-            "playerWinRate": 27,
+            "playerMMR": 7080,
+            "playerGames": 63,
+            "playerWinRate": 26,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -141,21 +141,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 5874,
-            "playerGames": 39,
-            "playerWinRate": 23,
+            "playerMMR": 5827,
+            "playerGames": 40,
+            "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 76.9
+                    "playerCharacterPickRate": 77.5
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 20.5
+                    "playerCharacterPickRate": 20.0
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterPickRate": 2.5
                 }
             ],
             "playerTwitch": "MoskesAcabe"
