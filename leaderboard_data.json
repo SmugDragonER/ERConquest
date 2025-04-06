@@ -14,18 +14,39 @@
             "playerTwitch": "baumi_er"
         },
         {
+            "playerName": "FDGood",
+            "playerMMR": 7031,
+            "playerGames": 111,
+            "playerWinRate": 18,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Li Dailin Mini",
+                    "playerCharacterPickRate": 66.7
+                },
+                {
+                    "playerCharacterCode": "Piolo Mini",
+                    "playerCharacterPickRate": 18.9
+                },
+                {
+                    "playerCharacterCode": "Yuki Mini",
+                    "playerCharacterPickRate": 11.7
+                }
+            ],
+            "playerTwitch": "FDGoodVX"
+        },
+        {
             "playerName": "Patreii",
-            "playerMMR": 7005,
-            "playerGames": 74,
+            "playerMMR": 6963,
+            "playerGames": 75,
             "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 83.8
+                    "playerCharacterPickRate": 84.0
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 4.1
+                    "playerCharacterPickRate": 4.0
                 },
                 {
                     "playerCharacterCode": "Jackie Mini",
@@ -33,27 +54,6 @@
                 }
             ],
             "playerTwitch": "Patreii"
-        },
-        {
-            "playerName": "FDGood",
-            "playerMMR": 6995,
-            "playerGames": 110,
-            "playerWinRate": 18,
-            "playerCharacterStats": [
-                {
-                    "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 66.4
-                },
-                {
-                    "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 19.1
-                },
-                {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 11.8
-                }
-            ],
-            "playerTwitch": "FDGoodVX"
         },
         {
             "playerName": "SmugDragon",
@@ -204,13 +204,13 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5816,
-            "playerGames": 82,
+            "playerMMR": 5847,
+            "playerGames": 83,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 91.5
+                    "playerCharacterPickRate": 91.6
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
