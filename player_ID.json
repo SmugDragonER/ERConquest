@@ -68,8 +68,8 @@
     "Baumi": {
         "id": 1620982,
         "twitch": "baumi_er",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 1
     },
     "Aghilas": {
         "id": 2398723,
