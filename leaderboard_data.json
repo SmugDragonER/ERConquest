@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 5889,
-            "playerGames": 76,
-            "playerWinRate": 17,
+            "playerMMR": 5845,
+            "playerGames": 77,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 44.7
+                    "playerCharacterPickRate": 44.2
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 32.9
+                    "playerCharacterPickRate": 32.5
                 },
                 {
                     "playerCharacterCode": "Martina Mini",
-                    "playerCharacterPickRate": 14.5
+                    "playerCharacterPickRate": 14.3
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -204,17 +204,17 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5907,
-            "playerGames": 85,
+            "playerMMR": 5926,
+            "playerGames": 86,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 91.8
+                    "playerCharacterPickRate": 91.9
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 2.4
+                    "playerCharacterPickRate": 2.3
                 },
                 {
                     "playerCharacterCode": "Nathapon Mini",
