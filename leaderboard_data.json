@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 5860,
-            "playerGames": 67,
+            "playerMMR": 5821,
+            "playerGames": 68,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 50.7
+                    "playerCharacterPickRate": 50.0
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 37.3
+                    "playerCharacterPickRate": 36.8
                 },
                 {
                     "playerCharacterCode": "Martina Mini",
-                    "playerCharacterPickRate": 6.0
+                    "playerCharacterPickRate": 7.4
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -162,21 +162,21 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5712,
-            "playerGames": 86,
+            "playerMMR": 5693,
+            "playerGames": 87,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 73.3
+                    "playerCharacterPickRate": 72.4
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 24.4
+                    "playerCharacterPickRate": 25.3
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 1.2
+                    "playerCharacterPickRate": 1.1
                 }
             ],
             "playerTwitch": "iSalmonFish"
@@ -267,21 +267,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5753,
-            "playerGames": 99,
+            "playerMMR": 5708,
+            "playerGames": 100,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 29.3
+                    "playerCharacterPickRate": 29.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 23.2
+                    "playerCharacterPickRate": 24.0
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 18.2
+                    "playerCharacterPickRate": 18.0
                 }
             ],
             "playerTwitch": "hajtonamotorze"
