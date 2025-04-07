@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 5754,
-            "playerGames": 70,
-            "playerWinRate": 17,
+            "playerMMR": 5798,
+            "playerGames": 71,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 48.6
+                    "playerCharacterPickRate": 47.9
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 35.7
+                    "playerCharacterPickRate": 35.2
                 },
                 {
                     "playerCharacterCode": "Martina Mini",
-                    "playerCharacterPickRate": 10.0
+                    "playerCharacterPickRate": 11.3
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -162,17 +162,17 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5680,
-            "playerGames": 89,
+            "playerMMR": 5736,
+            "playerGames": 90,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 70.8
+                    "playerCharacterPickRate": 70.0
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 27.0
+                    "playerCharacterPickRate": 27.8
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5516,
-            "playerGames": 34,
+            "playerMMR": 5519,
+            "playerGames": 35,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 58.8
+                    "playerCharacterPickRate": 57.1
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 32.4
+                    "playerCharacterPickRate": 31.4
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 8.8
+                    "playerCharacterPickRate": 11.4
                 }
             ],
             "playerTwitch": "kspiegler"
