@@ -204,17 +204,17 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5908,
-            "playerGames": 87,
+            "playerMMR": 5909,
+            "playerGames": 89,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 92.0
+                    "playerCharacterPickRate": 92.1
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 2.3
+                    "playerCharacterPickRate": 2.2
                 },
                 {
                     "playerCharacterCode": "Nathapon Mini",
