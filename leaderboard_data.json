@@ -120,42 +120,42 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 5724,
-            "playerGames": 83,
+            "playerMMR": 5743,
+            "playerGames": 84,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 41.0
+                    "playerCharacterPickRate": 40.5
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 30.1
+                    "playerCharacterPickRate": 29.8
                 },
                 {
                     "playerCharacterCode": "Martina Mini",
-                    "playerCharacterPickRate": 13.3
+                    "playerCharacterPickRate": 13.1
                 }
             ],
             "playerTwitch": "bumholey29"
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 5901,
-            "playerGames": 49,
+            "playerMMR": 5890,
+            "playerGames": 50,
             "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 71.4
+                    "playerCharacterPickRate": 70.0
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 26.0
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 4.1
+                    "playerCharacterPickRate": 4.0
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -204,21 +204,21 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5809,
-            "playerGames": 94,
+            "playerMMR": 5766,
+            "playerGames": 95,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 92.6
+                    "playerCharacterPickRate": 91.6
+                },
+                {
+                    "playerCharacterCode": "Nadine Mini",
+                    "playerCharacterPickRate": 2.1
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
                     "playerCharacterPickRate": 2.1
-                },
-                {
-                    "playerCharacterCode": "Nathapon Mini",
-                    "playerCharacterPickRate": 1.1
                 }
             ],
             "playerTwitch": "FishyFishy__"
