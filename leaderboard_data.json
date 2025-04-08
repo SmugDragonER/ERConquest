@@ -162,17 +162,17 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5764,
-            "playerGames": 93,
+            "playerMMR": 5738,
+            "playerGames": 94,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 67.7
+                    "playerCharacterPickRate": 67.0
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 30.1
+                    "playerCharacterPickRate": 30.9
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
@@ -330,17 +330,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 5685,
-            "playerGames": 34,
+            "playerMMR": 5674,
+            "playerGames": 35,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 58.8
+                    "playerCharacterPickRate": 60.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 23.5
+                    "playerCharacterPickRate": 22.9
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
