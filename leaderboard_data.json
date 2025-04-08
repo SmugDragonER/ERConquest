@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5841,
-            "playerGames": 101,
+            "playerMMR": 5864,
+            "playerGames": 102,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 24.8
+                    "playerCharacterPickRate": 24.5
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 14.9
+                    "playerCharacterPickRate": 14.7
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 13.9
+                    "playerCharacterPickRate": 13.7
                 }
             ],
             "playerTwitch": "yazidron"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 5674,
-            "playerGames": 35,
-            "playerWinRate": 14,
+            "playerMMR": 5634,
+            "playerGames": 36,
+            "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 60.0
+                    "playerCharacterPickRate": 58.3
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 25.0
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 2.9
+                    "playerCharacterPickRate": 2.8
                 }
             ],
             "playerTwitch": "connax_"
