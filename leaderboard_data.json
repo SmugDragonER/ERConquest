@@ -57,9 +57,9 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6349,
-            "playerGames": 62,
-            "playerWinRate": 19,
+            "playerMMR": 6503,
+            "playerGames": 63,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
@@ -162,17 +162,17 @@
         },
         {
             "playerName": "SalmonFish",
-            "playerMMR": 5711,
-            "playerGames": 96,
+            "playerMMR": 5673,
+            "playerGames": 97,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 65.6
+                    "playerCharacterPickRate": 64.9
                 },
                 {
                     "playerCharacterCode": "Karla Mini",
-                    "playerCharacterPickRate": 32.3
+                    "playerCharacterPickRate": 33.0
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5573,
-            "playerGames": 37,
-            "playerWinRate": 16,
+            "playerMMR": 5597,
+            "playerGames": 38,
+            "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 54.1
+                    "playerCharacterPickRate": 52.6
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 35.1
+                    "playerCharacterPickRate": 36.8
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 10.8
+                    "playerCharacterPickRate": 10.5
                 }
             ],
             "playerTwitch": "kspiegler"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 5764,
-            "playerGames": 38,
+            "playerMMR": 5730,
+            "playerGames": 39,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 60.5
+                    "playerCharacterPickRate": 59.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 23.7
+                    "playerCharacterPickRate": 23.1
                 },
                 {
-                    "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterCode": "Adina Mini",
+                    "playerCharacterPickRate": 5.1
                 }
             ],
             "playerTwitch": "connax_"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 4517,
-            "playerGames": 11,
+            "playerMMR": 4561,
+            "playerGames": 12,
             "playerWinRate": 0,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 45.5
+                    "playerCharacterPickRate": 41.7
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 36.4
+                    "playerCharacterPickRate": 33.3
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 18.2
+                    "playerCharacterPickRate": 25.0
                 }
             ],
             "playerTwitch": "Imp_Vivi"
