@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5340,
-            "playerGames": 108,
+            "playerMMR": 5328,
+            "playerGames": 109,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 34.3
+                    "playerCharacterPickRate": 34.9
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.4
+                    "playerCharacterPickRate": 20.2
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 15.7
+                    "playerCharacterPickRate": 15.6
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -456,21 +456,21 @@
         },
         {
             "playerName": "Johnjuice",
-            "playerMMR": 4654,
-            "playerGames": 13,
-            "playerWinRate": 15,
+            "playerMMR": 4656,
+            "playerGames": 14,
+            "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Tia Mini",
-                    "playerCharacterPickRate": 69.2
+                    "playerCharacterPickRate": 64.3
                 },
                 {
                     "playerCharacterCode": "Fiora Mini",
-                    "playerCharacterPickRate": 15.4
+                    "playerCharacterPickRate": 14.3
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 7.7
+                    "playerCharacterPickRate": 7.1
                 }
             ],
             "playerTwitch": "Johnjuice"
