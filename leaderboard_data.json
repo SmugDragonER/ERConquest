@@ -141,17 +141,17 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 5849,
-            "playerGames": 52,
-            "playerWinRate": 19,
+            "playerMMR": 5958,
+            "playerGames": 53,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 69.2
+                    "playerCharacterPickRate": 69.8
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 26.9
+                    "playerCharacterPickRate": 26.4
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5430,
-            "playerGames": 104,
+            "playerMMR": 5432,
+            "playerGames": 105,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 34.6
+                    "playerCharacterPickRate": 34.3
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.2
+                    "playerCharacterPickRate": 21.0
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 16.3
+                    "playerCharacterPickRate": 16.2
                 }
             ],
             "playerTwitch": "Leitnessen"
