@@ -267,42 +267,42 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5632,
-            "playerGames": 112,
+            "playerMMR": 5609,
+            "playerGames": 113,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 27.7
+                    "playerCharacterPickRate": 27.4
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 26.8
+                    "playerCharacterPickRate": 26.5
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 17.0
+                    "playerCharacterPickRate": 16.8
                 }
             ],
             "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5282,
-            "playerGames": 115,
+            "playerMMR": 5275,
+            "playerGames": 116,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 33.0
+                    "playerCharacterPickRate": 33.6
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.9
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 14.8
+                    "playerCharacterPickRate": 14.7
                 }
             ],
             "playerTwitch": "Leitnessen"
