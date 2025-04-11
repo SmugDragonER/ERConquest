@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5313,
-            "playerGames": 124,
+            "playerMMR": 5311,
+            "playerGames": 125,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 32.3
+                    "playerCharacterPickRate": 32.0
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.0
+                    "playerCharacterPickRate": 20.8
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 13.7
+                    "playerCharacterPickRate": 13.6
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 4577,
-            "playerGames": 14,
-            "playerWinRate": 0,
+            "playerMMR": 4918,
+            "playerGames": 16,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
-                    "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 35.7
+                    "playerCharacterCode": "Istv\u00e1n Mini",
+                    "playerCharacterPickRate": 43.8
                 },
                 {
-                    "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 35.7
+                    "playerCharacterCode": "William Mini",
+                    "playerCharacterPickRate": 31.2
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 28.6
+                    "playerCharacterPickRate": 25.0
                 }
             ],
             "playerTwitch": "Imp_Vivi"
