@@ -204,17 +204,17 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5921,
-            "playerGames": 99,
-            "playerWinRate": 10,
+            "playerMMR": 5944,
+            "playerGames": 102,
+            "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 89.9
+                    "playerCharacterPickRate": 88.2
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 4.0
+                    "playerCharacterPickRate": 5.9
                 },
                 {
                     "playerCharacterCode": "Justyna Mini",
@@ -267,21 +267,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5864,
-            "playerGames": 127,
+            "playerMMR": 5842,
+            "playerGames": 129,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 26.0
+                    "playerCharacterPickRate": 25.6
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 24.4
+                    "playerCharacterPickRate": 24.0
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 17.3
+                    "playerCharacterPickRate": 17.1
                 }
             ],
             "playerTwitch": "hajtonamotorze"
