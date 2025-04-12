@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6079,
-            "playerGames": 114,
+            "playerMMR": 6116,
+            "playerGames": 115,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 24.6
+                    "playerCharacterPickRate": 24.3
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 14.0
+                    "playerCharacterPickRate": 13.9
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 12.3
+                    "playerCharacterPickRate": 12.2
                 }
             ],
             "playerTwitch": "yazidron"
@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5336,
-            "playerGames": 132,
+            "playerMMR": 5322,
+            "playerGames": 133,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 30.3
+                    "playerCharacterPickRate": 30.1
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.5
+                    "playerCharacterPickRate": 20.3
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 13.6
+                    "playerCharacterPickRate": 13.5
                 }
             ],
             "playerTwitch": "Leitnessen"
