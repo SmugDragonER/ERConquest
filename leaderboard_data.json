@@ -57,13 +57,13 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6471,
-            "playerGames": 65,
-            "playerWinRate": 20,
+            "playerMMR": 6519,
+            "playerGames": 66,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 95.4
+                    "playerCharacterPickRate": 93.9
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6037,
-            "playerGames": 109,
+            "playerMMR": 5982,
+            "playerGames": 111,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 25.2
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 14.7
+                    "playerCharacterPickRate": 14.4
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 12.8
+                    "playerCharacterPickRate": 12.6
                 }
             ],
             "playerTwitch": "yazidron"
