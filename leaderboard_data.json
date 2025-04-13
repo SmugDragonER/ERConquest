@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6110,
-            "playerGames": 95,
+            "playerMMR": 6150,
+            "playerGames": 96,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 35.8
+                    "playerCharacterPickRate": 35.4
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 26.3
+                    "playerCharacterPickRate": 26.0
                 },
                 {
-                    "playerCharacterCode": "Martina Mini",
-                    "playerCharacterPickRate": 11.6
+                    "playerCharacterCode": "Jenny Mini",
+                    "playerCharacterPickRate": 11.5
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -267,42 +267,42 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5737,
-            "playerGames": 134,
+            "playerMMR": 5784,
+            "playerGames": 135,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.6
+                    "playerCharacterPickRate": 24.4
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 23.7
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 17.9
+                    "playerCharacterPickRate": 17.8
                 }
             ],
             "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5496,
-            "playerGames": 146,
+            "playerMMR": 5458,
+            "playerGames": 147,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 29.5
+                    "playerCharacterPickRate": 29.9
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.5
+                    "playerCharacterPickRate": 20.4
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 13.7
+                    "playerCharacterPickRate": 13.6
                 }
             ],
             "playerTwitch": "Leitnessen"
