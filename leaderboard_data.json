@@ -267,21 +267,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5684,
-            "playerGames": 144,
+            "playerMMR": 5672,
+            "playerGames": 145,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.3
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.8
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.6
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 5821,
-            "playerGames": 49,
+            "playerMMR": 5785,
+            "playerGames": 50,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 57.1
+                    "playerCharacterPickRate": 58.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 24.0
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 4.1
+                    "playerCharacterPickRate": 4.0
                 }
             ],
             "playerTwitch": "connax_"
