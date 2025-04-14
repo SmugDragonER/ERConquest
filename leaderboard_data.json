@@ -246,42 +246,42 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5606,
-            "playerGames": 45,
+            "playerMMR": 5575,
+            "playerGames": 46,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 46.7
+                    "playerCharacterPickRate": 45.7
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 42.2
+                    "playerCharacterPickRate": 43.5
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 8.9
+                    "playerCharacterPickRate": 8.7
                 }
             ],
             "playerTwitch": "kspiegler"
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5693,
-            "playerGames": 140,
+            "playerMMR": 5725,
+            "playerGames": 141,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.3
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.7
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 17.1
+                    "playerCharacterPickRate": 17.0
                 }
             ],
             "playerTwitch": "hajtonamotorze"
