@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5552,
-            "playerGames": 47,
+            "playerMMR": 5600,
+            "playerGames": 48,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 44.7
+                    "playerCharacterPickRate": 43.8
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 42.6
+                    "playerCharacterPickRate": 41.7
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 12.5
                 }
             ],
             "playerTwitch": "kspiegler"
