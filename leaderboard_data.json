@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5331,
-            "playerGames": 183,
+            "playerMMR": 5375,
+            "playerGames": 184,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 27.9
+                    "playerCharacterPickRate": 27.7
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.2
+                    "playerCharacterPickRate": 20.1
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 11.5
+                    "playerCharacterPickRate": 11.4
                 }
             ],
             "playerTwitch": "Leitnessen"
