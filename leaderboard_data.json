@@ -183,38 +183,38 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5940,
-            "playerGames": 125,
-            "playerWinRate": 12,
+            "playerMMR": 6027,
+            "playerGames": 127,
+            "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 22.4
+                    "playerCharacterPickRate": 22.0
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.8
+                    "playerCharacterPickRate": 12.6
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.2
+                    "playerCharacterPickRate": 11.0
                 }
             ],
             "playerTwitch": "yazidron"
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5871,
-            "playerGames": 112,
+            "playerMMR": 5849,
+            "playerGames": 113,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 83.9
+                    "playerCharacterPickRate": 84.1
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 9.8
+                    "playerCharacterPickRate": 9.7
                 },
                 {
                     "playerCharacterCode": "Lenox Mini",
@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5688,
-            "playerGames": 49,
-            "playerWinRate": 16,
+            "playerMMR": 5791,
+            "playerGames": 50,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 42.9
+                    "playerCharacterPickRate": 42.0
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 40.8
+                    "playerCharacterPickRate": 40.0
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 16.0
                 }
             ],
             "playerTwitch": "kspiegler"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5284,
-            "playerGames": 24,
+            "playerMMR": 5330,
+            "playerGames": 25,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 62.5
+                    "playerCharacterPickRate": 64.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 20.8
+                    "playerCharacterPickRate": 20.0
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.0
                 }
             ],
             "playerTwitch": "Imp_Vivi"
