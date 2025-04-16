@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5911,
-            "playerGames": 122,
+            "playerMMR": 5858,
+            "playerGames": 124,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 23.0
+                    "playerCharacterPickRate": 22.6
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 13.1
+                    "playerCharacterPickRate": 12.9
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.5
+                    "playerCharacterPickRate": 11.3
                 }
             ],
             "playerTwitch": "yazidron"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5271,
-            "playerGames": 21,
-            "playerWinRate": 14,
+            "playerMMR": 5232,
+            "playerGames": 23,
+            "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 57.1
+                    "playerCharacterPickRate": 60.9
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 23.8
+                    "playerCharacterPickRate": 21.7
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 19.0
+                    "playerCharacterPickRate": 17.4
                 }
             ],
             "playerTwitch": "Imp_Vivi"
