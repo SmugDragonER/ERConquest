@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 5858,
-            "playerGames": 124,
-            "playerWinRate": 11,
+            "playerMMR": 5940,
+            "playerGames": 125,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 22.6
+                    "playerCharacterPickRate": 22.4
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.9
+                    "playerCharacterPickRate": 12.8
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.3
+                    "playerCharacterPickRate": 11.2
                 }
             ],
             "playerTwitch": "yazidron"
@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5600,
-            "playerGames": 48,
-            "playerWinRate": 14,
+            "playerMMR": 5688,
+            "playerGames": 49,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 43.8
+                    "playerCharacterPickRate": 42.9
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 41.7
+                    "playerCharacterPickRate": 40.8
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 12.5
+                    "playerCharacterPickRate": 14.3
                 }
             ],
             "playerTwitch": "kspiegler"
