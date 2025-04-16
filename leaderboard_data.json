@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5347,
-            "playerGames": 176,
+            "playerMMR": 5346,
+            "playerGames": 179,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 28.4
+                    "playerCharacterPickRate": 27.9
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.0
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 11.4
+                    "playerCharacterPickRate": 11.2
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -372,21 +372,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5498,
-            "playerGames": 26,
-            "playerWinRate": 19,
+            "playerMMR": 5469,
+            "playerGames": 27,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 38.5
+                    "playerCharacterPickRate": 37.0
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 15.4
+                    "playerCharacterPickRate": 14.8
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 15.4
+                    "playerCharacterPickRate": 14.8
                 }
             ],
             "playerTwitch": "quip_er"
