@@ -183,38 +183,38 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6027,
-            "playerGames": 127,
-            "playerWinRate": 11,
+            "playerMMR": 6137,
+            "playerGames": 128,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 22.0
+                    "playerCharacterPickRate": 21.9
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.6
+                    "playerCharacterPickRate": 12.5
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.0
+                    "playerCharacterPickRate": 11.7
                 }
             ],
             "playerTwitch": "yazidron"
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 5849,
-            "playerGames": 113,
+            "playerMMR": 5879,
+            "playerGames": 114,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 84.1
+                    "playerCharacterPickRate": 84.2
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 9.7
+                    "playerCharacterPickRate": 9.6
                 },
                 {
                     "playerCharacterCode": "Lenox Mini",
@@ -246,21 +246,21 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5791,
-            "playerGames": 50,
-            "playerWinRate": 18,
+            "playerMMR": 5838,
+            "playerGames": 51,
+            "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 42.0
+                    "playerCharacterPickRate": 41.2
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 40.0
+                    "playerCharacterPickRate": 39.2
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 16.0
+                    "playerCharacterPickRate": 17.6
                 }
             ],
             "playerTwitch": "kspiegler"
