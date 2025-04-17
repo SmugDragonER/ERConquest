@@ -36,13 +36,13 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 6921,
-            "playerGames": 76,
+            "playerMMR": 6962,
+            "playerGames": 77,
             "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 84.2
+                    "playerCharacterPickRate": 84.4
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
