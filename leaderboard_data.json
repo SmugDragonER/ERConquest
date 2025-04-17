@@ -267,38 +267,38 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5841,
-            "playerGames": 160,
-            "playerWinRate": 10,
+            "playerMMR": 5836,
+            "playerGames": 161,
+            "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.1
+                    "playerCharacterPickRate": 23.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.6
+                    "playerCharacterPickRate": 20.5
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 16.9
+                    "playerCharacterPickRate": 16.8
                 }
             ],
             "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5453,
-            "playerGames": 196,
+            "playerMMR": 5422,
+            "playerGames": 197,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 26.5
+                    "playerCharacterPickRate": 26.4
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 19.9
+                    "playerCharacterPickRate": 19.8
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
@@ -309,21 +309,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5150,
-            "playerGames": 70,
+            "playerMMR": 5121,
+            "playerGames": 71,
             "playerWinRate": 4,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 30.0
+                    "playerCharacterPickRate": 31.0
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 24.3
+                    "playerCharacterPickRate": 23.9
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 19.7
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
