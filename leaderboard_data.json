@@ -246,84 +246,84 @@
         },
         {
             "playerName": "kspiegler",
-            "playerMMR": 5812,
-            "playerGames": 52,
-            "playerWinRate": 17,
+            "playerMMR": 5791,
+            "playerGames": 53,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Jackie Mini",
-                    "playerCharacterPickRate": 40.4
+                    "playerCharacterPickRate": 39.6
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 38.5
+                    "playerCharacterPickRate": 37.7
                 },
                 {
                     "playerCharacterCode": "Hisui Mini",
-                    "playerCharacterPickRate": 19.2
+                    "playerCharacterPickRate": 20.8
                 }
             ],
             "playerTwitch": "kspiegler"
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 5650,
-            "playerGames": 152,
+            "playerMMR": 5586,
+            "playerGames": 154,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.7
+                    "playerCharacterPickRate": 23.4
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 21.7
+                    "playerCharacterPickRate": 21.4
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 16.4
+                    "playerCharacterPickRate": 16.9
                 }
             ],
             "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5272,
-            "playerGames": 188,
+            "playerMMR": 5366,
+            "playerGames": 189,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 27.7
+                    "playerCharacterPickRate": 27.5
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.2
+                    "playerCharacterPickRate": 20.1
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 11.2
+                    "playerCharacterPickRate": 11.1
                 }
             ],
             "playerTwitch": "Leitnessen"
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5151,
-            "playerGames": 62,
+            "playerMMR": 5194,
+            "playerGames": 63,
             "playerWinRate": 4,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 30.6
+                    "playerCharacterPickRate": 30.2
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 25.8
+                    "playerCharacterPickRate": 25.4
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 22.6
+                    "playerCharacterPickRate": 22.2
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
