@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5656,
-            "playerGames": 34,
+            "playerMMR": 5617,
+            "playerGames": 35,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 73.5
+                    "playerCharacterPickRate": 74.3
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 14.7
+                    "playerCharacterPickRate": 14.3
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 11.8
+                    "playerCharacterPickRate": 11.4
                 }
             ],
             "playerTwitch": "Imp_Vivi"
