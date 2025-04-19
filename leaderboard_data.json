@@ -288,17 +288,17 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5795,
-            "playerGames": 222,
+            "playerMMR": 5786,
+            "playerGames": 223,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 25.2
+                    "playerCharacterPickRate": 25.1
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.7
+                    "playerCharacterPickRate": 20.6
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
@@ -309,21 +309,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5335,
-            "playerGames": 115,
+            "playerMMR": 5314,
+            "playerGames": 116,
             "playerWinRate": 6,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 27.8
+                    "playerCharacterPickRate": 27.6
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 17.4
+                    "playerCharacterPickRate": 17.2
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 17.4
+                    "playerCharacterPickRate": 17.2
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
