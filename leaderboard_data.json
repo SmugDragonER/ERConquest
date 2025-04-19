@@ -309,21 +309,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5480,
-            "playerGames": 102,
+            "playerMMR": 5278,
+            "playerGames": 108,
             "playerWinRate": 5,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 27.5
+                    "playerCharacterPickRate": 25.9
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 19.6
+                    "playerCharacterPickRate": 18.5
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 18.6
+                    "playerCharacterPickRate": 17.6
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
