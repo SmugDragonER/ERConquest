@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5745,
-            "playerGames": 214,
+            "playerMMR": 5942,
+            "playerGames": 215,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 25.7
+                    "playerCharacterPickRate": 25.6
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.1
+                    "playerCharacterPickRate": 20.5
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 10.3
+                    "playerCharacterPickRate": 10.2
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5617,
-            "playerGames": 35,
-            "playerWinRate": 17,
+            "playerMMR": 5625,
+            "playerGames": 36,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 74.3
+                    "playerCharacterPickRate": 75.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 13.9
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 11.4
+                    "playerCharacterPickRate": 11.1
                 }
             ],
             "playerTwitch": "Imp_Vivi"
