@@ -23,8 +23,8 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7154,
-            "playerGames": 66,
+            "playerMMR": 7164,
+            "playerGames": 67,
             "playerWinRate": 25,
             "playerCharacterStats": [
                 {
@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6967,
-            "playerGames": 130,
-            "playerWinRate": 20,
+            "playerMMR": 6971,
+            "playerGames": 131,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 33.1
+                    "playerCharacterPickRate": 32.8
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 27.7
+                    "playerCharacterPickRate": 28.2
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 18.5
+                    "playerCharacterPickRate": 18.3
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -267,21 +267,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6093,
-            "playerGames": 183,
+            "playerMMR": 6047,
+            "playerGames": 184,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 21.9
+                    "playerCharacterPickRate": 21.7
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.1
+                    "playerCharacterPickRate": 19.0
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 15.3
+                    "playerCharacterPickRate": 15.2
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6470,
-            "playerGames": 67,
+            "playerMMR": 6429,
+            "playerGames": 68,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 64.2
+                    "playerCharacterPickRate": 63.2
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 22.4
+                    "playerCharacterPickRate": 23.5
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 3.0
+                    "playerCharacterPickRate": 2.9
                 }
             ],
             "playerTwitch": "connax_"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5779,
-            "playerGames": 47,
-            "playerWinRate": 17,
+            "playerMMR": 5843,
+            "playerGames": 48,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 80.9
+                    "playerCharacterPickRate": 81.2
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 10.4
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 8.5
+                    "playerCharacterPickRate": 8.3
                 }
             ],
             "playerTwitch": "Imp_Vivi"
