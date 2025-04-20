@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6945,
-            "playerGames": 132,
+            "playerMMR": 6952,
+            "playerGames": 133,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 33.3
+                    "playerCharacterPickRate": 33.8
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 28.0
+                    "playerCharacterPickRate": 27.8
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 18.2
+                    "playerCharacterPickRate": 18.0
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5943,
-            "playerGames": 229,
+            "playerMMR": 5918,
+            "playerGames": 231,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 24.7
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.0
+                    "playerCharacterPickRate": 21.2
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 9.6
+                    "playerCharacterPickRate": 9.5
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6471,
-            "playerGames": 70,
+            "playerMMR": 6464,
+            "playerGames": 71,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 64.3
+                    "playerCharacterPickRate": 63.4
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.5
                 },
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 2.9
+                    "playerCharacterPickRate": 2.8
                 }
             ],
             "playerTwitch": "connax_"
