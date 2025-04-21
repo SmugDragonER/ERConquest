@@ -141,21 +141,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6298,
-            "playerGames": 57,
+            "playerMMR": 6268,
+            "playerGames": 58,
             "playerWinRate": 24,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 71.9
+                    "playerCharacterPickRate": 72.4
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 24.6
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 3.5
+                    "playerCharacterPickRate": 3.4
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -267,38 +267,38 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6012,
-            "playerGames": 191,
-            "playerWinRate": 10,
+            "playerMMR": 6207,
+            "playerGames": 193,
+            "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.0
+                    "playerCharacterPickRate": 22.8
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 18.3
+                    "playerCharacterPickRate": 19.2
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 14.7
+                    "playerCharacterPickRate": 14.5
                 }
             ],
             "playerTwitch": "hajtonamotorze"
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6177,
-            "playerGames": 246,
+            "playerMMR": 6166,
+            "playerGames": 248,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 23.6
+                    "playerCharacterPickRate": 23.4
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.1
+                    "playerCharacterPickRate": 21.0
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
@@ -330,17 +330,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6704,
-            "playerGames": 78,
-            "playerWinRate": 19,
+            "playerMMR": 6754,
+            "playerGames": 80,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 65.4
+                    "playerCharacterPickRate": 66.2
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 20.5
+                    "playerCharacterPickRate": 20.0
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
