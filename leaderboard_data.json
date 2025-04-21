@@ -120,21 +120,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6943,
-            "playerGames": 135,
+            "playerMMR": 6921,
+            "playerGames": 136,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 34.8
+                    "playerCharacterPickRate": 35.3
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 27.4
+                    "playerCharacterPickRate": 27.2
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 17.8
+                    "playerCharacterPickRate": 17.6
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5818,
-            "playerGames": 49,
+            "playerMMR": 5770,
+            "playerGames": 50,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 81.6
+                    "playerCharacterPickRate": 82.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 10.2
+                    "playerCharacterPickRate": 10.0
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 8.2
+                    "playerCharacterPickRate": 8.0
                 }
             ],
             "playerTwitch": "Imp_Vivi"
