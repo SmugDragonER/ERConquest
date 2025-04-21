@@ -204,21 +204,21 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6110,
-            "playerGames": 124,
+            "playerMMR": 6119,
+            "playerGames": 125,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 82.3
+                    "playerCharacterPickRate": 81.6
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 9.7
+                    "playerCharacterPickRate": 9.6
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 2.4
+                    "playerCharacterPickRate": 3.2
                 }
             ],
             "playerTwitch": "FishyFishy__"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6465,
-            "playerGames": 72,
-            "playerWinRate": 18,
+            "playerMMR": 6411,
+            "playerGames": 73,
+            "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 62.5
+                    "playerCharacterPickRate": 63.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 21.9
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 4.2
+                    "playerCharacterPickRate": 4.1
                 }
             ],
             "playerTwitch": "connax_"
@@ -372,21 +372,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5583,
-            "playerGames": 30,
-            "playerWinRate": 20,
+            "playerMMR": 5603,
+            "playerGames": 31,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 33.3
+                    "playerCharacterPickRate": 32.3
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 22.6
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.1
                 }
             ],
             "playerTwitch": "quip_er"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5770,
-            "playerGames": 50,
-            "playerWinRate": 18,
+            "playerMMR": 5898,
+            "playerGames": 51,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 82.0
+                    "playerCharacterPickRate": 82.4
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 10.0
+                    "playerCharacterPickRate": 9.8
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 8.0
+                    "playerCharacterPickRate": 7.8
                 }
             ],
             "playerTwitch": "Imp_Vivi"
