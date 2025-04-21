@@ -288,21 +288,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6070,
-            "playerGames": 245,
+            "playerMMR": 6177,
+            "playerGames": 246,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 23.7
+                    "playerCharacterPickRate": 23.6
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 21.2
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 9.4
+                    "playerCharacterPickRate": 9.3
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6547,
-            "playerGames": 77,
-            "playerWinRate": 18,
+            "playerMMR": 6704,
+            "playerGames": 78,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 64.9
+                    "playerCharacterPickRate": 65.4
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 20.8
+                    "playerCharacterPickRate": 20.5
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 3.9
+                    "playerCharacterPickRate": 3.8
                 }
             ],
             "playerTwitch": "connax_"
