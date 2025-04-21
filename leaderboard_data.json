@@ -204,21 +204,21 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6119,
-            "playerGames": 125,
+            "playerMMR": 6093,
+            "playerGames": 126,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 81.6
+                    "playerCharacterPickRate": 81.0
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 9.6
+                    "playerCharacterPickRate": 9.5
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 3.2
+                    "playerCharacterPickRate": 4.0
                 }
             ],
             "playerTwitch": "FishyFishy__"
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5898,
-            "playerGames": 51,
+            "playerMMR": 5893,
+            "playerGames": 52,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 82.4
+                    "playerCharacterPickRate": 82.7
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 9.8
+                    "playerCharacterPickRate": 9.6
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 7.8
+                    "playerCharacterPickRate": 7.7
                 }
             ],
             "playerTwitch": "Imp_Vivi"
