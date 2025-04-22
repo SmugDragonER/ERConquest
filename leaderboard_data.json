@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7283,
-            "playerGames": 123,
+            "playerMMR": 7258,
+            "playerGames": 124,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 65.9
+                    "playerCharacterPickRate": 65.3
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 17.1
+                    "playerCharacterPickRate": 16.9
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 10.5
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -225,21 +225,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5465,
-            "playerGames": 81,
-            "playerWinRate": 8,
+            "playerMMR": 5620,
+            "playerGames": 83,
+            "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 13.6
+                    "playerCharacterPickRate": 13.3
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
-                    "playerCharacterPickRate": 11.1
+                    "playerCharacterPickRate": 10.8
                 }
             ],
             "playerTwitch": "itsmebobou"
