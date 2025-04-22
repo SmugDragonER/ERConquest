@@ -225,21 +225,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5567,
-            "playerGames": 85,
-            "playerWinRate": 9,
+            "playerMMR": 5691,
+            "playerGames": 86,
+            "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 23.5
+                    "playerCharacterPickRate": 23.3
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 12.9
+                    "playerCharacterPickRate": 12.8
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 10.5
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -330,21 +330,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 6720,
-            "playerGames": 86,
-            "playerWinRate": 19,
+            "playerMMR": 6786,
+            "playerGames": 87,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 67.4
+                    "playerCharacterPickRate": 67.8
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 19.8
+                    "playerCharacterPickRate": 19.5
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 3.5
+                    "playerCharacterPickRate": 3.4
                 }
             ],
             "playerTwitch": "connax_"
@@ -435,21 +435,21 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 5184,
-            "playerGames": 31,
-            "playerWinRate": 19,
+            "playerMMR": 5193,
+            "playerGames": 32,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 80.6
+                    "playerCharacterPickRate": 78.1
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 16.1
+                    "playerCharacterPickRate": 18.8
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 3.2
+                    "playerCharacterPickRate": 3.1
                 }
             ],
             "playerTwitch": "ZuniM8"
