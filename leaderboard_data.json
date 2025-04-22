@@ -204,13 +204,13 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6302,
-            "playerGames": 133,
+            "playerMMR": 6361,
+            "playerGames": 134,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 78.2
+                    "playerCharacterPickRate": 77.6
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
@@ -218,28 +218,28 @@
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 7.5
+                    "playerCharacterPickRate": 8.2
                 }
             ],
             "playerTwitch": "FishyFishy__"
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5608,
-            "playerGames": 84,
+            "playerMMR": 5567,
+            "playerGames": 85,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 23.8
+                    "playerCharacterPickRate": 23.5
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 13.1
+                    "playerCharacterPickRate": 12.9
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
-                    "playerCharacterPickRate": 10.7
+                    "playerCharacterPickRate": 10.6
                 }
             ],
             "playerTwitch": "itsmebobou"
