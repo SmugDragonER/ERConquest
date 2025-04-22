@@ -183,21 +183,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6171,
-            "playerGames": 135,
+            "playerMMR": 6130,
+            "playerGames": 136,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 21.5
+                    "playerCharacterPickRate": 21.3
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.6
+                    "playerCharacterPickRate": 12.5
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.1
+                    "playerCharacterPickRate": 11.0
                 }
             ],
             "playerTwitch": "yazidron"
@@ -225,21 +225,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5610,
-            "playerGames": 88,
+            "playerMMR": 5614,
+            "playerGames": 89,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 22.7
+                    "playerCharacterPickRate": 22.5
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 12.5
+                    "playerCharacterPickRate": 12.4
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
-                    "playerCharacterPickRate": 10.2
+                    "playerCharacterPickRate": 10.1
                 }
             ],
             "playerTwitch": "itsmebobou"
