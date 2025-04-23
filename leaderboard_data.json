@@ -267,17 +267,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6259,
-            "playerGames": 205,
+            "playerMMR": 6257,
+            "playerGames": 206,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.8
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.5
+                    "playerCharacterPickRate": 19.4
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -330,17 +330,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7024,
-            "playerGames": 91,
-            "playerWinRate": 21,
+            "playerMMR": 7178,
+            "playerGames": 92,
+            "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 68.1
+                    "playerCharacterPickRate": 68.5
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 19.8
+                    "playerCharacterPickRate": 19.6
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -414,21 +414,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 5863,
-            "playerGames": 63,
+            "playerMMR": 5882,
+            "playerGames": 64,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 85.7
+                    "playerCharacterPickRate": 85.9
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 7.9
+                    "playerCharacterPickRate": 7.8
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 6.3
+                    "playerCharacterPickRate": 6.2
                 }
             ],
             "playerTwitch": "Imp_Vivi"
