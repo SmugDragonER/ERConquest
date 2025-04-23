@@ -32,7 +32,7 @@ characterCodeDict = {
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
 
-with open("player_ID.json", "r", encoding="utf-8") as file:
+with open("../web/data/player_ID.json", "r", encoding="utf-8") as file:
     playerIDs = json.load(file)
 
 lockedPlayers=[]
@@ -100,7 +100,6 @@ def getPlayerData(playerName):
     }
     return playerData
 
-# TODO
 def sortPlayers(playerIDs,allPlayerData):
 
     lockedPlayers = []
@@ -145,13 +144,13 @@ def saveCurrentTime() -> None :
 
     formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:%M CEST")
     print(formattedTime)
-    with open("last_updated.json",'w') as json_file:
+    with open("../web/data/last_updated.json", 'w') as json_file:
         json.dump(formattedTime,json_file, indent=4)
     print("Current Time Saved")
 
 if __name__ == "__main__":
     
-    print("Data Creation Started")
+    print("data Creation Started")
     allPlayerData = []
     for player in playerIDs.keys():
         try:
@@ -174,8 +173,8 @@ if __name__ == "__main__":
             allPlayerData.append(playerData)
 
     sortedPlayers = sortPlayers(playerIDs,allPlayerData)
-    saveAllPlayersToJson(sortedPlayers, 'leaderboard_data.json')
-    print("Data Creation Done")
+    saveAllPlayersToJson(sortedPlayers, '../web/data/leaderboard_data.json')
+    print("data Creation Done")
 
     # Used for Player IDs
     # updatePlayerNum(playerIDs)

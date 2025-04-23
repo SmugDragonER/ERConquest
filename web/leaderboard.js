@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
         // Fetch and display the last updated time
-        fetch('last_updated.json')
+        fetch('data/last_updated.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Failed to fetch last updated time: ' + response.statusText);
@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fetch both leaderboard_data.json and player_IDs.json
     Promise.all([
-        fetch('leaderboard_data.json').then(response => {
+        fetch('data/leaderboard_data.json').then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
             return response.json();
         }),
-        fetch('player_ID.json').then(response => {
+        fetch('data/player_ID.json').then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
             }
