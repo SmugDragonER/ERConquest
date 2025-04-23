@@ -141,21 +141,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6365,
-            "playerGames": 63,
+            "playerMMR": 6337,
+            "playerGames": 65,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 74.6
+                    "playerCharacterPickRate": 75.4
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 21.5
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 3.2
+                    "playerCharacterPickRate": 3.1
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -330,17 +330,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7219,
-            "playerGames": 96,
+            "playerMMR": 7215,
+            "playerGames": 97,
             "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 68.8
+                    "playerCharacterPickRate": 69.1
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 19.8
+                    "playerCharacterPickRate": 19.6
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -372,21 +372,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5728,
-            "playerGames": 35,
-            "playerWinRate": 17,
+            "playerMMR": 5691,
+            "playerGames": 36,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 31.4
+                    "playerCharacterPickRate": 30.6
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 19.4
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 13.9
                 }
             ],
             "playerTwitch": "quip_er"
