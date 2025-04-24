@@ -2,17 +2,17 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7182,
-            "playerGames": 127,
+            "playerMMR": 7167,
+            "playerGames": 128,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 63.8
+                    "playerCharacterPickRate": 63.3
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 16.5
+                    "playerCharacterPickRate": 16.4
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
@@ -23,17 +23,17 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7161,
-            "playerGames": 75,
-            "playerWinRate": 24,
+            "playerMMR": 7111,
+            "playerGames": 77,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 90.7
+                    "playerCharacterPickRate": 88.3
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 8.0
+                    "playerCharacterPickRate": 7.8
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
@@ -338,21 +338,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7177,
-            "playerGames": 105,
+            "playerMMR": 7184,
+            "playerGames": 106,
             "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 68.6
+                    "playerCharacterPickRate": 68.9
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 18.1
+                    "playerCharacterPickRate": 17.9
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 4.8
+                    "playerCharacterPickRate": 4.7
                 }
             ],
             "playerTwitch": "connax_"
