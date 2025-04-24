@@ -23,21 +23,21 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7186,
-            "playerGames": 74,
+            "playerMMR": 7161,
+            "playerGames": 75,
             "playerWinRate": 24,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 91.9
+                    "playerCharacterPickRate": 90.7
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 6.8
+                    "playerCharacterPickRate": 8.0
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 1.4
+                    "playerCharacterPickRate": 1.3
                 }
             ],
             "playerTwitch": "baumi_er"
