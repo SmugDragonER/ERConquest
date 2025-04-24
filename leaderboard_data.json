@@ -61,13 +61,13 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6442,
-            "playerGames": 69,
+            "playerMMR": 6410,
+            "playerGames": 70,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 92.8
+                    "playerCharacterPickRate": 92.9
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
@@ -271,21 +271,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6283,
-            "playerGames": 215,
+            "playerMMR": 6251,
+            "playerGames": 216,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 22.3
+                    "playerCharacterPickRate": 22.2
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 20.4
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 14.0
+                    "playerCharacterPickRate": 13.9
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -397,21 +397,21 @@
         },
         {
             "playerName": "Arky\u30fc",
-            "playerMMR": 5122,
-            "playerGames": 6,
-            "playerWinRate": 33,
+            "playerMMR": 5227,
+            "playerGames": 7,
+            "playerWinRate": 42,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 33.3
+                    "playerCharacterPickRate": 42.9
                 },
                 {
                     "playerCharacterCode": "Isol Mini",
-                    "playerCharacterPickRate": 33.3
+                    "playerCharacterPickRate": 28.6
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 14.3
                 }
             ],
             "playerTwitch": "Arky_ER"
