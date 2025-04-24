@@ -2,38 +2,38 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7256,
-            "playerGames": 125,
+            "playerMMR": 7182,
+            "playerGames": 127,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 64.8
+                    "playerCharacterPickRate": 63.8
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 16.8
+                    "playerCharacterPickRate": 16.5
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 10.4
+                    "playerCharacterPickRate": 10.2
                 }
             ],
             "playerTwitch": "FDGoodVX"
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 6997,
-            "playerGames": 73,
-            "playerWinRate": 23,
+            "playerMMR": 7186,
+            "playerGames": 74,
+            "playerWinRate": 24,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 93.2
+                    "playerCharacterPickRate": 91.9
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 5.5
+                    "playerCharacterPickRate": 6.8
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
@@ -65,13 +65,13 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6503,
-            "playerGames": 75,
-            "playerWinRate": 20,
+            "playerMMR": 6492,
+            "playerGames": 76,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 90.7
+                    "playerCharacterPickRate": 89.5
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6313,
-            "playerGames": 221,
+            "playerMMR": 6280,
+            "playerGames": 222,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.1
+                    "playerCharacterPickRate": 23.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.8
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 13.6
+                    "playerCharacterPickRate": 13.5
                 }
             ],
             "playerTwitch": "hajtonamotorze"
