@@ -2,38 +2,38 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7167,
-            "playerGames": 128,
+            "playerMMR": 7231,
+            "playerGames": 129,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 63.3
+                    "playerCharacterPickRate": 62.8
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 16.4
+                    "playerCharacterPickRate": 16.3
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 10.2
+                    "playerCharacterPickRate": 10.1
                 }
             ],
             "playerTwitch": "FDGoodVX"
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7111,
-            "playerGames": 77,
+            "playerMMR": 7100,
+            "playerGames": 78,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 88.3
+                    "playerCharacterPickRate": 87.2
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 7.8
+                    "playerCharacterPickRate": 9.0
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
@@ -149,21 +149,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6478,
-            "playerGames": 70,
-            "playerWinRate": 22,
+            "playerMMR": 6545,
+            "playerGames": 71,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 75.7
+                    "playerCharacterPickRate": 76.1
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 21.4
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 2.9
+                    "playerCharacterPickRate": 2.8
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -338,17 +338,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7184,
-            "playerGames": 106,
+            "playerMMR": 7140,
+            "playerGames": 107,
             "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 68.9
+                    "playerCharacterPickRate": 69.2
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 17.9
+                    "playerCharacterPickRate": 17.8
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
