@@ -61,21 +61,21 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6490,
-            "playerGames": 68,
-            "playerWinRate": 19,
+            "playerMMR": 6442,
+            "playerGames": 69,
+            "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 92.6
+                    "playerCharacterPickRate": 92.8
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 1.5
+                    "playerCharacterPickRate": 1.4
                 },
                 {
                     "playerCharacterCode": "Barbara Mini",
-                    "playerCharacterPickRate": 1.5
+                    "playerCharacterPickRate": 1.4
                 }
             ],
             "playerTwitch": "SmugDragonER"
@@ -271,17 +271,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6156,
-            "playerGames": 214,
-            "playerWinRate": 11,
+            "playerMMR": 6283,
+            "playerGames": 215,
+            "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 22.4
+                    "playerCharacterPickRate": 22.3
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.6
+                    "playerCharacterPickRate": 20.0
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
