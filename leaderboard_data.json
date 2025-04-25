@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7283,
-            "playerGames": 133,
+            "playerMMR": 7236,
+            "playerGames": 134,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 60.9
+                    "playerCharacterPickRate": 60.4
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 15.8
+                    "playerCharacterPickRate": 15.7
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 11.3
+                    "playerCharacterPickRate": 11.9
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6614,
-            "playerGames": 230,
+            "playerMMR": 6554,
+            "playerGames": 232,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.0
+                    "playerCharacterPickRate": 23.7
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 21.3
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 13.0
+                    "playerCharacterPickRate": 12.9
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -443,21 +443,21 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 5588,
-            "playerGames": 37,
+            "playerMMR": 5553,
+            "playerGames": 38,
             "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 78.4
+                    "playerCharacterPickRate": 78.9
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 18.9
+                    "playerCharacterPickRate": 18.4
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 2.7
+                    "playerCharacterPickRate": 2.6
                 }
             ],
             "playerTwitch": "ZuniM8"
