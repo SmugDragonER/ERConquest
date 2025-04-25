@@ -275,13 +275,13 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6495,
-            "playerGames": 234,
+            "playerMMR": 6573,
+            "playerGames": 235,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 23.8
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
@@ -443,21 +443,21 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 5646,
-            "playerGames": 39,
-            "playerWinRate": 23,
+            "playerMMR": 5745,
+            "playerGames": 40,
+            "playerWinRate": 25,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 79.5
+                    "playerCharacterPickRate": 80.0
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 17.9
+                    "playerCharacterPickRate": 17.5
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterPickRate": 2.5
                 }
             ],
             "playerTwitch": "ZuniM8"
