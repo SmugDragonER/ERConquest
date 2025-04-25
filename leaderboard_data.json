@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7231,
-            "playerGames": 129,
-            "playerWinRate": 17,
+            "playerMMR": 7188,
+            "playerGames": 130,
+            "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 62.8
+                    "playerCharacterPickRate": 62.3
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 16.3
+                    "playerCharacterPickRate": 16.2
                 },
                 {
                     "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 10.1
+                    "playerCharacterPickRate": 10.0
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -338,21 +338,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7140,
-            "playerGames": 107,
-            "playerWinRate": 20,
+            "playerMMR": 7172,
+            "playerGames": 109,
+            "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 69.2
+                    "playerCharacterPickRate": 69.7
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 17.8
+                    "playerCharacterPickRate": 17.4
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 4.7
+                    "playerCharacterPickRate": 4.6
                 }
             ],
             "playerTwitch": "connax_"
