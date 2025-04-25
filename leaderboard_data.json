@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7225,
-            "playerGames": 132,
+            "playerMMR": 7283,
+            "playerGames": 133,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 61.4
+                    "playerCharacterPickRate": 60.9
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 15.9
+                    "playerCharacterPickRate": 15.8
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 11.3
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6582,
-            "playerGames": 229,
+            "playerMMR": 6614,
+            "playerGames": 230,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.1
+                    "playerCharacterPickRate": 23.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 21.0
+                    "playerCharacterPickRate": 21.3
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 13.1
+                    "playerCharacterPickRate": 13.0
                 }
             ],
             "playerTwitch": "hajtonamotorze"
