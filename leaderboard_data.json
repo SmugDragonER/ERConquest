@@ -65,13 +65,13 @@
         },
         {
             "playerName": "SmugDragon",
-            "playerMMR": 6647,
-            "playerGames": 80,
-            "playerWinRate": 20,
+            "playerMMR": 6606,
+            "playerGames": 81,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 88.8
+                    "playerCharacterPickRate": 88.9
                 },
                 {
                     "playerCharacterCode": "Nicky Mini",
@@ -128,21 +128,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6891,
-            "playerGames": 147,
+            "playerMMR": 6878,
+            "playerGames": 148,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 36.7
+                    "playerCharacterPickRate": 36.5
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 27.2
+                    "playerCharacterPickRate": 27.0
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 17.0
+                    "playerCharacterPickRate": 16.9
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6291,
-            "playerGames": 225,
+            "playerMMR": 6350,
+            "playerGames": 226,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.1
+                    "playerCharacterPickRate": 23.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.9
+                    "playerCharacterPickRate": 21.2
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
