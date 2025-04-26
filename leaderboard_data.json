@@ -107,21 +107,21 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6147,
-            "playerGames": 71,
-            "playerWinRate": 21,
+            "playerMMR": 6106,
+            "playerGames": 72,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 54.9
+                    "playerCharacterPickRate": 55.6
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 26.8
+                    "playerCharacterPickRate": 26.4
                 },
                 {
                     "playerCharacterCode": "Cathy Mini",
-                    "playerCharacterPickRate": 7.0
+                    "playerCharacterPickRate": 6.9
                 }
             ],
             "playerTwitch": "reapom"
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6639,
-            "playerGames": 237,
+            "playerMMR": 6596,
+            "playerGames": 238,
             "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.6
+                    "playerCharacterPickRate": 23.9
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.7
+                    "playerCharacterPickRate": 20.6
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 13.1
+                    "playerCharacterPickRate": 13.0
                 }
             ],
             "playerTwitch": "hajtonamotorze"
