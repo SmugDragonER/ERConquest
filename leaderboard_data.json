@@ -44,13 +44,13 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 7218,
-            "playerGames": 90,
-            "playerWinRate": 18,
+            "playerMMR": 7297,
+            "playerGames": 91,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 84.4
+                    "playerCharacterPickRate": 84.6
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -107,17 +107,17 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6122,
-            "playerGames": 73,
+            "playerMMR": 6206,
+            "playerGames": 74,
             "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 56.2
+                    "playerCharacterPickRate": 55.4
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 26.0
+                    "playerCharacterPickRate": 25.7
                 },
                 {
                     "playerCharacterCode": "Cathy Mini",
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6517,
-            "playerGames": 149,
+            "playerMMR": 6537,
+            "playerGames": 150,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 20.8
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.8
+                    "playerCharacterPickRate": 12.7
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.4
+                    "playerCharacterPickRate": 11.3
                 }
             ],
             "playerTwitch": "yazidron"
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6509,
-            "playerGames": 240,
+            "playerMMR": 6489,
+            "playerGames": 241,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.8
+                    "playerCharacterPickRate": 23.7
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 20.4
+                    "playerCharacterPickRate": 20.3
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
