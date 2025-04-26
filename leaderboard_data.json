@@ -44,13 +44,13 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 6989,
-            "playerGames": 87,
+            "playerMMR": 7178,
+            "playerGames": 88,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 85.1
+                    "playerCharacterPickRate": 85.2
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6400,
-            "playerGames": 146,
+            "playerMMR": 6350,
+            "playerGames": 147,
             "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 21.2
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.3
+                    "playerCharacterPickRate": 12.9
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.0
+                    "playerCharacterPickRate": 10.9
                 }
             ],
             "playerTwitch": "yazidron"
@@ -296,17 +296,17 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5663,
-            "playerGames": 277,
+            "playerMMR": 5720,
+            "playerGames": 278,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 23.1
+                    "playerCharacterPickRate": 23.0
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 19.9
+                    "playerCharacterPickRate": 19.8
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
@@ -317,21 +317,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5550,
-            "playerGames": 126,
+            "playerMMR": 5583,
+            "playerGames": 128,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 28.6
+                    "playerCharacterPickRate": 29.7
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 17.5
+                    "playerCharacterPickRate": 17.2
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 15.9
+                    "playerCharacterPickRate": 15.6
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
@@ -380,21 +380,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5699,
-            "playerGames": 41,
+            "playerMMR": 5873,
+            "playerGames": 42,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 29.3
+                    "playerCharacterPickRate": 28.6
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 22.0
+                    "playerCharacterPickRate": 21.4
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 12.2
+                    "playerCharacterPickRate": 11.9
                 }
             ],
             "playerTwitch": "quip_er"
