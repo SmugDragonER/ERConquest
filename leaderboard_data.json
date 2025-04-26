@@ -44,17 +44,17 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 7178,
-            "playerGames": 88,
+            "playerMMR": 7133,
+            "playerGames": 89,
             "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 85.2
+                    "playerCharacterPickRate": 84.3
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 3.4
+                    "playerCharacterPickRate": 4.5
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6350,
-            "playerGames": 147,
-            "playerWinRate": 13,
+            "playerMMR": 6507,
+            "playerGames": 148,
+            "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 21.1
+                    "playerCharacterPickRate": 20.9
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.9
+                    "playerCharacterPickRate": 12.8
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 10.9
+                    "playerCharacterPickRate": 11.5
                 }
             ],
             "playerTwitch": "yazidron"
@@ -380,21 +380,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5873,
-            "playerGames": 42,
-            "playerWinRate": 14,
+            "playerMMR": 5845,
+            "playerGames": 44,
+            "playerWinRate": 13,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 28.6
+                    "playerCharacterPickRate": 29.5
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 21.4
+                    "playerCharacterPickRate": 20.5
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 11.9
+                    "playerCharacterPickRate": 11.4
                 }
             ],
             "playerTwitch": "quip_er"
