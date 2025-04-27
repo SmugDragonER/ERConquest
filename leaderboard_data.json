@@ -44,17 +44,17 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 6985,
-            "playerGames": 102,
+            "playerMMR": 7006,
+            "playerGames": 103,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 81.4
+                    "playerCharacterPickRate": 80.6
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 5.9
+                    "playerCharacterPickRate": 5.8
                 },
                 {
                     "playerCharacterCode": "Jackie Mini",
@@ -191,17 +191,17 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6702,
-            "playerGames": 160,
-            "playerWinRate": 15,
+            "playerMMR": 6659,
+            "playerGames": 161,
+            "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 20.6
+                    "playerCharacterPickRate": 20.5
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 11.9
+                    "playerCharacterPickRate": 11.8
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6317,
-            "playerGames": 253,
+            "playerMMR": 6289,
+            "playerGames": 254,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.7
+                    "playerCharacterPickRate": 23.6
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.4
+                    "playerCharacterPickRate": 19.3
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
