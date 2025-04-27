@@ -296,21 +296,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5964,
-            "playerGames": 284,
+            "playerMMR": 6011,
+            "playerGames": 285,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.8
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.4
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 8.5
+                    "playerCharacterPickRate": 8.4
                 }
             ],
             "playerTwitch": "Leitnessen"
@@ -443,17 +443,17 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 6127,
-            "playerGames": 45,
-            "playerWinRate": 24,
+            "playerMMR": 6090,
+            "playerGames": 46,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 82.2
+                    "playerCharacterPickRate": 82.6
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 15.6
+                    "playerCharacterPickRate": 15.2
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
