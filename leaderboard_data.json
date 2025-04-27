@@ -338,21 +338,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7172,
-            "playerGames": 109,
-            "playerWinRate": 21,
+            "playerMMR": 7153,
+            "playerGames": 110,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 69.7
+                    "playerCharacterPickRate": 70.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 17.4
+                    "playerCharacterPickRate": 17.3
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 4.6
+                    "playerCharacterPickRate": 4.5
                 }
             ],
             "playerTwitch": "connax_"
