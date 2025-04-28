@@ -24,20 +24,20 @@
         {
             "playerName": "Baumi",
             "playerMMR": 7100,
-            "playerGames": 80,
-            "playerWinRate": 22,
+            "playerGames": 82,
+            "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 87.5
+                    "playerCharacterPickRate": 85.4
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 8.8
+                    "playerCharacterPickRate": 8.5
                 },
                 {
-                    "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 1.2
+                    "playerCharacterCode": "Abigail Mini",
+                    "playerCharacterPickRate": 2.4
                 }
             ],
             "playerTwitch": "baumi_er"
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6720,
-            "playerGames": 173,
+            "playerMMR": 6767,
+            "playerGames": 175,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 19.1
+                    "playerCharacterPickRate": 18.9
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.1
+                    "playerCharacterPickRate": 12.0
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 12.1
+                    "playerCharacterPickRate": 12.0
                 }
             ],
             "playerTwitch": "yazidron"
@@ -233,21 +233,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5980,
-            "playerGames": 143,
-            "playerWinRate": 9,
+            "playerMMR": 6070,
+            "playerGames": 144,
+            "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 37.1
+                    "playerCharacterPickRate": 36.8
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 7.7
+                    "playerCharacterPickRate": 7.6
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 7.7
+                    "playerCharacterPickRate": 7.6
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -296,21 +296,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6167,
-            "playerGames": 292,
+            "playerMMR": 6123,
+            "playerGames": 294,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 22.9
+                    "playerCharacterPickRate": 22.8
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.5
+                    "playerCharacterPickRate": 20.7
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 9.6
+                    "playerCharacterPickRate": 9.5
                 }
             ],
             "playerTwitch": "Leitnessen"
