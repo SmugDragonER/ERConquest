@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6685,
-            "playerGames": 177,
+            "playerMMR": 6620,
+            "playerGames": 180,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 18.6
+                    "playerCharacterPickRate": 18.3
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 11.9
+                    "playerCharacterPickRate": 12.2
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.9
+                    "playerCharacterPickRate": 11.7
                 }
             ],
             "playerTwitch": "yazidron"
