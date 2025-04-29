@@ -149,21 +149,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6776,
-            "playerGames": 77,
+            "playerMMR": 6719,
+            "playerGames": 78,
             "playerWinRate": 24,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 77.9
+                    "playerCharacterPickRate": 76.9
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 19.5
+                    "playerCharacterPickRate": 19.2
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 2.6
+                    "playerCharacterPickRate": 3.8
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -212,13 +212,13 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6748,
-            "playerGames": 141,
+            "playerMMR": 6696,
+            "playerGames": 142,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 78.0
+                    "playerCharacterPickRate": 78.2
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
@@ -233,21 +233,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 6081,
-            "playerGames": 158,
+            "playerMMR": 6038,
+            "playerGames": 159,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 35.4
+                    "playerCharacterPickRate": 35.2
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 8.9
+                    "playerCharacterPickRate": 8.8
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 7.0
+                    "playerCharacterPickRate": 6.9
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -296,17 +296,17 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6011,
-            "playerGames": 306,
+            "playerMMR": 5955,
+            "playerGames": 308,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 22.2
+                    "playerCharacterPickRate": 22.1
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.9
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
