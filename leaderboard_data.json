@@ -128,21 +128,21 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 6864,
-            "playerGames": 150,
-            "playerWinRate": 18,
+            "playerMMR": 7197,
+            "playerGames": 152,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 36.7
+                    "playerCharacterPickRate": 37.5
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 27.3
+                    "playerCharacterPickRate": 27.0
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.4
                 }
             ],
             "playerTwitch": "bumholey29"
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6620,
-            "playerGames": 180,
+            "playerMMR": 6568,
+            "playerGames": 181,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 18.3
+                    "playerCharacterPickRate": 18.2
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.2
+                    "playerCharacterPickRate": 12.7
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.7
+                    "playerCharacterPickRate": 11.6
                 }
             ],
             "playerTwitch": "yazidron"
@@ -233,21 +233,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 5958,
-            "playerGames": 151,
+            "playerMMR": 5899,
+            "playerGames": 153,
             "playerWinRate": 9,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 36.4
-                },
-                {
-                    "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 7.3
+                    "playerCharacterPickRate": 35.9
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 7.3
+                    "playerCharacterPickRate": 7.8
+                },
+                {
+                    "playerCharacterCode": "Magnus Mini",
+                    "playerCharacterPickRate": 7.2
                 }
             ],
             "playerTwitch": "itsmebobou"
