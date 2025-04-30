@@ -233,21 +233,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 6115,
-            "playerGames": 165,
+            "playerMMR": 6152,
+            "playerGames": 177,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 34.5
+                    "playerCharacterPickRate": 32.8
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 10.3
+                    "playerCharacterPickRate": 13.0
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 6.7
+                    "playerCharacterPickRate": 6.2
                 }
             ],
             "playerTwitch": "itsmebobou"
