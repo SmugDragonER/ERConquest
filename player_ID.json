@@ -122,8 +122,8 @@
     "FDGood": {
         "id": 2109856,
         "twitch": "FDGoodVX",
-        "locked": false,
-        "lockedRank": null
+        "locked": true,
+        "lockedRank": 0
     },
     "BLM": {
         "id": 4139303,
