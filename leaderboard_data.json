@@ -149,21 +149,21 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6719,
-            "playerGames": 78,
-            "playerWinRate": 24,
+            "playerMMR": 6751,
+            "playerGames": 82,
+            "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 76.9
+                    "playerCharacterPickRate": 75.6
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 19.2
+                    "playerCharacterPickRate": 19.5
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 3.8
+                    "playerCharacterPickRate": 3.7
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -191,21 +191,21 @@
         },
         {
             "playerName": "Yazidron",
-            "playerMMR": 6595,
-            "playerGames": 187,
+            "playerMMR": 6495,
+            "playerGames": 191,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 18.2
+                    "playerCharacterPickRate": 17.8
                 },
                 {
                     "playerCharacterCode": "Daniel Mini",
-                    "playerCharacterPickRate": 12.8
+                    "playerCharacterPickRate": 12.6
                 },
                 {
                     "playerCharacterCode": "Ly Anh Mini",
-                    "playerCharacterPickRate": 11.8
+                    "playerCharacterPickRate": 11.5
                 }
             ],
             "playerTwitch": "yazidron"
@@ -233,21 +233,21 @@
         },
         {
             "playerName": "GuiltyChallenger",
-            "playerMMR": 6174,
-            "playerGames": 160,
+            "playerMMR": 6115,
+            "playerGames": 165,
             "playerWinRate": 11,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Elena Mini",
-                    "playerCharacterPickRate": 35.0
+                    "playerCharacterPickRate": 34.5
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 8.8
+                    "playerCharacterPickRate": 10.3
                 },
                 {
                     "playerCharacterCode": "Magnus Mini",
-                    "playerCharacterPickRate": 6.9
+                    "playerCharacterPickRate": 6.7
                 }
             ],
             "playerTwitch": "itsmebobou"
@@ -443,21 +443,21 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 6090,
-            "playerGames": 46,
-            "playerWinRate": 23,
+            "playerMMR": 6158,
+            "playerGames": 48,
+            "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 82.6
+                    "playerCharacterPickRate": 83.3
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 15.2
+                    "playerCharacterPickRate": 14.6
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 2.2
+                    "playerCharacterPickRate": 2.1
                 }
             ],
             "playerTwitch": "ZuniM8"
