@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7387,
-            "playerGames": 144,
+            "playerMMR": 7441,
+            "playerGames": 145,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 56.9
+                    "playerCharacterPickRate": 57.2
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 17.4
+                    "playerCharacterPickRate": 17.2
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 14.6
+                    "playerCharacterPickRate": 14.5
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -86,21 +86,21 @@
         },
         {
             "playerName": "Aghilas",
-            "playerMMR": 6136,
-            "playerGames": 88,
+            "playerMMR": 6089,
+            "playerGames": 89,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Luke Mini",
-                    "playerCharacterPickRate": 58.0
+                    "playerCharacterPickRate": 57.3
                 },
                 {
                     "playerCharacterCode": "Jan Mini",
-                    "playerCharacterPickRate": 25.0
+                    "playerCharacterPickRate": 24.7
                 },
                 {
-                    "playerCharacterCode": "Yuki Mini",
-                    "playerCharacterPickRate": 6.8
+                    "playerCharacterCode": "Hyunwoo Mini",
+                    "playerCharacterPickRate": 6.7
                 }
             ],
             "playerTwitch": "Aghilask"
@@ -338,17 +338,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7167,
-            "playerGames": 125,
-            "playerWinRate": 20,
+            "playerMMR": 7113,
+            "playerGames": 126,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 69.6
+                    "playerCharacterPickRate": 69.0
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 16.0
+                    "playerCharacterPickRate": 15.9
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
