@@ -128,42 +128,42 @@
         },
         {
             "playerName": "BLM",
-            "playerMMR": 7113,
-            "playerGames": 165,
+            "playerMMR": 7191,
+            "playerGames": 166,
             "playerWinRate": 18,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 38.8
+                    "playerCharacterPickRate": 39.2
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 27.3
+                    "playerCharacterPickRate": 27.1
                 },
                 {
                     "playerCharacterCode": "Jenny Mini",
-                    "playerCharacterPickRate": 15.8
+                    "playerCharacterPickRate": 15.7
                 }
             ],
             "playerTwitch": "bumholey29"
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6722,
-            "playerGames": 86,
-            "playerWinRate": 23,
+            "playerMMR": 6855,
+            "playerGames": 87,
+            "playerWinRate": 24,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 74.4
+                    "playerCharacterPickRate": 74.7
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 18.6
+                    "playerCharacterPickRate": 18.4
                 },
                 {
                     "playerCharacterCode": "Darko Mini",
-                    "playerCharacterPickRate": 3.5
+                    "playerCharacterPickRate": 3.4
                 }
             ],
             "playerTwitch": "MoskesAcabe"
@@ -212,21 +212,21 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6813,
-            "playerGames": 145,
-            "playerWinRate": 11,
+            "playerMMR": 6786,
+            "playerGames": 146,
+            "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 78.6
+                    "playerCharacterPickRate": 78.8
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 8.3
+                    "playerCharacterPickRate": 8.2
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 8.3
+                    "playerCharacterPickRate": 8.2
                 }
             ],
             "playerTwitch": "FishyFishy__"
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6327,
-            "playerGames": 259,
+            "playerMMR": 6301,
+            "playerGames": 260,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 23.8
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 18.9
+                    "playerCharacterPickRate": 18.8
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -401,21 +401,21 @@
         },
         {
             "playerName": "Arky\u30fc",
-            "playerMMR": 5898,
-            "playerGames": 16,
-            "playerWinRate": 43,
+            "playerMMR": 6008,
+            "playerGames": 17,
+            "playerWinRate": 47,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Isol Mini",
-                    "playerCharacterPickRate": 56.2
+                    "playerCharacterPickRate": 52.9
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 18.8
+                    "playerCharacterPickRate": 17.6
                 },
                 {
                     "playerCharacterCode": "Debi & Marlene Mini",
-                    "playerCharacterPickRate": 6.2
+                    "playerCharacterPickRate": 5.9
                 }
             ],
             "playerTwitch": "Arky_ER"
