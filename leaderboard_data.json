@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7477,
-            "playerGames": 148,
+            "playerMMR": 7424,
+            "playerGames": 149,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 56.1
+                    "playerCharacterPickRate": 55.7
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 18.9
+                    "playerCharacterPickRate": 19.5
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 14.2
+                    "playerCharacterPickRate": 14.1
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -296,17 +296,17 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5980,
-            "playerGames": 311,
+            "playerMMR": 5942,
+            "playerGames": 312,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 21.9
+                    "playerCharacterPickRate": 21.8
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.9
+                    "playerCharacterPickRate": 20.8
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
