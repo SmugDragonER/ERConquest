@@ -23,17 +23,17 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7012,
-            "playerGames": 88,
-            "playerWinRate": 20,
+            "playerMMR": 7183,
+            "playerGames": 89,
+            "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 83.0
+                    "playerCharacterPickRate": 83.1
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 9.1
+                    "playerCharacterPickRate": 9.0
                 },
                 {
                     "playerCharacterCode": "Abigail Mini",
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6338,
-            "playerGames": 258,
+            "playerMMR": 6327,
+            "playerGames": 259,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.0
+                    "playerCharacterPickRate": 23.9
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.0
+                    "playerCharacterPickRate": 18.9
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 12.8
+                    "playerCharacterPickRate": 12.7
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -338,17 +338,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7393,
-            "playerGames": 130,
-            "playerWinRate": 20,
+            "playerMMR": 7409,
+            "playerGames": 131,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 69.2
+                    "playerCharacterPickRate": 68.7
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 15.4
+                    "playerCharacterPickRate": 15.3
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
@@ -401,21 +401,21 @@
         },
         {
             "playerName": "Arky\u30fc",
-            "playerMMR": 5919,
-            "playerGames": 15,
-            "playerWinRate": 46,
+            "playerMMR": 5898,
+            "playerGames": 16,
+            "playerWinRate": 43,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Isol Mini",
-                    "playerCharacterPickRate": 53.3
+                    "playerCharacterPickRate": 56.2
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 18.8
                 },
                 {
                     "playerCharacterCode": "Debi & Marlene Mini",
-                    "playerCharacterPickRate": 6.7
+                    "playerCharacterPickRate": 6.2
                 }
             ],
             "playerTwitch": "Arky_ER"
