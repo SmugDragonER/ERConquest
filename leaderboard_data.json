@@ -212,13 +212,13 @@
         },
         {
             "playerName": "FishyFishy",
-            "playerMMR": 6713,
-            "playerGames": 148,
+            "playerMMR": 6766,
+            "playerGames": 149,
             "playerWinRate": 10,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Theodore Mini",
-                    "playerCharacterPickRate": 79.1
+                    "playerCharacterPickRate": 79.2
                 },
                 {
                     "playerCharacterCode": "Nadine Mini",
@@ -275,13 +275,13 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6700,
-            "playerGames": 263,
+            "playerMMR": 6748,
+            "playerGames": 264,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.7
+                    "playerCharacterPickRate": 25.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
@@ -296,21 +296,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 5942,
-            "playerGames": 312,
+            "playerMMR": 5939,
+            "playerGames": 313,
             "playerWinRate": 7,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 21.8
+                    "playerCharacterPickRate": 21.7
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.8
+                    "playerCharacterPickRate": 21.1
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 11.9
+                    "playerCharacterPickRate": 11.8
                 }
             ],
             "playerTwitch": "Leitnessen"
