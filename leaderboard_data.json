@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6566,
-            "playerGames": 262,
+            "playerMMR": 6700,
+            "playerGames": 263,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 24.4
+                    "playerCharacterPickRate": 24.7
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 18.7
+                    "playerCharacterPickRate": 18.6
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 12.6
+                    "playerCharacterPickRate": 12.5
                 }
             ],
             "playerTwitch": "hajtonamotorze"
