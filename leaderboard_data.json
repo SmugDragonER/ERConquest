@@ -23,17 +23,17 @@
         },
         {
             "playerName": "Baumi",
-            "playerMMR": 7100,
-            "playerGames": 85,
-            "playerWinRate": 21,
+            "playerMMR": 7040,
+            "playerGames": 86,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 82.4
+                    "playerCharacterPickRate": 82.6
                 },
                 {
                     "playerCharacterCode": "Tazia Mini",
-                    "playerCharacterPickRate": 9.4
+                    "playerCharacterPickRate": 9.3
                 },
                 {
                     "playerCharacterCode": "Abigail Mini",
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6270,
-            "playerGames": 255,
+            "playerMMR": 6220,
+            "playerGames": 256,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 23.5
+                    "playerCharacterPickRate": 23.4
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 19.2
+                    "playerCharacterPickRate": 19.1
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
