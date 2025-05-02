@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7633,
-            "playerGames": 153,
+            "playerMMR": 7645,
+            "playerGames": 154,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 54.2
+                    "playerCharacterPickRate": 53.9
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 21.6
+                    "playerCharacterPickRate": 22.1
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 13.7
+                    "playerCharacterPickRate": 13.6
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -380,21 +380,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5984,
-            "playerGames": 46,
-            "playerWinRate": 15,
+            "playerMMR": 5976,
+            "playerGames": 47,
+            "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 28.3
+                    "playerCharacterPickRate": 27.7
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 23.9
+                    "playerCharacterPickRate": 25.5
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 10.9
+                    "playerCharacterPickRate": 10.6
                 }
             ],
             "playerTwitch": "quip_er"
