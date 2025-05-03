@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7852,
-            "playerGames": 166,
+            "playerMMR": 7812,
+            "playerGames": 167,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 50.0
+                    "playerCharacterPickRate": 49.7
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 27.7
+                    "playerCharacterPickRate": 28.1
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 12.7
+                    "playerCharacterPickRate": 12.6
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -149,17 +149,17 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6679,
-            "playerGames": 99,
+            "playerMMR": 6653,
+            "playerGames": 100,
             "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 73.7
+                    "playerCharacterPickRate": 74.0
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 17.2
+                    "playerCharacterPickRate": 17.0
                 },
                 {
                     "playerCharacterCode": "Estelle Mini",
@@ -296,21 +296,21 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6299,
-            "playerGames": 328,
+            "playerMMR": 6238,
+            "playerGames": 330,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 21.3
+                    "playerCharacterPickRate": 21.2
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 20.1
+                    "playerCharacterPickRate": 20.0
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 13.1
+                    "playerCharacterPickRate": 13.0
                 }
             ],
             "playerTwitch": "Leitnessen"
