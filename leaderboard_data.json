@@ -107,21 +107,21 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6739,
-            "playerGames": 92,
+            "playerMMR": 6762,
+            "playerGames": 93,
             "playerWinRate": 22,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 44.6
+                    "playerCharacterPickRate": 44.1
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 20.7
+                    "playerCharacterPickRate": 20.4
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 16.3
+                    "playerCharacterPickRate": 16.1
                 }
             ],
             "playerTwitch": "reapom"
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6603,
-            "playerGames": 280,
+            "playerMMR": 6572,
+            "playerGames": 281,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 27.5
+                    "playerCharacterPickRate": 27.4
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 17.5
+                    "playerCharacterPickRate": 17.4
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -380,21 +380,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 5976,
-            "playerGames": 47,
+            "playerMMR": 6009,
+            "playerGames": 48,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 27.7
+                    "playerCharacterPickRate": 27.1
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 25.5
+                    "playerCharacterPickRate": 25.0
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 10.6
+                    "playerCharacterPickRate": 10.4
                 }
             ],
             "playerTwitch": "quip_er"
