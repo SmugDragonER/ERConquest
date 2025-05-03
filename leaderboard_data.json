@@ -2,21 +2,21 @@
     "players": [
         {
             "playerName": "FDGood",
-            "playerMMR": 7808,
-            "playerGames": 168,
-            "playerWinRate": 16,
+            "playerMMR": 7774,
+            "playerGames": 169,
+            "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Li Dailin Mini",
-                    "playerCharacterPickRate": 49.4
+                    "playerCharacterPickRate": 49.1
                 },
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 28.6
+                    "playerCharacterPickRate": 29.0
                 },
                 {
                     "playerCharacterCode": "Piolo Mini",
-                    "playerCharacterPickRate": 12.5
+                    "playerCharacterPickRate": 12.4
                 }
             ],
             "playerTwitch": "FDGoodVX"
@@ -296,42 +296,42 @@
         },
         {
             "playerName": "Leitnessen",
-            "playerMMR": 6202,
-            "playerGames": 331,
+            "playerMMR": 6117,
+            "playerGames": 333,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Justyna Mini",
-                    "playerCharacterPickRate": 21.1
+                    "playerCharacterPickRate": 21.0
                 },
                 {
                     "playerCharacterCode": "Markus Mini",
-                    "playerCharacterPickRate": 19.9
+                    "playerCharacterPickRate": 20.1
                 },
                 {
                     "playerCharacterCode": "Leni Mini",
-                    "playerCharacterPickRate": 13.0
+                    "playerCharacterPickRate": 13.2
                 }
             ],
             "playerTwitch": "Leitnessen"
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5925,
-            "playerGames": 141,
+            "playerMMR": 5878,
+            "playerGames": 142,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 29.8
+                    "playerCharacterPickRate": 29.6
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 16.3
+                    "playerCharacterPickRate": 16.2
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 14.2
+                    "playerCharacterPickRate": 14.1
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
@@ -380,21 +380,21 @@
         },
         {
             "playerName": "Quip",
-            "playerMMR": 6420,
-            "playerGames": 53,
+            "playerMMR": 6478,
+            "playerGames": 54,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Hyunwoo Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Aiden Mini",
-                    "playerCharacterPickRate": 24.5
+                    "playerCharacterPickRate": 24.1
                 },
                 {
                     "playerCharacterCode": "Shoichi Mini",
-                    "playerCharacterPickRate": 13.2
+                    "playerCharacterPickRate": 13.0
                 }
             ],
             "playerTwitch": "quip_er"
