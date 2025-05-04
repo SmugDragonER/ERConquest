@@ -275,13 +275,13 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6731,
-            "playerGames": 291,
+            "playerMMR": 6898,
+            "playerGames": 292,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 27.8
+                    "playerCharacterPickRate": 28.1
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
@@ -422,21 +422,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6324,
-            "playerGames": 99,
+            "playerMMR": 6317,
+            "playerGames": 100,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 68.7
+                    "playerCharacterPickRate": 69.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.2
+                    "playerCharacterPickRate": 15.0
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 5.1
+                    "playerCharacterPickRate": 5.0
                 }
             ],
             "playerTwitch": "Imp_Vivi"
