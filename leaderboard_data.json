@@ -107,21 +107,21 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6935,
-            "playerGames": 96,
+            "playerMMR": 6893,
+            "playerGames": 97,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 42.7
+                    "playerCharacterPickRate": 42.3
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 19.8
+                    "playerCharacterPickRate": 19.6
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 15.6
+                    "playerCharacterPickRate": 15.5
                 }
             ],
             "playerTwitch": "reapom"
@@ -275,21 +275,21 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6898,
-            "playerGames": 292,
+            "playerMMR": 6874,
+            "playerGames": 293,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 28.1
+                    "playerCharacterPickRate": 28.3
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 16.8
+                    "playerCharacterPickRate": 16.7
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 12.0
+                    "playerCharacterPickRate": 11.9
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -317,42 +317,42 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 6032,
-            "playerGames": 151,
+            "playerMMR": 5906,
+            "playerGames": 153,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 28.5
+                    "playerCharacterPickRate": 28.1
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 16.6
+                    "playerCharacterPickRate": 16.3
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 13.2
+                    "playerCharacterPickRate": 13.1
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7571,
-            "playerGames": 153,
+            "playerMMR": 7661,
+            "playerGames": 155,
             "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 64.7
+                    "playerCharacterPickRate": 63.9
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 14.4
+                    "playerCharacterPickRate": 14.2
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 8.5
+                    "playerCharacterPickRate": 9.7
                 }
             ],
             "playerTwitch": "connax_"
@@ -422,21 +422,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6317,
-            "playerGames": 100,
-            "playerWinRate": 15,
+            "playerMMR": 6248,
+            "playerGames": 102,
+            "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 69.0
+                    "playerCharacterPickRate": 67.6
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.0
+                    "playerCharacterPickRate": 14.7
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 5.0
+                    "playerCharacterPickRate": 4.9
                 }
             ],
             "playerTwitch": "Imp_Vivi"
