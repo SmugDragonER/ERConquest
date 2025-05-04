@@ -317,21 +317,21 @@
         },
         {
             "playerName": "MajinTenshinhan",
-            "playerMMR": 5958,
-            "playerGames": 146,
+            "playerMMR": 5940,
+            "playerGames": 147,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 28.8
+                    "playerCharacterPickRate": 28.6
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 16.4
+                    "playerCharacterPickRate": 17.0
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 13.7
+                    "playerCharacterPickRate": 13.6
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
@@ -422,21 +422,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6345,
-            "playerGames": 89,
+            "playerMMR": 6325,
+            "playerGames": 90,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 70.8
+                    "playerCharacterPickRate": 71.1
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.7
+                    "playerCharacterPickRate": 15.6
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 4.5
+                    "playerCharacterPickRate": 4.4
                 }
             ],
             "playerTwitch": "Imp_Vivi"
