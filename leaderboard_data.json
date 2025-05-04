@@ -338,21 +338,21 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7511,
-            "playerGames": 151,
-            "playerWinRate": 19,
+            "playerMMR": 7571,
+            "playerGames": 153,
+            "playerWinRate": 20,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 65.6
+                    "playerCharacterPickRate": 64.7
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 14.6
+                    "playerCharacterPickRate": 14.4
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
-                    "playerCharacterPickRate": 7.3
+                    "playerCharacterPickRate": 8.5
                 }
             ],
             "playerTwitch": "connax_"
@@ -401,42 +401,42 @@
         },
         {
             "playerName": "Arky\u30fc",
-            "playerMMR": 6188,
-            "playerGames": 21,
-            "playerWinRate": 42,
+            "playerMMR": 6163,
+            "playerGames": 22,
+            "playerWinRate": 40,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Isol Mini",
-                    "playerCharacterPickRate": 61.9
+                    "playerCharacterPickRate": 63.6
                 },
                 {
                     "playerCharacterCode": "Katja Mini",
-                    "playerCharacterPickRate": 14.3
+                    "playerCharacterPickRate": 13.6
                 },
                 {
                     "playerCharacterCode": "Debi & Marlene Mini",
-                    "playerCharacterPickRate": 4.8
+                    "playerCharacterPickRate": 4.5
                 }
             ],
             "playerTwitch": "Arky_ER"
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6313,
-            "playerGames": 91,
+            "playerMMR": 6372,
+            "playerGames": 93,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 71.4
+                    "playerCharacterPickRate": 71.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.4
+                    "playerCharacterPickRate": 15.1
                 },
                 {
-                    "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 4.4
+                    "playerCharacterCode": "Kenneth Mini",
+                    "playerCharacterPickRate": 4.3
                 }
             ],
             "playerTwitch": "Imp_Vivi"
