@@ -44,21 +44,21 @@
         },
         {
             "playerName": "Patreii",
-            "playerMMR": 7178,
-            "playerGames": 108,
+            "playerMMR": 7222,
+            "playerGames": 109,
             "playerWinRate": 17,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 77.8
+                    "playerCharacterPickRate": 78.0
                 },
                 {
                     "playerCharacterCode": "Sua Mini",
-                    "playerCharacterPickRate": 6.5
+                    "playerCharacterPickRate": 6.4
                 },
                 {
                     "playerCharacterCode": "Isol Mini",
-                    "playerCharacterPickRate": 5.6
+                    "playerCharacterPickRate": 5.5
                 }
             ],
             "playerTwitch": "Patreii"
@@ -149,17 +149,17 @@
         },
         {
             "playerName": "MoskesAcabe",
-            "playerMMR": 6617,
-            "playerGames": 102,
-            "playerWinRate": 20,
+            "playerMMR": 6716,
+            "playerGames": 103,
+            "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 74.5
+                    "playerCharacterPickRate": 74.8
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.5
                 },
                 {
                     "playerCharacterCode": "Estelle Mini",
@@ -338,17 +338,17 @@
         },
         {
             "playerName": "Connax",
-            "playerMMR": 7491,
-            "playerGames": 150,
-            "playerWinRate": 20,
+            "playerMMR": 7511,
+            "playerGames": 151,
+            "playerWinRate": 19,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 65.3
+                    "playerCharacterPickRate": 65.6
                 },
                 {
                     "playerCharacterCode": "Rio Mini",
-                    "playerCharacterPickRate": 14.7
+                    "playerCharacterPickRate": 14.6
                 },
                 {
                     "playerCharacterCode": "Alex Mini",
@@ -422,17 +422,17 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6325,
-            "playerGames": 90,
+            "playerMMR": 6313,
+            "playerGames": 91,
             "playerWinRate": 16,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 71.1
+                    "playerCharacterPickRate": 71.4
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.6
+                    "playerCharacterPickRate": 15.4
                 },
                 {
                     "playerCharacterCode": "Isaac Mini",
@@ -443,17 +443,17 @@
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 6356,
-            "playerGames": 59,
+            "playerMMR": 6349,
+            "playerGames": 60,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 81.4
+                    "playerCharacterPickRate": 80.0
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 16.9
+                    "playerCharacterPickRate": 18.3
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
