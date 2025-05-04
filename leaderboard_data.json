@@ -107,21 +107,21 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6893,
-            "playerGames": 97,
+            "playerMMR": 6855,
+            "playerGames": 99,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 42.3
+                    "playerCharacterPickRate": 41.4
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 19.6
+                    "playerCharacterPickRate": 19.2
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 15.5
+                    "playerCharacterPickRate": 15.2
                 }
             ],
             "playerTwitch": "reapom"
@@ -422,17 +422,17 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6248,
-            "playerGames": 102,
+            "playerMMR": 6257,
+            "playerGames": 103,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 67.6
+                    "playerCharacterPickRate": 67.0
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 14.7
+                    "playerCharacterPickRate": 14.6
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
