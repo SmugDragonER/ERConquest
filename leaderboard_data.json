@@ -275,13 +275,13 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6755,
-            "playerGames": 288,
+            "playerMMR": 6805,
+            "playerGames": 289,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 28.1
+                    "playerCharacterPickRate": 28.0
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
@@ -289,7 +289,7 @@
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 12.2
+                    "playerCharacterPickRate": 12.1
                 }
             ],
             "playerTwitch": "hajtonamotorze"
@@ -318,20 +318,20 @@
         {
             "playerName": "MajinTenshinhan",
             "playerMMR": 6112,
-            "playerGames": 148,
+            "playerGames": 149,
             "playerWinRate": 8,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Mai Mini",
-                    "playerCharacterPickRate": 28.4
+                    "playerCharacterPickRate": 28.2
                 },
                 {
                     "playerCharacterCode": "Emma Mini",
-                    "playerCharacterPickRate": 16.9
+                    "playerCharacterPickRate": 16.8
                 },
                 {
                     "playerCharacterCode": "Garnet Mini",
-                    "playerCharacterPickRate": 13.5
+                    "playerCharacterPickRate": 13.4
                 }
             ],
             "playerTwitch": "MajinTenshinhan"
@@ -359,21 +359,21 @@
         },
         {
             "playerName": "INTA",
-            "playerMMR": 5453,
-            "playerGames": 15,
-            "playerWinRate": 33,
+            "playerMMR": 5541,
+            "playerGames": 16,
+            "playerWinRate": 31,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Nadine Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 18.8
                 },
                 {
                     "playerCharacterCode": "Celine Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 18.8
                 },
                 {
                     "playerCharacterCode": "Laura Mini",
-                    "playerCharacterPickRate": 20.0
+                    "playerCharacterPickRate": 18.8
                 }
             ],
             "playerTwitch": "Kudetaa"
@@ -422,21 +422,21 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6342,
-            "playerGames": 96,
+            "playerMMR": 6300,
+            "playerGames": 97,
             "playerWinRate": 15,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 69.8
+                    "playerCharacterPickRate": 70.1
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 15.6
+                    "playerCharacterPickRate": 15.5
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 4.2
+                    "playerCharacterPickRate": 4.1
                 }
             ],
             "playerTwitch": "Imp_Vivi"
