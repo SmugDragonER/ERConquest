@@ -1,18 +1,18 @@
 import unittest
 from unittest.mock import patch, mock_open, MagicMock
 import json
-import Backend.dataCreator as dataCreator
+import backend.dataCreator as dataCreator
 import datetime
 
 class TestDataCreator(unittest.TestCase):
 
-    @patch("Backend.dataCreator.getERData")
+    @patch("backend.dataCreator.getERData")
     def test_getPlayerNum(self, mock_getERData):
         mock_getERData.return_value = {"user": {"userNum": 12345}}
         result = dataCreator.getPlayerNum("TestPlayer")
         self.assertEqual(result, 12345)
 
-    @patch("Backend.dataCreator.getERData")
+    @patch("backend.dataCreator.getERData")
     def test_getPlayerData(self, mock_getERData):
         mock_getERData.side_effect = [
             {"userStats": [{"mmr": 2000, "totalGames": 10, "totalWins": 5, "characterStats": [{"characterCode": 1, "usages": 5}]}]}
@@ -32,8 +32,8 @@ class TestDataCreator(unittest.TestCase):
         mock_open_file.assert_called_once_with("test.json", "w")
         mock_json_dump.assert_called_once_with(data, mock_open_file(), indent=4)
 
-    @patch("Backend.dataCreator.pytz.timezone")
-    @patch("Backend.dataCreator.datetime")
+    @patch("backend.dataCreator.pytz.timezone")
+    @patch("backend.dataCreator.datetime")
     @patch("builtins.open", new_callable=mock_open)
     @patch("json.dump")
     def test_saveCurrentTime(self, mock_json_dump, mock_open_file, mock_datetime,mock_timezone):
@@ -42,7 +42,7 @@ class TestDataCreator(unittest.TestCase):
         mock_now = datetime.datetime(2023, 10, 1, 14 , 30)
         mock_datetime.datetime.now.return_value = mock_now
         dataCreator.saveCurrentTime()
-        mock_open_file.assert_called_once_with("../Data/last_updated.json", "w")
+        mock_open_file.assert_called_once_with("../data/last_updated.json", "w")
         mock_json_dump.assert_called_once()
 
     def test_sortPlayers(self):

@@ -42,7 +42,7 @@ jobs:
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
-        python playerLocker.py
+        python backend/playerLocker.py
 
     # Main Elim (Run 2)
     - name: Run playerLocker.py (Main Elim - Run 2)
@@ -50,7 +50,7 @@ jobs:
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
-        python playerLocker.py
+        python backend/playerLocker.py
 
     # Main Elim (Run 3)
     - name: Run playerLocker.py (Main Elim - Run 3)
@@ -58,7 +58,7 @@ jobs:
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
-        python playerLocker.py
+        python backend/playerLocker.py
 
     # Top 3 Elim
     - name: Run playerLocker.py (Top 3 Run)
@@ -66,10 +66,10 @@ jobs:
       env:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
-        python playerLocker.py
+        python backend/playerLocker.py
 
     - name: Commit and push changes
       run: |
-        git add player_ID.json
+        git add data/player_ID.json
         git commit -m 'Update PlayerID data' || echo "No changes to commit"
         git push origin main  # Adjust 'main' if your default branch has a different name
