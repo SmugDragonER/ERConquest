@@ -8,7 +8,7 @@ class TestPlayerLocker(unittest.TestCase):
     @patch("builtins.open", new_callable=mock_open, read_data='{"Player1": {"locked": true, "lockedRank": 1}, "Player2": {"locked": false, "lockedRank": null}}')
     @patch("json.dump")
     def test_unlockAllPlayer(self, mock_json_dump, mock_open_file):
-        with open("../data/player_ID.json", "r") as file:
+        with open("../web/data/player_ID.json", "r") as file:
             player_data = json.load(file)
 
         unlockAllPlayer(player_data)
@@ -24,12 +24,12 @@ class TestPlayerLocker(unittest.TestCase):
     @patch("json.dump")
     def test_lockLowestPlayer(self, mock_json_dump, mock_open_file):
         # Lade die gemockten Leaderboard-Daten
-        with open("../data/leaderboard_data.json", "r") as file:
+        with open("../web/data/leaderboard_data.json", "r") as file:
             leaderboard_data = json.load(file)
 
         # Mock für die Player-Daten mit einem bereits gesperrten Spieler
         with patch("builtins.open", new_callable=mock_open, read_data='{"Player1": {"locked": false}, "Player2": {"locked": true, "lockedRank": 1}, "Player3": {"locked": false}}') as mock_open_player:
-            with open("../data/player_ID.json", "r") as file:
+            with open("../web/data/player_ID.json", "r") as file:
                 player_data = json.load(file)
 
             # Rufe die Funktion auf

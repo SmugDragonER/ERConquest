@@ -3,18 +3,18 @@ from web import *
 from data import *
 
 # Load player data
-with open("../data/player_ID.json", "r") as file:
+with open("../web/data/player_ID.json", "r") as file:
     player_data = json.load(file)
 
 # Load leaderboard data
-with open("../data/leaderboard_data.json", "r") as file:
+with open("../web/data/leaderboard_data.json", "r") as file:
     leaderboard_data = json.load(file)
 
 def unlockAllPlayer(player_data):
     for player in player_data.values():
         player["locked"] = False
         player["lockedRank"] = None
-    with open ("../data/player_ID.json", "w") as file:
+    with open ("../web/data/player_ID.json", "w") as file:
         json.dump(player_data, file , indent=4)
 
 def lockLowestPlayer(player_data, leaderboard_data):
@@ -27,7 +27,7 @@ def lockLowestPlayer(player_data, leaderboard_data):
                 player_data[player_name]["locked"] = True
                 locked_rank = len(players) - 1 - index
                 player_data[player_name]["lockedRank"] = locked_rank
-                with open("../data/player_ID.json", "w") as file:
+                with open("../web/data/player_ID.json", "w") as file:
                     json.dump(player_data, file, indent=4)
                 break
 
