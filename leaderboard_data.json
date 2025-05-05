@@ -107,21 +107,21 @@
         },
         {
             "playerName": "Pom",
-            "playerMMR": 6855,
-            "playerGames": 99,
+            "playerMMR": 6943,
+            "playerGames": 102,
             "playerWinRate": 23,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Adina Mini",
-                    "playerCharacterPickRate": 41.4
+                    "playerCharacterPickRate": 40.2
                 },
                 {
                     "playerCharacterCode": "Lenore Mini",
-                    "playerCharacterPickRate": 19.2
+                    "playerCharacterPickRate": 18.6
                 },
                 {
                     "playerCharacterCode": "Aya Mini",
-                    "playerCharacterPickRate": 15.2
+                    "playerCharacterPickRate": 14.7
                 }
             ],
             "playerTwitch": "reapom"
@@ -275,17 +275,17 @@
         },
         {
             "playerName": "HajtoNaMotorze",
-            "playerMMR": 6874,
-            "playerGames": 293,
+            "playerMMR": 6846,
+            "playerGames": 295,
             "playerWinRate": 12,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Silvia Mini",
-                    "playerCharacterPickRate": 28.3
+                    "playerCharacterPickRate": 28.5
                 },
                 {
                     "playerCharacterCode": "Chiara Mini",
-                    "playerCharacterPickRate": 16.7
+                    "playerCharacterPickRate": 16.6
                 },
                 {
                     "playerCharacterCode": "Adina Mini",
@@ -422,42 +422,42 @@
         },
         {
             "playerName": "ImpVivi",
-            "playerMMR": 6257,
-            "playerGames": 103,
+            "playerMMR": 6256,
+            "playerGames": 105,
             "playerWinRate": 14,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Istv\u00e1n Mini",
-                    "playerCharacterPickRate": 67.0
+                    "playerCharacterPickRate": 65.7
                 },
                 {
                     "playerCharacterCode": "William Mini",
-                    "playerCharacterPickRate": 14.6
+                    "playerCharacterPickRate": 15.2
                 },
                 {
                     "playerCharacterCode": "Kenneth Mini",
-                    "playerCharacterPickRate": 4.9
+                    "playerCharacterPickRate": 4.8
                 }
             ],
             "playerTwitch": "Imp_Vivi"
         },
         {
             "playerName": "LewMalpa",
-            "playerMMR": 6455,
-            "playerGames": 61,
-            "playerWinRate": 22,
+            "playerMMR": 6400,
+            "playerGames": 65,
+            "playerWinRate": 21,
             "playerCharacterStats": [
                 {
                     "playerCharacterCode": "Camilo Mini",
-                    "playerCharacterPickRate": 80.3
+                    "playerCharacterPickRate": 80.0
                 },
                 {
                     "playerCharacterCode": "Yumin Mini",
-                    "playerCharacterPickRate": 18.0
+                    "playerCharacterPickRate": 18.5
                 },
                 {
                     "playerCharacterCode": "Leon Mini",
-                    "playerCharacterPickRate": 1.6
+                    "playerCharacterPickRate": 1.5
                 }
             ],
             "playerTwitch": "ZuniM8"
