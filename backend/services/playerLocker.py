@@ -14,8 +14,7 @@ def unlockAllPlayer(player_data):
     for player in player_data.values():
         player["locked"] = False
         player["lockedRank"] = None
-    with open ("../web/data/player_ID.json", "w") as file:
-        json.dump(player_data, file , indent=4)
+    return player_data
 
 def lockLowestPlayer(player_data, leaderboard_data):
     players = leaderboard_data.get("players", [])
@@ -27,10 +26,5 @@ def lockLowestPlayer(player_data, leaderboard_data):
                 player_data[player_name]["locked"] = True
                 locked_rank = len(players) - 1 - index
                 player_data[player_name]["lockedRank"] = locked_rank
-                with open("../web/data/player_ID.json", "w") as file:
-                    json.dump(player_data, file, indent=4)
                 break
-
-if __name__ == "__main__":
-
-  lockLowestPlayer(player_data, leaderboard_data)
+    return player_data

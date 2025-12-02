@@ -1,5 +1,7 @@
-import os, time
 from dotenv import load_dotenv
+import requests
+from ratelimit import limits, sleep_and_retry
+import time, os, json, datetime, pytz
 
 
 ### DATA - Start ###
@@ -30,60 +32,86 @@ characterCodeDict = {
     81: "NiaH Mini", 82: "Xuelin Mini"
 }
 ### DATA - End ###
+session = requests.Session()
+session.headers.update({'x-api-key': API_KEY})
 
+with open("../web/data/player_ID.json", "r", encoding="utf-8") as file:
+    playerIDs = json.load(file)
 
-def getERData(endpoint: str, params: dict = None, retries: int = 5) -> dict:
-    url = f"{BASE_URL}/{endpoint}"
-    for attempts in range(retries):
-        response = rateLimitRequests(url, params)
+lockedPlayers=[]
+unlockedPlayers=[]
+currentlyLockedPlayers = 0
 
-        if response.status_code == 200:
-            return response.json()
-        elif response.status_code == 429:
-            time.sleep(2 ** attempts)
-        else:
-            response.raise_for_status()
-    raise Exception("Error")
+@sleep_and_retry
+@limits(calls=2, period=1)
+def rateLimitRequests(url, params = None):
+    return session.get(url, params = params)
 
-def getPlayerNum(playerName):
-    userInfo = getERData('user/nickname', {'query': playerName})
-    print(f"API Response for {playerName}: {userInfo}")  # Log the response
-    userNum = userInfo['user']['userNum']
-    return userNum
-
-def updatePlayerNum(playerIDs):
+def buildAllPlayerData(playerIDs):
+    all_players = []
     for player in playerIDs.keys():
-       userNum = getPlayerNum(player)
-       playerIDs[player]['id'] = userNum
+        try:
+            print(f"updating {player} at the moment")
+            player_data = getPlayerData(player)
+            all_players.append(player_data)
+        except Exception as e:
+            print(f"Error with player {player}")
+            # fill everything with 0
+            player_info = playerIDs.get(player)
+            twitch_link = player_info["twitch"]
+            player_data = {
+                "playerName": player,
+                "playerMMR": 0,
+                "playerGames": 0,
+                "playerWinRate": 0,
+                "playerCharacterStats": None,
+                "playerTwitch": twitch_link
+                }
+            all_players.append(player_data)
+    return all_players
 
-def getPlayerData(playerName):
-    playerInfo = playerIDs.get(playerName)
-    playerNum = playerInfo["id"] if playerInfo else getPlayerNum(playerName)
-    twitchLink = playerInfo["twitch"] if playerInfo else ""
+def sortPlayers(player_IDs,all_player_data) -> list[dict, dict]:
+# send in all player data
+# sort the it based on eliminated and alive players
+# return the sorted list
 
-    userRawInfo = getERData(f'user/stats/{playerNum}/{seasonID}')
-    userInfo = userRawInfo['userStats'][0]
-    userMMR = userInfo['mmr']
-    userGames = userInfo['totalGames']
-    userWR = int((userInfo['totalWins'] / userInfo['totalGames']) * 100) if userGames > 0 else 0
-    characterStats = userInfo['characterStats']
+    locked = [] #Eliminated for Order
+    unlocked = [] #Still alive
 
-    filteredCharacters = []
-    for char in characterStats:
-        characterCode = char['characterCode']
-        characterName = characterCodeDict[characterCode]
-        pickRate = round((char['usages'] / userGames) * 100, 1)
-        filteredCharacters.append({
-            'playerCharacterCode': characterName,
-            'playerCharacterPickRate': pickRate
-        })
+    for player in all_player_data: 
+        if not player_IDs.get(player["playerName"], {}).get("locked", False): # Nicht Eliminiert
+            unlocked.append(player)
+        else:
+            locked.append(player)
 
-    playerData = {
-        "playerName": playerName,
-        "playerMMR": userMMR,
-        "playerGames": userGames,
-        "playerWinRate": userWR,
-        "playerCharacterStats": filteredCharacters,
-        "playerTwitch": twitchLink
-    }
-    return playerData
+
+    unlocked.sort(key=lambda x: x["playerMMR"], reverse=True) # Sort based on MMR
+    locked.sort(key=lambda x: player_IDs.get(x["playerName"], {}).get("lockedRank", float('inf'))) # Sort based on lockedRank
+    
+    return unlocked + locked
+
+def saveAllPlayersToJson(playerDataList, filename):
+
+    data = {"players": playerDataList}
+    with open(filename, 'w') as json_file:
+        json.dump(data, json_file, indent=4)
+
+def saveCurrentTime() -> None :
+    cet_timezone = pytz.timezone("Europe/Paris")
+    currentTime = datetime.datetime.now(cet_timezone)
+
+    if currentTime.minute >= 15 and currentTime.minute < 44:
+        roundedTime = currentTime.replace(minute=30, second=0, microsecond=0)
+
+    elif currentTime.minute >= 45:
+        currentTime = currentTime + datetime.timedelta(hours=1)
+        roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
+
+    else: #currentTime.minute < 15:
+        roundedTime = currentTime.replace(minute=0, second=0, microsecond=0)
+
+    formattedTime = roundedTime.strftime("Last Update: %d.%m at %H:%M CEST")
+    print(formattedTime)
+    with open("../web/data/last_updated.json", 'w') as json_file:
+        json.dump(formattedTime,json_file, indent=4)
+    print("Current Time Saved")
