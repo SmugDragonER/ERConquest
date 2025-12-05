@@ -1,0 +1,146 @@
+{
+    "SmugDragon": {
+        "id": 1927375,
+        "twitch": "SmugDragonER",
+        "locked": true,
+        "lockedRank": 3
+    },
+    "SalmonFish": {
+        "id": 3605265,
+        "twitch": "iSalmonFish",
+        "locked": true,
+        "lockedRank": 8
+    },
+    "MajinTenshinhan": {
+        "id": 1544210,
+        "twitch": "MajinTenshinhan",
+        "locked": true,
+        "lockedRank": 15
+    },
+    "ImpVivi": {
+        "id": 118981,
+        "twitch": "Imp_Vivi",
+        "locked": true,
+        "lockedRank": 20
+    },
+    "kspiegler": {
+        "id": 4833234,
+        "twitch": "kspiegler",
+        "locked": true,
+        "lockedRank": 12
+    },
+    "Arky": {
+        "id": 2483262,
+        "twitch": "Arky_ER",
+        "locked": true,
+        "lockedRank": 19
+    },
+    "Quip": {
+        "id": 205538,
+        "twitch": "quip_er",
+        "locked": true,
+        "lockedRank": 18
+    },
+    "Leitnessen": {
+        "id": 4914463,
+        "twitch": "Leitnessen",
+        "locked": true,
+        "lockedRank": 14
+    },
+    "Johnjuice": {
+        "id": 3189470,
+        "twitch": "Johnjuice",
+        "locked": true,
+        "lockedRank": 22
+    },
+    "HajtoNaMotorze": {
+        "id": 1974355,
+        "twitch": "hajtonamotorze",
+        "locked": true,
+        "lockedRank": 13
+    },
+    "Connax": {
+        "id": 233292,
+        "twitch": "connax_",
+        "locked": true,
+        "lockedRank": 16
+    },
+    "Baumi": {
+        "id": 1620982,
+        "twitch": "baumi_er",
+        "locked": true,
+        "lockedRank": 1
+    },
+    "Aghilas": {
+        "id": 2398723,
+        "twitch": "Aghilask",
+        "locked": true,
+        "lockedRank": 4
+    },
+    "INTA": {
+        "id": 2487999,
+        "twitch": "Kudetaa",
+        "locked": true,
+        "lockedRank": 17
+    },
+    "Pom": {
+        "id": 144530,
+        "twitch": "reapom",
+        "locked": true,
+        "lockedRank": 5
+    },
+    "VeryNiceAshe": {
+        "id": 4415315,
+        "twitch": "xVeryNiceAshe",
+        "locked": true,
+        "lockedRank": 23
+    },
+    "MoskesAcabe": {
+        "id": 2523169,
+        "twitch": "MoskesAcabe",
+        "locked": true,
+        "lockedRank": 7
+    },
+    "GuiltyChallenger": {
+        "id": 3759987,
+        "twitch": "itsmebobou",
+        "locked": true,
+        "lockedRank": 11
+    },
+    "FishyFishy": {
+        "id": 2636096,
+        "twitch": "FishyFishy__",
+        "locked": true,
+        "lockedRank": 10
+    },
+    "Yazidron": {
+        "id": 524439,
+        "twitch": "yazidron",
+        "locked": true,
+        "lockedRank": 9
+    },
+    "FDGood": {
+        "id": 2109856,
+        "twitch": "FDGoodVX",
+        "locked": true,
+        "lockedRank": 0
+    },
+    "BLM": {
+        "id": 4139303,
+        "twitch": "bumholey29",
+        "locked": true,
+        "lockedRank": 6
+    },
+    "Patreii": {
+        "id": 1542445,
+        "twitch": "Patreii",
+        "locked": true,
+        "lockedRank": 2
+    },
+    "LewMalpa": {
+        "id": 2145240,
+        "twitch": "ZuniM8",
+        "locked": true,
+        "lockedRank": 21
+    }
+}

@@ -1,24 +1,29 @@
-
 import json
-from backend.services import ER_data, playerLocker
+from fastapi import FastAPI
+from services.ER_data import get_all_player_ids, get_all_player_stats
+from services.constants import player_name_list
+from scripts.setup_data import setup
 
-def main ():
-    ### LOAD DATA ###
-    with open("../data/player_ID.json", "r", encoding="utf-8") as file:
-        playerIDs = json.load(file)
+app = FastAPI()
 
-    with open("../data/leaderboard", "r", encoding="utf-8") as file:
-        playerIDs = json.load(file)
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
 
+@app.get("/update_all_player_data")
+async def update_all_player_data():
+    return get_all_player_stats(player_name_list=player_name_list)
 
-    ER_data.buildAllPlayerData()
-    ER_data.sortPlayers()
-    playerLocker.lockLowestPlayer()
-    playerLocker.unlockAllPlayer()
+@app.get("/update_all_player_ids")
+async def update_all_player_ids():
+    return get_all_player_ids(player_name_list) 
 
+@app.post("/admin/setup")
+def run_setup():
+    setup(player_name_list)
+    return{"status": "ok"}
 
-
-    ###TODO: FastAPI
-    ### 1. Grundgerüst
-    #2. bestehende einbinden
-    #3. vue
+#TODO: endpoints to save data to a json or give over the dict directly
+    #probably get the data and then async give it here and update it in the json?
+    # check VUE for decision
+    # maybe save to json, once saved send ok -> autorefresh the site and clear cache?

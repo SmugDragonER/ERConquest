@@ -1,6 +1,4 @@
 import json
-from web import *
-from data import *
 
 # Load player data
 with open("../web/data/player_ID.json", "r") as file:
