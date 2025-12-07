@@ -1,5 +1,5 @@
 import requests
-from constants import CLIENT_ID, CLIENT_SECRET, GRANT_TYPE,TWITCH_SEARCH_CHANNEL_URL
+from .constants import CLIENT_ID, CLIENT_SECRET, GRANT_TYPE,TWITCH_SEARCH_CHANNEL_URL
 import time
 
 _access_token = None

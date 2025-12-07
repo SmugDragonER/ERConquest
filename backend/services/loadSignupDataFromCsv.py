@@ -22,7 +22,7 @@ def load_signups_from_csv(path: str) -> List[PlayerSignUpData]:
                     Name = row["In-Game-Name"],
                     Twitch = Twitch,
                     Discord = row["Discord-Name"],
-                    IMG= f"{row["In-Game-Name"]}.png",
+                    IMG= f'{row["In-Game-Name"]}.png',
                 )
             )
     

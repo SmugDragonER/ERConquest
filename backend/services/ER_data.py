@@ -1,5 +1,5 @@
 import json
-from services.erAPI import get_player_id, get_player_stats
+from .erAPI import get_player_id, get_player_stats
 
 ### Fetch Data
 

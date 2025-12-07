@@ -2,7 +2,7 @@ import json
 import requests
 import time
 from ratelimit import limits, sleep_and_retry
-from services.constants import MatchingMode, seasonID, ER_BASE_URL, API_KEY
+from .constants import MatchingMode, seasonID, ER_BASE_URL, API_KEY
 # Create a session to persist certain parameters across requests
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})

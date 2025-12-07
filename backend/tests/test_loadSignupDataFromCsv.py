@@ -11,6 +11,10 @@ def test_load_signups_from_csv():
     assert first.Twitch == "smugdragon"
     assert first.IMG == "SmugDragon.png"
 
+    scnd = signups[1]
+    assert scnd.Name == "Leitnessen"
+    assert scnd.Twitch == "leitnessen"
+    assert scnd.IMG == "Leitnessen.png"
 
     
 
