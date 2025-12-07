@@ -10,9 +10,8 @@ def get_all_player_ids(player_name_list) -> dict:
         player_id_dict[pn] = current_player_id
     return player_id_dict
 
-def get_all_player_stats(player_name_list) -> dict:
+def get_all_player_stats(player_name_list: list, player_id_dict: dict) -> dict:
     all_player_stats_dict = {}
-    player_id_dict = {}
     for pn in player_name_list:
         current_player_id: int = player_id_dict[pn]
         all_player_stats_dict[pn] = get_player_stats(current_player_id)
@@ -26,6 +25,38 @@ def get_data_from_json(filename):
 def save_data_to_json(data, filename):
     with open(filename, 'w') as json_file:
         json.dump(data, json_file, indent=4)
+
+
+
+
+# conquest_data.json
+# {
+#     "players": [
+#         {
+#            "playerName": "FDGood",
+#             "playerMMR": 7672,
+#             "playerGames": 172,
+#             "playerWinRate": 15,
+#             "playerCharacterStats": [
+#                 {
+#                     "playerCharacterCode": "Li Dailin Mini",
+#                     "playerCharacterPickRate": 48.3
+#                 },
+#                 {
+#                     "playerCharacterCode": "Istv\u00e1n Mini",
+#                     "playerCharacterPickRate": 30.2
+#                 },
+#                 {
+#                     "playerCharacterCode": "Piolo Mini",
+#                     "playerCharacterPickRate": 12.2
+#                 }
+#             ],
+#             "playerTwitch": "FDGoodVX",
+#             "isLiveOnTwitch": bool,
+#             "isLocked": bool,
+#             "lockedRank": int,
+#         }
+
 
 
 ### FOR LATER USE

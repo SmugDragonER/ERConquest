@@ -2,7 +2,7 @@ import json
 import requests
 import time
 from ratelimit import limits, sleep_and_retry
-from services.constants import MatchingMode, seasonID, BASE_URL, API_KEY
+from services.constants import MatchingMode, seasonID, ER_BASE_URL, API_KEY
 # Create a session to persist certain parameters across requests
 session = requests.Session()
 session.headers.update({'x-api-key': API_KEY})
@@ -20,7 +20,7 @@ def rate_limited_request(url, params=None):
 
 def get_ER_data(endpoint: str, params: dict = None) -> dict:
     # Construct the full URL
-    url = f"{BASE_URL}/{endpoint}"
+    url = f"{ER_BASE_URL}/{endpoint}"
     
     response = rate_limited_request(url, params)
     if response.status_code == 200:

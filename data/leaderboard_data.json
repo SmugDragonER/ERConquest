@@ -1,3 +1,42 @@
+
+
+conquest_data.json
+{
+    "players": [
+        {
+           "playerName": "FDGood",
+            "playerMMR": 7672,
+            "playerGames": 172,
+            "playerWinRate": 15,
+            "playerCharacterStats": [
+                {
+                    "playerCharacterCode": "Li Dailin Mini",
+                    "playerCharacterPickRate": 48.3
+                },
+                {
+                    "playerCharacterCode": "Istv\u00e1n Mini",
+                    "playerCharacterPickRate": 30.2
+                },
+                {
+                    "playerCharacterCode": "Piolo Mini",
+                    "playerCharacterPickRate": 12.2
+                }
+            ],
+            "playerTwitch": "FDGoodVX",
+            "isLiveOnTwitch": bool,
+            "isLocked": bool,
+            "lockedRank": int,
+        }
+
+
+
+
+
+
+
+
+
+
 {
     "players": [
         {

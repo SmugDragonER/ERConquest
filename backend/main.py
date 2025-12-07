@@ -22,8 +22,3 @@ async def update_all_player_ids():
 def run_setup():
     setup(player_name_list)
     return{"status": "ok"}
-
-#TODO: endpoints to save data to a json or give over the dict directly
-    #probably get the data and then async give it here and update it in the json?
-    # check VUE for decision
-    # maybe save to json, once saved send ok -> autorefresh the site and clear cache?

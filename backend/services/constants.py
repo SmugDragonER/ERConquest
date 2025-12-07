@@ -37,6 +37,18 @@ characterCodeDict = {
 76: "Garnet Mini", 77: "Yumin Mini", 78: "Hisui Mini", 79: "Justyna Mini", 80: "István Mini",
 81: "NiaH Mini", 82: "Xuelin Mini"
 }
+
+### API RELATED STUFF
+## ER
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
-BASE_URL = "https://open-api.bser.io/"
+ER_BASE_URL = "https://open-api.bser.io/"
+
+## Twitch
+TWITCH_BASE_URL = "https://id.twitch.tv/oauth2/token"
+TWITCH_SEARCH_CHANNEL_URL = "https://api.twitch.tv/helix/search/channels"
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+GRANT_TYPE = "client_credentials"
+
+
