@@ -1,6 +1,6 @@
 import json
 from .erAPI import get_player_id, get_player_stats
-
+import time
 ### Fetch Data
 
 def get_all_player_ids(player_name_list) -> dict:
@@ -15,6 +15,7 @@ def get_all_player_stats(player_name_list: list, player_id_dict: dict) -> dict:
     for pn in player_name_list:
         current_player_id: int = player_id_dict[pn]
         all_player_stats_dict[pn] = get_player_stats(current_player_id)
+        time.sleep(1)
     return all_player_stats_dict 
 
 def get_data_from_json(filename):

@@ -1,5 +1,5 @@
 from typing import Dict
-
+import time
 from ..models.models import PlayerLeaderboardEntry, Leaderboard
 from .twitchAPI import check_is_player_live
 from .loadSignupDataFromCsv import load_signups_from_csv
@@ -47,10 +47,11 @@ def create_leaderboard_data(
     return lb
 
 def build_leaderboard():
-    signups_list = load_signups_from_csv("...")
+    signups_list = load_signups_from_csv("data/test_signup_data.csv")
     signups_by_name = {s.Name: s for s in signups_list}
 
-    player_id_dict = get_player_id_dict(signups_by_name.key())
-    all_player_stats_dict = get_all_player_stats(player_id_dict)
+    player_id_dict = get_all_player_ids(signups_by_name.keys())
+    time.sleep(1)
+    all_player_stats_dict = get_all_player_stats(signups_by_name,player_id_dict)
     lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name)
     return lb

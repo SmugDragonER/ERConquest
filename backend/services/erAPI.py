@@ -9,7 +9,7 @@ session.headers.update({'x-api-key': API_KEY})
 
 # Rate limit: 1 request per second, 2 requests in a burst
 @sleep_and_retry
-@limits(calls=1, period=1)
+@limits(calls=1, period=2)
 def rate_limited_request(url, params=None):
     # Make a rate-limited request
     return session.get(url, params=params)
@@ -20,7 +20,7 @@ def rate_limited_request(url, params=None):
 
 def get_ER_data(endpoint: str, params: dict = None) -> dict:
     # Construct the full URL
-    url = f"{ER_BASE_URL}/{endpoint}"
+    url = f"{ER_BASE_URL}{endpoint}"
     
     response = rate_limited_request(url, params)
     if response.status_code == 200:
@@ -34,7 +34,7 @@ def get_ER_data(endpoint: str, params: dict = None) -> dict:
 def get_player_id(player_name:str) -> int:
     # Get the user number for a given player name
     user_info = get_ER_data('v1/user/nickname', {'query': player_name})
-    player_id: int = user_info['user']['uid']
+    player_id: int = user_info['user']['userId']
     return player_id
 
 ### FILTER DICT ###
@@ -42,7 +42,7 @@ def get_player_id(player_name:str) -> int:
 #Used to ask the API directly but changed due to rate limit
 
 def get_player_stats(player_id: int, season_id: int = seasonID, matching_mode: int = MatchingMode.RANKED) -> dict:
-    player_stats = get_ER_data(f'v2/user/stats/{player_id}/{season_id}/{matching_mode}')
+    player_stats = get_ER_data(f'v2/user/stats/uid/{player_id}/{season_id}/{matching_mode.value}')
     return player_stats
 
 def get_user_rank(user_info) -> int:
