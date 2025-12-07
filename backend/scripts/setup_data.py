@@ -1,6 +1,6 @@
-from services.ER_data import (
+from backend.utils.util import save_data_to_json
+from backend.services.ER_data import (
     get_all_player_ids,
-    save_data_to_json,
     get_all_player_stats,
 )
 

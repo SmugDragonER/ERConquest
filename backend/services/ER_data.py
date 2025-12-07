@@ -23,13 +23,6 @@ def get_data_from_json(filename):
         data = json.load(file)
         return data
 
-def save_data_to_json(data, filename):
-    with open(filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-
-
-
-
 # conquest_data.json
 # {
 #     "players": [

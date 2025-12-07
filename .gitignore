@@ -1,7 +1,4 @@
 .env
-/.vscode/
-/.idea/
-
 
 # Bytecode / Caches
 __pycache__/
@@ -28,7 +25,6 @@ htmlcov/
 .vscode/
 .idea/
 *.swp
-
 
 # Abhängigkeiten
 node_modules/
