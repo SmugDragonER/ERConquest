@@ -1,4 +1,5 @@
 import json
+from backend.models.models import Leaderboard
 
 # Load player data
 with open("../web/data/player_ID.json", "r") as file:
@@ -14,8 +15,14 @@ def unlockAllPlayer(player_data):
         player["lockedRank"] = None
     return player_data
 
-def lockLowestPlayer(player_data, leaderboard_data):
-    players = leaderboard_data.get("players", [])
+def lockLowestPlayer(Leaderboard):
+    sorted_lb = Leaderboard.sorted_by_mmr()
+    players_dict = sorted_lb.entries
+    
+    for index, players in enumerate(reversed(players)):
+        player_name = players.name
+
+
     
     if isinstance(players, list) and players:
         for index, player in enumerate(reversed(players)):

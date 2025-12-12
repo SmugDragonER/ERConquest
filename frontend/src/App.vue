@@ -1,47 +1,48 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <div class="body">
+    <header>
+        <p id="last-updated">Loading last updated time...</p>
+        <div class="contact-container">
+            <p id="contact-button" class="contact-text">Contact</p>
+            <div id="contact-box" class="contact-box">
+                <p>In case of Issues or if you want to help:</p>
+                <p>Discord: SmugDragonER</p>
+            </div>
+        </div>
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+    <main class="main-container">
+        <div class="content-container">
+            <div id="title" class="title">
+                <h1><img src="./assets/images/Smugs-Conquest-Title.png" alt="title" class="titleimg"></h1>
+            </div>
+            <div class="leaderboard-container">
+                <div id="leaderboard-left" class="leaderboard-left"></div>
+                <div id="leaderboard" class="leaderboard"></div>
+                <div id="leaderboard-right" class="leaderboard-right">
+                    <p class="Rules"><span class="RuleWord">Rules:</span>- 90% of Games must be streamed<br>- All Games must be played on the EU server<br>- General Fair Play rules</p>
+                    <p class="Rules"><span class="RuleWord">Eliminations:</span>
+                        - First 3 Days:&nbsp;No Elims <br>
+                        - After Day 3:&nbsp;&nbsp;3 Elims Daily <br>
+                        - TOP 3:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Elims Daily <br>
+                        - Elims happen after ranked
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <footer>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2Wv0rEQBDGR7BRrhDfQWsrWy0sFNHSP42l9lroGxzCvYbe7CAIPoAHdj7C4YG4MylSiO0diDmScHFDdmM8boNgBqbZnXy/fLOb7AI0USWIdwFFAIWhyztQW6AwKInSZF0fWMkgA6O81Acm2QfkrzRlq07w4Xer5aCezdKL5kFx31jjfjI2lT7+YrMgnxlu0yQ+LX9GHPq5CRk4BR6CRVASFMDxGOmFSptRmeDY/gSOMgSUNlDYKggQX1mgE8HLYn3YSrRQhhmU9LbtzXo5F8gnEEVzydz96xKgvDvBKB9Aetno4h4gvxk1j86OAPKtRfAZSK+D4mu326y2DSRroPjJMnfjBivu2AX5E1BGFcCjpNa+FJ0Sx3Lxo/i0SXJe4jg49gZGOXKDu7zpz7HeKAHLqjfwHa+4wfF3581xWPwv/PNQnlr9d8GYO6lmlFzhXmaeVLOCku1EaqIJ8BNj7Qdw+0WrSfQAAAAASUVORK5CYII=" alt="crown"> 
+        <p>Prime Sub to 
+            <a href="https://www.twitch.tv/SmugDragonER" class="footer-smugdragon">
+                <span class="footer-smugdragon">SmugDragon</span></a>
+                  for more Events!</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2Wv0rEQBDGR7BRrhDfQWsrWy0sFNHSP42l9lroGxzCvYbe7CAIPoAHdj7C4YG4MylSiO0diDmScHFDdmM8boNgBqbZnXy/fLOb7AI0USWIdwFFAIWhyztQW6AwKInSZF0fWMkgA6O81Acm2QfkrzRlq07w4Xer5aCezdKL5kFx31jjfjI2lT7+YrMgnxlu0yQ+LX9GHPq5CRk4BR6CRVASFMDxGOmFSptRmeDY/gSOMgSUNlDYKggQX1mgE8HLYn3YSrRQhhmU9LbtzXo5F8gnEEVzydz96xKgvDvBKB9Aetno4h4gvxk1j86OAPKtRfAZSK+D4mu326y2DSRroPjJMnfjBivu2AX5E1BGFcCjpNa+FJ0Sx3Lxo/i0SXJe4jg49gZGOXKDu7zpz7HeKAHLqjfwHa+4wfF3581xWPwv/PNQnlr9d8GYO6lmlFzhXmaeVLOCku1EaqIJ8BNj7Qdw+0WrSfQAAAAASUVORK5CYII=" alt="crown">
+    </footer>
+
+  </div>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
