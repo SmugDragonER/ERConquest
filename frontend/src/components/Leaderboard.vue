@@ -93,7 +93,6 @@ function placeClass(index){
           <a
             class="playerDak" 
             :href="'https://dak.gg/er/players/${player.name}'" 
-            target="_blank"
           >
             Dak.gg
           </a>
@@ -103,10 +102,9 @@ function placeClass(index){
 </template>
 
 <style scoped>
-.leaderboard-inner{
-  display:flex;
-  flex-direction: column;
-  gap: var(--spacing-small)
+.player-card-list{
+  display:grid;
+  grid-template-columns: 1fr;
 }
 .playerCard {
   display: grid;
@@ -193,6 +191,17 @@ function placeClass(index){
       align-self: self-end;
       font-size: medium;
       font-weight: 600;
+    }
+    .playerMMRNumber {
+        align-self: end;
+        position: relative;
+        bottom: -10px;
+    }
+    .rankImage {
+        height: 50px;
+        transform: scale(1.6);
+        margin-left: -10px;
+        margin-right: -10px;
     } 
     .playerName{
       grid-column: 4;
@@ -219,37 +228,23 @@ function placeClass(index){
     .twitchLiveStatus {
       grid-column: 10;
     }
-    .twitchLink {
-      grid-column: 11;
-      justify-self: end;
-    }
-  
-    .playerMMRNumber {
-        align-self: end;
-        position: relative;
-        bottom: -10px;
-    }
-    .stat-label {
-        color: var(--font-light-color);
-        font-weight:lighter;
-    }
-    .rankImage {
-        height: 50px;
-        transform: scale(1.6);
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-
     .playerCharacter1, .playerCharacter2, .playerCharacter3 {
         justify-self: center;
         align-self: self-end;
         font-size: smaller;
     }
-
     .playerCharacter1-img, .playerCharacter2-img, .playerCharacter3-img{
         height: 60px;
     }
+    .stat-label {
+        color: var(--font-light-color);
+        font-weight:lighter;
+    }
 
+.twitchLink {
+      grid-column: 11;
+      justify-self: end;
+    }
 .twitchLink:link {
     color: var(--twitch-main-color);
     text-decoration: none;
@@ -281,6 +276,4 @@ function placeClass(index){
     color: var(--font-light-color);
 }
 
-</style>
-<!-- hilfsfunktionen oder computed properties statt switch + create element-->
- 
+</style> 

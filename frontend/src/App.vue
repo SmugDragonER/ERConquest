@@ -22,9 +22,9 @@ import MainContent from './components/MainContent.vue';
                 </h1>
             </div>
             <div class="leaderboard-container">
-              <Aside class="leaderboard-left" />
-              <MainContent class="leaderboard" />
-              <Bside class="leaderboard-right"/>
+              <Aside />
+              <MainContent />
+              <Bside />
             </div>
         </div>
     </main>
@@ -67,7 +67,7 @@ import MainContent from './components/MainContent.vue';
 .content-container {
   z-index: 2;
   width: 100%;
-  /* max-width: 1400px; */
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -88,7 +88,7 @@ import MainContent from './components/MainContent.vue';
 
 .leaderboard-container {
   display: grid;
-  grid-template-columns: minmax(0, 0.5fr) minmax(900px, 3fr) minmax(0, 0.5fr);
+  grid-template-columns: 1fr minmax(900px, 2fr) 1fr;
   gap: var(--spacing-large);
   align-items: flex-start;
 }
@@ -100,8 +100,6 @@ import MainContent from './components/MainContent.vue';
 .leaderboard {
   grid-column: 2;
   width: 100%;
-  display: grid !important;
-  grid-template-columns: repeat(12, auto);
 }
 
 .leaderboard-right {
