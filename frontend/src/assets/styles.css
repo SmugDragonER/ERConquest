@@ -231,10 +231,10 @@ header {
     
     .playerCard {
         display: grid;
-        grid-template-columns: var(--grid-small) var(--grid-large) var(--grid-large) 
-                              var(--grid-xlarge) var(--grid-medium) var(--grid-medium) 
-                              var(--grid-small) var(--grid-small) var(--grid-small) 
-                              var(--grid-medium) minmax(var(--grid-medium), 1fr); /* Last column stretches */
+        grid-template-columns: var(--grid-small) var(--grid-large) var(--grid-large) /*index, pfp, RP*/
+                              var(--grid-xlarge) var(--grid-medium) var(--grid-medium) /*name, games, winrate*/
+                              var(--grid-small) var(--grid-small) var(--grid-small) /*character stats*/
+                              var(--grid-medium) minmax(var(--grid-medium), 1fr); /*dak, twitch, Last column stretches */
         grid-column: span 11;
         background-color: var(--background-dark-grey);
         align-items: center;

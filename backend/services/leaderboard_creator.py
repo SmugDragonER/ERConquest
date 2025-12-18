@@ -1,9 +1,10 @@
 from typing import Dict
 import time
+from pathlib import Path
 from ..models.models import PlayerLeaderboardEntry, Leaderboard
 from .twitchAPI import check_is_player_live
 from .loadSignupDataFromCsv import load_signups_from_csv
-from .ER_data import get_all_player_ids, get_all_player_stats
+from .ER_data import get_all_player_ids, get_all_player_stats, get_data_from_json
 
 def create_leaderboard_data(
         player_id_dict: Dict[str, int],
@@ -22,7 +23,7 @@ def create_leaderboard_data(
         mmr = user_stats_entry["mmr"] #in the userStats list, get the value of the mmr key
         games = user_stats_entry["totalGames"]
         wins = user_stats_entry["totalWins"]
-        win_rate = wins/games if games > 0 else 0
+        win_rate = round((wins/games)*100,1) if games > 0 else 0
 
         character_stats = user_stats_entry["characterStats"]
         player_twitch = signups_by_name[pn].Twitch
@@ -54,4 +55,13 @@ def build_leaderboard():
     time.sleep(1)
     all_player_stats_dict = get_all_player_stats(signups_by_name,player_id_dict)
     lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name)
+    return lb
+
+def get_latest_leaderboard():
+    DATA_PATH = Path(__file__).resolve().parents[2]/"data"
+    files = [p for p in DATA_PATH.glob("leaderboard*.json") if p.is_file()]
+    if not files:
+        return None
+    latest = max(files, key=lambda p: p.stat().st_mtime)
+    lb = get_data_from_json(latest.name)
     return lb

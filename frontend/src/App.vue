@@ -1,48 +1,110 @@
 <script setup>
+import Aside from './components/Aside.vue';
+import Bside from './components/Bside.vue';
+import Footer from './components/Footer.vue';
+import Header from './components/Header.vue';
+import MainContent from './components/MainContent.vue';
 </script>
 
 <template>
   <div class="body">
-    <header>
-        <p id="last-updated">Loading last updated time...</p>
-        <div class="contact-container">
-            <p id="contact-button" class="contact-text">Contact</p>
-            <div id="contact-box" class="contact-box">
-                <p>In case of Issues or if you want to help:</p>
-                <p>Discord: SmugDragonER</p>
-            </div>
-        </div>
-    </header>
+    <Header />
 
     <main class="main-container">
         <div class="content-container">
-            <div id="title" class="title">
-                <h1><img src="./assets/images/Smugs-Conquest-Title.png" alt="title" class="titleimg"></h1>
+            <div class="title">
+                <h1>
+                  <img 
+                  src="./assets/images/Smugs-Conquest-Title.png" 
+                  alt="title" 
+                  class="titleimg"
+                  />
+                </h1>
             </div>
             <div class="leaderboard-container">
-                <div id="leaderboard-left" class="leaderboard-left"></div>
-                <div id="leaderboard" class="leaderboard"></div>
-                <div id="leaderboard-right" class="leaderboard-right">
-                    <p class="Rules"><span class="RuleWord">Rules:</span>- 90% of Games must be streamed<br>- All Games must be played on the EU server<br>- General Fair Play rules</p>
-                    <p class="Rules"><span class="RuleWord">Eliminations:</span>
-                        - First 3 Days:&nbsp;No Elims <br>
-                        - After Day 3:&nbsp;&nbsp;3 Elims Daily <br>
-                        - TOP 3:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 Elims Daily <br>
-                        - Elims happen after ranked
-                    </p>
-                </div>
+              <Aside class="leaderboard-left" />
+              <MainContent class="leaderboard" />
+              <Bside class="leaderboard-right"/>
             </div>
         </div>
     </main>
 
-    <footer>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2Wv0rEQBDGR7BRrhDfQWsrWy0sFNHSP42l9lroGxzCvYbe7CAIPoAHdj7C4YG4MylSiO0diDmScHFDdmM8boNgBqbZnXy/fLOb7AI0USWIdwFFAIWhyztQW6AwKInSZF0fWMkgA6O81Acm2QfkrzRlq07w4Xer5aCezdKL5kFx31jjfjI2lT7+YrMgnxlu0yQ+LX9GHPq5CRk4BR6CRVASFMDxGOmFSptRmeDY/gSOMgSUNlDYKggQX1mgE8HLYn3YSrRQhhmU9LbtzXo5F8gnEEVzydz96xKgvDvBKB9Aetno4h4gvxk1j86OAPKtRfAZSK+D4mu326y2DSRroPjJMnfjBivu2AX5E1BGFcCjpNa+FJ0Sx3Lxo/i0SXJe4jg49gZGOXKDu7zpz7HeKAHLqjfwHa+4wfF3581xWPwv/PNQnlr9d8GYO6lmlFzhXmaeVLOCku1EaqIJ8BNj7Qdw+0WrSfQAAAAASUVORK5CYII=" alt="crown"> 
-        <p>Prime Sub to 
-            <a href="https://www.twitch.tv/SmugDragonER" class="footer-smugdragon">
-                <span class="footer-smugdragon">SmugDragon</span></a>
-                  for more Events!</p>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2Wv0rEQBDGR7BRrhDfQWsrWy0sFNHSP42l9lroGxzCvYbe7CAIPoAHdj7C4YG4MylSiO0diDmScHFDdmM8boNgBqbZnXy/fLOb7AI0USWIdwFFAIWhyztQW6AwKInSZF0fWMkgA6O81Acm2QfkrzRlq07w4Xer5aCezdKL5kFx31jjfjI2lT7+YrMgnxlu0yQ+LX9GHPq5CRk4BR6CRVASFMDxGOmFSptRmeDY/gSOMgSUNlDYKggQX1mgE8HLYn3YSrRQhhmU9LbtzXo5F8gnEEVzydz96xKgvDvBKB9Aetno4h4gvxk1j86OAPKtRfAZSK+D4mu326y2DSRroPjJMnfjBivu2AX5E1BGFcCjpNa+FJ0Sx3Lxo/i0SXJe4jg49gZGOXKDu7zpz7HeKAHLqjfwHa+4wfF3581xWPwv/PNQnlr9d8GYO6lmlFzhXmaeVLOCku1EaqIJ8BNj7Qdw+0WrSfQAAAAASUVORK5CYII=" alt="crown">
-    </footer>
+    <Footer />
 
   </div>
 </template>
+
+<style scoped>
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--spacing-large) 0;
+  background-image: url(./assets/images/s7background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  padding-bottom: var(--spacing-xxlarge);
+}
+
+.main-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.content-container {
+  z-index: 2;
+  width: 100%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: var(--font-size-xlarge);
+  color: var(--white-color);
+  margin-bottom: var(--spacing-medium);
+}
+
+.titleimg {
+  height: 325px;
+  position: relative;
+  top: -30px;
+}
+
+.leaderboard-container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.5fr) minmax(900px, 3fr) minmax(0, 0.5fr);
+  gap: var(--spacing-large);
+  align-items: flex-start;
+}
+
+.leaderboard-left {
+  grid-column: 1;
+}
+
+.leaderboard {
+  grid-column: 2;
+  width: 100%;
+  display: grid !important;
+  grid-template-columns: repeat(12, auto);
+}
+
+.leaderboard-right {
+  grid-column: 3;
+}
+</style>

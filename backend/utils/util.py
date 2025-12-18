@@ -1,6 +1,7 @@
 from dataclasses import asdict
-from ..models.models import Leaderboard, PlayerLeaderboardEntry
+from backend.models.models import Leaderboard, PlayerLeaderboardEntry
 import json
+from pathlib import Path
 
 def leaderboard_to_dict(lb: Leaderboard) -> dict:
     return {

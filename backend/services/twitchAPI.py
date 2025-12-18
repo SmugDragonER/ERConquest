@@ -28,23 +28,24 @@ def get_app_access_token() -> str:
 def check_is_player_live(player_twitch: str) -> bool:
     # check if given player is live on twitch
 
-    token = get_app_access_token()
-    params = {
-        "query": player_twitch,
-    }
+    # token = get_app_access_token()
+    # params = {
+    #     "query": player_twitch,
+    # }
 
-    headers = {
-        "Client-ID": CLIENT_ID,
-        "Authorization": f"Bearer {token}",
-    }
+    # headers = {
+    #     "Client-ID": CLIENT_ID,
+    #     "Authorization": f"Bearer {token}",
+    # }
 
-    r = requests.get(TWITCH_SEARCH_CHANNEL_URL, headers=headers, params=params)
-    r.raise_for_status()
-    search_channel_json = r.json()
-    data = search_channel_json.get("data", [])
-    if not data:
-        raise ValueError(f"No Twitch channel found for: {player_twitch}, check for spelling mistake or account deletion")
+    # r = requests.get(TWITCH_SEARCH_CHANNEL_URL, headers=headers, params=params)
+    # r.raise_for_status()
+    # search_channel_json = r.json()
+    # data = search_channel_json.get("data", [])
+    # if not data:
+    #     raise ValueError(f"No Twitch channel found for: {player_twitch}, check for spelling mistake or account deletion")
     
-    first_entry = data[0]
-    is_player_live = first_entry["is_live"]
+    # first_entry = data[0]
+    # is_player_live = first_entry["is_live"]
+    is_player_live = False
     return is_player_live

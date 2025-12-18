@@ -29,7 +29,7 @@ class Leaderboard:
         self.entries[entry.name] = entry
     
     def get(self, name:str) -> Optional[PlayerLeaderboardEntry]:
-        return self.entries.get[name]
+        return self.entries.get(name)
     
     def sorted_by_mmr(self) -> list[PlayerLeaderboardEntry]:
         return sorted(self.entries.values(), key = lambda e: e.mrr, reverse=True)

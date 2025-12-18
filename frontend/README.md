@@ -36,3 +36,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# CURRENT SETUP
+## Main.js
+App Mounting
+## App.vue
+Layout + Grid (Header/Aside/Main/Bside/Footer)
+## MainContent.vue
+API-Fetch + Uebergabe an Leaderboard
+## Leaderboard
+internes Card-Grid
