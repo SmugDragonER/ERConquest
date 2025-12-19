@@ -69,20 +69,19 @@ function placeClass(index){
             class="rankImage"
             :src="'/src/assets/ranks/${getRankImage(player.mmr)}'"
             alt="Rank icon"
-            ><br>
+            >
             <span class="playerMMRNumber">{{player.mmr}} RP</span>
           </p>
           <p class="playerName">{{ player.name }}</p>
-          <p class="playerWinRate">
-            <span class="stat-label">
-              Winrate:<br>
-            </span> {{player.win_rate}} %
-          </p>
           <p class="playerGames">
-            <span class="stat-label">Games:<br></span>
+            <span class="stat-label">Games:</span>
           {{ player.games }}
           </p>
-
+          <p class="playerWinRate">
+            <span class="stat-label">
+              Winrate:
+            </span> {{player.win_rate}} %
+          </p>
           <a 
             class="twitchLink"
             :href="'https://twitch.tv/${player.twitch}'"
@@ -276,4 +275,7 @@ function placeClass(index){
     color: var(--font-light-color);
 }
 
+p{
+  margin:0;
+}
 </style> 
