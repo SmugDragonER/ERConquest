@@ -1,12 +1,51 @@
-<script></script>
+<script setup>
+    import { ref, watch } from "vue";
 
+    const boxRef = ref(null);
+    const isOpen = ref(false); //shows "Contact"- Box
+
+    function toggleBox() {
+        isOpen.value = !isOpen.value;
+    }
+
+    function closeBox() {
+        isOpen.value = false;
+    }
+
+    function handleClickOutside(event) {
+        if (boxRef.value && !boxRef.value.contains(event.target)) {
+            closeBox();
+        }
+    }
+    watch(isOpen, (open) => {
+    if (open) {
+        document.addEventListener("click", handleClickOutside);
+    } else {
+        document.removeEventListener("click", handleClickOutside);
+    }
+});
+
+</script>
 
 <template>
     <header>
         <p id="last-updated">Loading last updated time...</p>
+
         <div class="contact-container">
-            <p id="contact-button" class="contact-text">Contact</p>
-            <div id="contact-box" class="contact-box">
+            <p 
+                @click.stop="toggleBox" 
+                id="contact-button" 
+                class="contact-text"
+            >
+                Contact
+            </p>
+             
+            <div 
+                v-if="isOpen"
+                ref="boxRef"
+                id="contact-box" 
+                class="contact-box"
+            >
                 <p>In case of Issues or if you want to help:</p>
                 <p>Discord: SmugDragonER</p>
             </div>
@@ -18,7 +57,7 @@
     /* Header Styles */
 header {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+    font-size: var(--font-size-small);
     color: var(--primary-color);
     padding-left: var(--spacing-medium);
     padding-right: var(--spacing-medium);
@@ -26,7 +65,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--background-dark-grey);
-    flex:1;
+    flex: 0, 0, auto;
 }
 
     .contact-container {
@@ -44,9 +83,8 @@ header {
     .contact-text:hover {
         color: #ad936e;
     }
-
+    /*not working atm*/
     .contact-box {
-        display: none;
         position: absolute;
         top: 100%;  /* Position dropdown right below the button */
         right: 0;
@@ -58,9 +96,5 @@ header {
         width: 220px;
         z-index: 1000;
     }
-
-    .lurkLogo {
-        width: 100px;
-        height: 100px;
-    }
+    .box { padding: 20px; background: #eee; border: 1px solid #aaa; margin-top: 10px; }
 </style>

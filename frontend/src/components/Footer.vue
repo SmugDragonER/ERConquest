@@ -1,4 +1,6 @@
-<script></script>
+<script>
+
+</script>
 
 <template>
     <footer>
@@ -11,4 +13,33 @@
     </footer>
 </template>
 
-<style></style>
+<style>
+    footer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: var(--font-size-small);
+        color: var(--primary-color);
+        padding-left: var(--spacing-small);
+        padding-right: var(--spacing-small);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-small);
+        background-color: var(--background-dark-grey);
+        flex: 0 0 auto;
+    }
+
+    .footer-smugdragon{
+        color: var(--white-color);
+        font-size: var(--font-size-medium);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .footer-smugdragon:hover {
+        text-decoration: underline;
+        color: var(--font-light-color)
+    }
+
+    .footer-smugdragon:visited{
+        text-decoration: none;
+    }
+</style>
