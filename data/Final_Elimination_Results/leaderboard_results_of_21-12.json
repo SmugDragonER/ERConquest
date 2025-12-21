@@ -1,0 +1,90 @@
+{
+    "entries": {
+        "SmugDragon": {
+            "name": "SmugDragon",
+            "mmr": 7814,
+            "games": 173,
+            "wins": 33,
+            "win_rate": 0.2,
+            "character_stats": [
+                {
+                    "characterCode": 6,
+                    "totalGames": 136,
+                    "usages": 136,
+                    "maxKillings": 13,
+                    "top3": 66,
+                    "wins": 28,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 2,
+                    "totalGames": 16,
+                    "usages": 16,
+                    "maxKillings": 13,
+                    "top3": 5,
+                    "wins": 5,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                },
+                {
+                    "characterCode": 31,
+                    "totalGames": 5,
+                    "usages": 5,
+                    "maxKillings": 4,
+                    "top3": 2,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                }
+            ],
+            "twitch": "smugdragon",
+            "is_live_on_twitch": false,
+            "is_eliminated": true,
+            "eliminated_at_rank": 1
+        },
+        "Leitnessen": {
+            "name": "Leitnessen",
+            "mmr": 7853,
+            "games": 696,
+            "wins": 62,
+            "win_rate": 0.1,
+            "character_stats": [
+                {
+                    "characterCode": 53,
+                    "totalGames": 103,
+                    "usages": 103,
+                    "maxKillings": 8,
+                    "top3": 38,
+                    "wins": 13,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                },
+                {
+                    "characterCode": 79,
+                    "totalGames": 96,
+                    "usages": 96,
+                    "maxKillings": 12,
+                    "top3": 31,
+                    "wins": 5,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                },
+                {
+                    "characterCode": 81,
+                    "totalGames": 90,
+                    "usages": 90,
+                    "maxKillings": 12,
+                    "top3": 29,
+                    "wins": 13,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "leitnessen",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null
+        }
+    }
+}

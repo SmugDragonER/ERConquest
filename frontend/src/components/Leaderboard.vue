@@ -1,12 +1,17 @@
 <script setup>
-
+import { computed } from 'vue'
 const props = defineProps({
   players:{
     type: Array,
     required: true,
   },
 })
-// hier später: placeClass(index), rankImage(mmr) usw. als Hilfsfunktionen
+const sortedPlayers = computed(() => {
+  const active = props.players.filter(p => !p.is_eliminated).sort((a, b) => b.mmr - a.mmr)
+  const eliminated = props.players.filter(p => p.is_eliminated).sort((a, b) => a.eliminated_at_rank - b.eliminated_at_rank)
+
+  return [...active, ...eliminated]
+})
 
 function setRankImage(mmr){
   let rankImage;
@@ -52,11 +57,15 @@ function placeClass(index){
 
     <div id="leaderboard-inner">
         <div
-            v-for="(player, index) in players"
+            v-for="(player, index) in sortedPlayers"
             :key="player.name"
             class="playerCard"
             :class="placeClass(index)"
         >
+        <!-- Locked Overlay-->
+        <div v-if="player.is_eliminated" class="eliminatedOverlay"></div>
+
+
           <p class="rank">{{index + 1}}</p>
           <img
           class="playerIcon" 
@@ -157,7 +166,7 @@ function placeClass(index){
     background-color: rgba(255, 127, 80, 0.2); /* Transparent coral overlay */
 }
 
-.lockedOverlay {
+.eliminatedOverlay {
     position: absolute;
     top: 0;
     left: 0;

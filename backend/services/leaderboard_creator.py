@@ -6,13 +6,11 @@ from .twitchAPI import check_is_player_live
 from .loadSignupDataFromCsv import load_signups_from_csv
 from .ER_data import get_all_player_ids, get_all_player_stats, get_data_from_json
 
-def create_leaderboard_data(
-        player_id_dict: Dict[str, int],
-        all_player_stats_dict: Dict[str, dict],
-        signups_by_name: Dict[str, PlayerLeaderboardEntry],
-        ) -> Leaderboard:
+
+def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_dict: Dict[str, dict], signups_by_name: Dict[str, PlayerLeaderboardEntry]) -> Leaderboard:
     lb = Leaderboard()
 
+    # create a new leaderboard and fill it with given data
 
     for pn in player_id_dict:
 
@@ -48,16 +46,23 @@ def create_leaderboard_data(
     return lb
 
 def build_leaderboard():
+
+    #fetches the data, creates the leaderboard and fills it; sorted by mmr
+
     signups_list = load_signups_from_csv("data/test_signup_data.csv")
     signups_by_name = {s.Name: s for s in signups_list}
 
-    player_id_dict = get_all_player_ids(signups_by_name.keys())
-    time.sleep(1)
-    all_player_stats_dict = get_all_player_stats(signups_by_name,player_id_dict)
+    player_id_dict = get_all_player_ids(signups_by_name.keys()) # Dict - Key: PlayerName, Value: Player ID
+    all_player_stats_dict = get_all_player_stats(signups_by_name,player_id_dict)    # Dict - Key: PlayerName, Value: PlayerStats
+
     lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name)
-    return lb
+
+    return lb.sorted_by_mmr()
 
 def get_latest_leaderboard():
+    
+    # gets the latest saved leaderboard from the data folder
+
     DATA_PATH = Path(__file__).resolve().parents[2]/"data"
     files = [p for p in DATA_PATH.glob("leaderboard*.json") if p.is_file()]
     if not files:
