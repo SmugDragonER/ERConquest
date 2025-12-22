@@ -5,7 +5,21 @@ from ..models.models import PlayerLeaderboardEntry, Leaderboard
 from .twitchAPI import check_is_player_live
 from .loadSignupDataFromCsv import load_signups_from_csv
 from .ER_data import get_all_player_ids, get_all_player_stats, get_data_from_json
+from .constants import characterCodeDict
 
+def get_top_character_icons(character_stats, top_n=3):
+    if not character_stats:
+        return []
+
+    top = sorted(character_stats, key=lambda cs: cs.get("totalGames", 0), reverse=True)[:top_n]
+
+    icons = []
+    for cs in top:
+        code = cs.get("characterCode")
+        base_name = characterCodeDict.get(code)
+        if base_name:
+            icons.append(f"{base_name}.png") 
+    return icons
 
 def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_dict: Dict[str, dict], signups_by_name: Dict[str, PlayerLeaderboardEntry]) -> Leaderboard:
     lb = Leaderboard()
@@ -24,6 +38,7 @@ def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_di
         win_rate = round((wins/games)*100,1) if games > 0 else 0
 
         character_stats = user_stats_entry["characterStats"]
+        top_character_icons = get_top_character_icons(character_stats, 3)
         player_twitch = signups_by_name[pn].Twitch
         is_live_on_twitch: bool = check_is_player_live(player_twitch)
         is_eliminated: bool = False
@@ -37,6 +52,7 @@ def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_di
                 wins=wins,
                 win_rate=win_rate,
                 character_stats=character_stats,
+                top_character_icons=top_character_icons,
                 twitch= player_twitch,
                 is_live_on_twitch=is_live_on_twitch,
                 is_eliminated=is_eliminated,
@@ -57,7 +73,7 @@ def build_leaderboard():
 
     lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name)
 
-    return lb.sorted_by_mmr()
+    return lb
 
 def get_latest_leaderboard():
     

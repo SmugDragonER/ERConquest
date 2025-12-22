@@ -6,8 +6,8 @@ from pathlib import Path
 def leaderboard_to_dict(lb: Leaderboard) -> dict:
     return {
         "entries": {
-            name: asdict(PlayerLeaderboardEntry)
-            for name, PlayerLeaderboardEntry in lb.entries.items()
+            name: asdict(entry)
+            for name, entry in lb.entries.items()
         }
     }
 
