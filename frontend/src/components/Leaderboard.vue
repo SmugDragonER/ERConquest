@@ -100,7 +100,7 @@ function characterIconPath(characterId) {
       <p class="playerMMR">
         <img
           class="rankImage"
-          :src="`/src/assets/ranks/${setRankImage(player.mmr)}`"
+          :src="`/src/assets/images/EternalReturnRanks/${setRankImage(player.mmr)}`"
           alt="Rank icon"
         />
         <span class="playerMMRNumber">{{ player.mmr }} RP</span>
@@ -115,56 +115,59 @@ function characterIconPath(characterId) {
       </p>
 
       <!-- DEBUG: show computed top 3 ids -->
-<span class="top3Debug">
-  icons={{ player.top_character_icons }} | top3={{ top3Characters(player).map(cs => cs.characterCode) }}
-</span>
+      <span class="top3Debug">
+        icons={{ player.top_character_icons }} | top3={{ top3Characters(player).map(cs => cs.characterCode) }}
+      </span>
 
-  <!-- Char 1 -->
-<div class="playerCharacter1">
-  <template v-if="player.top_character_icons?.[0] && top3Characters(player)[0]">
-    <img
-      class="playerCharacter1-img"
-      :src="`/src/assets/images/character_icons/${player.top_character_icons[0]}`"
-      alt=""
-    />
-    <div class="charStat">{{ pickRate(top3Characters(player)[0], player) }}%</div>
-  </template>
-</div>
+        <!-- Char 1 -->
+      <div class="playerCharacter1">
+        <template v-if="player.top_character_icons?.[0] && top3Characters(player)[0]">
+          <img
+            class="playerCharacter1-img"
+            :src="`/src/assets/images/character_icons/${player.top_character_icons[0]}`"
+            alt=""
+          />
+          <div class="charStat">{{ pickRate(top3Characters(player)[0], player) }}%</div>
+        </template>
+      </div>
 
-<!-- Char 2 -->
-<div class="playerCharacter2">
-  <template v-if="player.top_character_icons?.[1] && top3Characters(player)[1]">
-    <img
-      class="playerCharacter2-img"
-      :src="`/src/assets/images/character_icons/${player.top_character_icons[1]}`"
-      alt=""
-    />
-    <div class="charStat">{{ pickRate(top3Characters(player)[1], player) }}%</div>
-  </template>
-</div>
+      <!-- Char 2 -->
+      <div class="playerCharacter2">
+        <template v-if="player.top_character_icons?.[1] && top3Characters(player)[1]">
+          <img
+            class="playerCharacter2-img"
+            :src="`/src/assets/images/character_icons/${player.top_character_icons[1]}`"
+            alt=""
+          />
+          <div class="charStat">{{ pickRate(top3Characters(player)[1], player) }}%</div>
+        </template>
+      </div>
 
-<!-- Char 3 -->
-<div class="playerCharacter3">
-  <template v-if="player.top_character_icons?.[2] && top3Characters(player)[2]">
-    <img
-      class="playerCharacter3-img"
-      :src="`/src/assets/images/character_icons/${player.top_character_icons[2]}`"
-      alt=""
-    />
-    <div class="charStat">{{ pickRate(top3Characters(player)[2], player) }}%</div>
-  </template>
-</div>
+      <!-- Char 3 -->
+      <div class="playerCharacter3">
+        <template v-if="player.top_character_icons?.[2] && top3Characters(player)[2]">
+          <img
+            class="playerCharacter3-img"
+            :src="`/src/assets/images/character_icons/${player.top_character_icons[2]}`"
+            alt=""
+          />
+          <div class="charStat">{{ pickRate(top3Characters(player)[2], player) }}%</div>
+        </template>
+      </div>
 
+      <!-- Twitch Icon -->
       <a
         class="twitchLink"
         :href="`https://twitch.tv/${player.twitch}`"
-        target="_blank"
       >
         <i class="fa-brands fa-twitch"></i>
       </a>
-      <a class="playerDak" :href="`https://dak.gg/er/players/${player.name}`">
-        Dak.gg
+      <!-- Dak Icon -->
+      <a :href="`https://dak.gg/er/players/${player.playerName}`" class="playerDak">
+
+        <img src="https://cdn.dak.gg/er/images/gnb/dakgg.svg" alt="Dak.gg" class="dakIcon" />
       </a>
+
     </div>
   </div>
 </template>
@@ -273,14 +276,21 @@ function characterIconPath(characterId) {
 .playerMMR {
   grid-column: 3;
   padding-left: var(--spacing-medium);
-  align-self: self-end;
   font-size: medium;
   font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: center;
+  position: relative;
+
 }
+
 .playerMMRNumber {
   align-self: end;
   position: relative;
-  bottom: -10px;
+  bottom: -13px;
 }
 .rankImage {
   height: 50px;
@@ -362,7 +372,7 @@ function characterIconPath(characterId) {
 }
 
 .playerDak:hover {
-  color: var(--font-light-color);
+  filter: brightness(0) saturate(100%) invert(70%);
 }
 
 p {
