@@ -29,7 +29,28 @@
 
 <template>
     <header>
-        <p id="last-updated">Loading last updated time...</p>
+
+
+    <nav class="header-nav">
+        <!-- Show RULES link only on the leaderboard page -->
+        <router-link 
+            v-if="$route.path === '/'" 
+            to="/rules" 
+            class="nav-item"
+        >
+            Rules
+        </router-link>
+
+        <!-- Show LEADERBOARD link only on the rules page -->
+        <router-link 
+            v-if="$route.path === '/rules'" 
+            to="/" 
+            class="nav-item"
+        >
+            Leaderboard
+        </router-link>
+    </nav>
+
 
         <div class="contact-container">
             <p 
@@ -67,6 +88,23 @@ header {
     background-color: var(--background-dark-grey);
     flex: 0, 0, auto;
 }
+
+    .header-nav {
+    display: flex;
+    gap: 1.5rem;
+    }
+
+    .nav-item {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-small);
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    .nav-item:hover {
+        color: #ad936e; /* same hover as your contact text */
+    }
 
     .contact-container {
         position: relative;

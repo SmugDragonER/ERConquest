@@ -2,7 +2,6 @@ from datetime import datetime
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from backend.services.constants import player_name_list, characterCodeDict
 from backend.services.leaderboard_creator import build_leaderboard, get_latest_leaderboard
 from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_data_to_json
 

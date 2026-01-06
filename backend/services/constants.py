@@ -4,7 +4,7 @@ from enum import Enum
 
 ### CONSTANT DATA ###
 # This shouldn't never change, only updated if ER Api gets updated
-seasonID = 31
+seasonID = 35
 
 class MatchingMode(Enum):
     NORMAL = 2
@@ -15,9 +15,6 @@ class MatchingTeamMode(Enum):
     DUO = 2
     SQUAD = 3
 
-player_name_list = ["SmugDragon", "Patreii"]
-
-matchingTeamMode = 3
 characterCodeDict = {
 1: "Jackie Mini", 2: "Aya Mini", 3: "Fiora Mini", 4: "Magnus Mini", 5: "Zahir Mini",
 6: "Nadine Mini", 7: "Hyunwoo Mini", 8: "Hart Mini", 9: "Isol Mini", 10: "Li Dailin Mini",
@@ -35,7 +32,7 @@ characterCodeDict = {
 66: "Arda Mini", 67: "Abigail Mini", 68: "Alonso Mini", 69: "Leni Mini", 70: "Tsubame Mini",
 71: "Kenneth Mini", 72: "Katja Mini", 73: "Charlotte Mini", 74: "Darko Mini", 75: "Lenore Mini",
 76: "Garnet Mini", 77: "Yumin Mini", 78: "Hisui Mini", 79: "Justyna Mini", 80: "István Mini",
-81: "NiaH Mini", 82: "Xuelin Mini"
+81: "NiaH Mini", 82: "Xuelin Mini", 83: "Henry Mini", 84: "Blair Mini", 85: "Mirka Mini",
 }
 
 ### API RELATED STUFF

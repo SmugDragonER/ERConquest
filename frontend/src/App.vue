@@ -22,9 +22,9 @@ import MainContent from './components/MainContent.vue';
                 </h1>
             </div>
             <div class="leaderboard-container">
-              <Aside />
-              <MainContent />
-              <Bside />
+              <div class="leaderboard">
+                <router-view />
+              </div>
             </div>
         </div>
     </main>
@@ -34,7 +34,7 @@ import MainContent from './components/MainContent.vue';
   </div>
 </template>
 
-<style scoped>
+<style>
 .body {
   min-height: 100vh;
   display: flex;
