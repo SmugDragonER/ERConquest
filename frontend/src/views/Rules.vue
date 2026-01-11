@@ -5,8 +5,30 @@
   <div class="rules-page">
     <h1>Rules</h1>
 
-    <p>Here you can put your tournament rules, format, scoring, etc.</p>
+    <div class="rule-container">
+      <p class="Rules">
+        <span class="RuleWord">
+          Rules:
+        </span>
+        - 90% of Games must be streamed
+        <br>
+        - All Games must be played on the EU server
+        <br>
+        - General Fair Play rules
+      </p>
+
+    </div>
+    <div class="rule-container">
+      <p class="Rules">
+        <span class="RuleWord">
+          How do Eliminations work?
+        </span>
+        - First 3 Days: No Eliminations
+        - After Day 3: 
+      </p>
+    </div>
   </div>
+
 </template>
 
 <style scoped>
