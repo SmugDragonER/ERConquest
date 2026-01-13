@@ -1,30 +1,39 @@
-<script setup>
-    import { ref, watch } from "vue";
-
-    const boxRef = ref(null);
-    const isOpen = ref(false); //shows "Contact"- Box
-
-    function toggleBox() {
-        isOpen.value = !isOpen.value;
-    }
-
-    function closeBox() {
-        isOpen.value = false;
-    }
-
-    function handleClickOutside(event) {
-        if (boxRef.value && !boxRef.value.contains(event.target)) {
-            closeBox();
+<script>
+export default {
+    name: "Header",
+    components: {
+    },
+    data() {
+        return {
+            boxRef: null,
+            isOpen: false //shows "Contact"- Box
+        };
+    },
+    watch: {
+        isOpen (val) {
+            if (val) {
+                document.addEventListener("click", this.handleClickOutside);
+            } else {
+                document.removeEventListener("click", this.handleClickOutside);
+            }
         }
-    }
-    watch(isOpen, (open) => {
-    if (open) {
-        document.addEventListener("click", handleClickOutside);
-    } else {
-        document.removeEventListener("click", handleClickOutside);
-    }
-});
-
+    },
+    computed: {
+    },
+    methods: {
+        toggleBox() {
+            this.isOpen = !this.isOpen.value;
+        },
+        closeBox() {
+            this.isOpen = false;
+        },
+        handleClickOutside(event) {
+            if (this.boxRef && !this.boxRef.contains(event.target)) {
+                closeBox();
+            }
+        }
+    },
+}
 </script>
 
 <template>

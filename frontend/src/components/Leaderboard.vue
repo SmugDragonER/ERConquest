@@ -1,55 +1,59 @@
-<script setup>
-import { computed } from 'vue'
-const props = defineProps({
-  players:{
-    type: Array,
-    required: true,
-  },
-})
-const sortedPlayers = computed(() => {
-  const active = props.players.filter(p => !p.is_eliminated).sort((a, b) => b.mmr - a.mmr)
-  const eliminated = props.players.filter(p => p.is_eliminated).sort((a, b) => a.eliminated_at_rank - b.eliminated_at_rank)
+<script>
+export default {
+    name: "Leaderboard",
+    components: {
+    },
+    props: {
+        players:{
+            type: Array,
+            required: true,
+        },
+    },
+    data() {
+        return {
+        };
+    },
+    watch: {
+    },
+    computed: {
+        sortedPlayers() {
+            const active = this.players.filter(p => !p.is_eliminated).sort((a, b) => b.mmr - a.mmr)
+            const eliminated = this.players.filter(p => p.is_eliminated).sort((a, b) => a.eliminated_at_rank - b.eliminated_at_rank)
 
-  return [...active, ...eliminated]
-})
+            return [...active, ...eliminated]
+        }
+    },
+    methods: {
+        setRankImage(mmr){
+            let rankImage;
+            if (mmr >= 7000) {
+                rankImage = "Immortal.png";
+            } else if (mmr >= 6400) {
+                rankImage = "Meteorite.png";
+            } else if (mmr >= 5000) {
+                rankImage = "Diamond.png";
+            } else if (mmr >= 3600) {
+                rankImage = "Platinum.png";
+            } else {
+                rankImage = "Unranked.png";
+            }
 
-function setRankImage(mmr){
-  let rankImage;
-    switch (true) {
-      case (mmr >= 7000):
-          rankImage = "Immortal.png";
-          break;
-      case (mmr >= 6400):
-          rankImage = "Meteorite.png";
-          break;
-      case (mmr >= 5000):
-          rankImage = "Diamond.png";
-          break;
-      case (mmr >= 3600):
-          rankImage = "Platinum.png";
-          break;
-      default:
-          rankImage = "Unranked.png";
-    }
-  return rankImage;
+            return rankImage;
+        },
+        placeClass(index){
+            let podium = null;
+            if (index == 0) {
+                podium = 'firstPlace';
+            } else if (index == 1) {
+                podium = 'secondPlace';
+            } else if (index == 2) {
+                podium = 'thirdPlace';
+            }
+
+            return podium;
+        }
+    },
 }
-
-function placeClass(index){
-  let podium = null;
-  switch (true) {
-    case(index == 0):
-      podium = 'firstPlace';
-      break;
-    case(index == 1):
-      podium = 'secondPlace';
-      break;
-    case(index == 2):
-      podium = 'thirdPlace';
-      break;
-  }
-  return podium;
-}
-
 </script>
 
 <template>

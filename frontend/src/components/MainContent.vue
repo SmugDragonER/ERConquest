@@ -1,26 +1,37 @@
-<script setup>
-import { ref, onMounted } from 'vue';
+<script>
 import Leaderboard from './Leaderboard.vue';
 
-    const players = ref([]);
-    const loading = ref(true);
-    const error = ref(null);
+export default {
+    name: "MainContent",
+    components: {
+        Leaderboard,
+    },
+    data() {
+        return {
+            players: [],
+            loading: true,
+            error: null,
+            apiUrl: 'http://127.0.0.1:8000/get_latest_leaderboard',
+        };
+    },
+    watch: {
+    },
+    computed: {
+    },
+    methods: {
+    },
+    async mounted() {
+        this.loading = true
+        this.error = null
 
-    const apiUrl = 'http://127.0.0.1:8000/get_latest_leaderboard'
-
-
-    onMounted(async () => {
-        loading.value = true
-        error.value = null
-
-        try{
-            const response = await fetch(apiUrl)
+        try {
+            const response = await fetch(this.apiUrl)
             if (!response.ok) {
                 throw new Error('Network response was not ok: ' + response.status)
             }
 
             const data = await response.json()
-            players.value = Object.values(data.entries).map(player => ({
+            this.players = Object.values(data.entries).map(player => ({
                 name: player.name,
                 mmr: player.mmr,
                 games: player.games,
@@ -33,12 +44,12 @@ import Leaderboard from './Leaderboard.vue';
             }))
         } catch (e) {
             console.error('Error:', e)
-            error.value = e.message
+            this.error = e.message
         } finally {
-            loading.value = false
+            this.loading = false
         }
-    })
-
+    }
+}
 </script>
 
 <template>
