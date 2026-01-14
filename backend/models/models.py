@@ -15,11 +15,13 @@ class PlayerLeaderboardEntry:
     games: int
     wins: int
     win_rate: float
-    character_stats: List[Dict[str,any]]
+    character_stats: List[Dict[str, any]]
     twitch: str
     is_live_on_twitch: bool
     is_eliminated: bool
-    eliminated_at_rank: Optional[int]
+
+    eliminated_at_rank: Optional[int] = None
+    top_character_icons: List[str] = field(default_factory=list)
 
 @dataclass
 class Leaderboard:

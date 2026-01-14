@@ -2,9 +2,8 @@ from datetime import datetime
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from backend.services.constants import player_name_list
 from backend.services.leaderboard_creator import build_leaderboard, get_latest_leaderboard
-from backend.utils.util import leaderboard_to_dict, save_data_to_json
+from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_data_to_json
 
 app = FastAPI()
 
@@ -36,14 +35,17 @@ async def root():
 
 @app.get("/get_latest_leaderboard")
 async def get_leaderboard_data():
-    """
-    DO: Gets the most recently saved leaderboard data
-    """
-    lb = get_latest_leaderboard()
-    if lb is None:
+    lb_data = get_latest_leaderboard()
+    if lb_data is None:
         raise HTTPException(status_code=404, detail="No leaderboard found")
-    return lb
 
+    # If get_latest_leaderboard returns dict from JSON, convert it
+    if isinstance(lb_data, dict):
+        lb = dict_to_leaderboard(lb_data)
+    else:
+        lb = lb_data
+
+    return leaderboard_to_dict(lb)
 
 @app.get("/build_leaderboard")
 async def send_leaderboard():

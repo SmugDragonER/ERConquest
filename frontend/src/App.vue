@@ -22,9 +22,9 @@ import MainContent from './components/MainContent.vue';
                 </h1>
             </div>
             <div class="leaderboard-container">
-              <Aside />
-              <MainContent />
-              <Bside />
+              <div class="leaderboard">
+                <router-view />
+              </div>
             </div>
         </div>
     </main>
@@ -34,7 +34,7 @@ import MainContent from './components/MainContent.vue';
   </div>
 </template>
 
-<style scoped>
+<style>
 .body {
   min-height: 100vh;
   display: flex;
@@ -88,7 +88,7 @@ import MainContent from './components/MainContent.vue';
 
 .leaderboard-container {
   display: grid;
-  grid-template-columns: 1fr minmax(900px, 2fr) 1fr;
+  grid-template-columns: 1fr minmax(1000px, auto) 1fr;
   gap: var(--spacing-large);
   align-items: flex-start;
 }
