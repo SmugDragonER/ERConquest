@@ -5,7 +5,6 @@ export default {
     },
     data() {
         return {
-            boxRef: null,
             isOpen: false //shows "Contact"- Box
         };
     },
@@ -22,14 +21,14 @@ export default {
     },
     methods: {
         toggleBox() {
-            this.isOpen = !this.isOpen.value;
+            this.isOpen = !this.isOpen;
         },
         closeBox() {
             this.isOpen = false;
         },
         handleClickOutside(event) {
-            if (this.boxRef && !this.boxRef.contains(event.target)) {
-                closeBox();
+            if (event?.target?.id != "contact-box") {
+                this.closeBox();
             }
         }
     },
@@ -41,18 +40,17 @@ export default {
         <p id="last-updated">Loading last updated time...</p>
 
         <div class="contact-container">
-            <p 
-                @click.stop="toggleBox" 
-                id="contact-button" 
+            <p
+                @click.stop="toggleBox"
+                id="contact-button"
                 class="contact-text"
             >
                 Contact
             </p>
-             
-            <div 
+
+            <div
                 v-if="isOpen"
-                ref="boxRef"
-                id="contact-box" 
+                id="contact-box"
                 class="contact-box"
             >
                 <p>In case of Issues or if you want to help:</p>
@@ -83,7 +81,7 @@ header {
     }
 
     .contact-text {
-        cursor: pointer; 
+        cursor: pointer;
         display: inline-block;
         text-decoration: none;
         transition: color 0.3s ease;
