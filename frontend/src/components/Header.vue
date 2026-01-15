@@ -1,20 +1,32 @@
-<script setup>
-    import { ref, watch } from "vue";
+<script>
+export default {
+    name: "Header",
+}
+</script>
 
-    const boxRef = ref(null);
-    const isOpen = ref(false); //shows "Contact"- Box
+<template>
+    <!-- Empty template to remove the header bar completely, commented the old Header for now -->
+    <header style="display: none;"></header>
+</template>
 
-    function toggleBox() {
-        isOpen.value = !isOpen.value;
-    }
-
-    function closeBox() {
-        isOpen.value = false;
-    }
-
-    function handleClickOutside(event) {
-        if (boxRef.value && !boxRef.value.contains(event.target)) {
-            closeBox();
+<!--
+<script>
+export default {
+    name: "Header",
+    components: {
+    },
+    data() {
+        return {
+            isOpen: false //shows "Contact"- Box
+        };
+    },
+    watch: {
+        isOpen (val) {
+            if (val) {
+                document.addEventListener("click", this.handleClickOutside);
+            } else {
+                document.removeEventListener("click", this.handleClickOutside);
+            }
         }
     }
     watch(isOpen, (open) => {
@@ -33,6 +45,7 @@
 
     <nav class="header-nav">
         <!-- Show RULES link only on the leaderboard page -->
+         <!--
         <router-link 
             v-if="$route.path === '/'" 
             to="/rules" 
@@ -42,6 +55,7 @@
         </router-link>
 
         <!-- Show LEADERBOARD link only on the rules page -->
+         <!--
         <router-link 
             v-if="$route.path === '/rules'" 
             to="/" 
@@ -136,3 +150,4 @@ header {
     }
     .box { padding: 20px; background: #eee; border: 1px solid #aaa; margin-top: 10px; }
 </style>
+-->
