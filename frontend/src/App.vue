@@ -1,9 +1,20 @@
 <script setup>
-import Aside from './components/Aside.vue';
-import Bside from './components/Bside.vue';
+import { onMounted } from 'vue';
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
-import MainContent from './components/MainContent.vue';
+
+// Attempt to fix mobile viewport height
+onMounted(() => {
+  const setVhVariable = () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
+
+  setVhVariable();
+  
+  // Run it again whenever the window is resized
+  window.addEventListener('resize', setVhVariable);
+});
 </script>
 
 <template>
@@ -12,15 +23,33 @@ import MainContent from './components/MainContent.vue';
 
     <main class="main-container">
         <div class="content-container">
-            <div class="title">
-                <h1>
-                  <img 
-                  src="./assets/images/Smugs-Conquest-Title.png" 
-                  alt="title" 
-                  class="titleimg"
-                  />
+            
+            <div class="title-container">
+                <h1 class="royal-header">
+                  <div class="royal-top-row">
+                    <span class="royal-text-top">
+                        <span class="smugs-red">SMUG'S</span>
+                        EU 
+                    </span>
+                    <svg class="eu-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <g transform="translate(50,50)">
+                        <path d="M0,-35 L2.5,-42 L-2.5,-42 Z M0,-38 L1.5,-33 L-1.5,-33 Z" transform="scale(0)" /> 
+                        <g v-for="i in 12" :key="i" :transform="`rotate(${i * 30}) translate(0, -35)`">
+                           <path d="M0,-4.5 L1.2,-1.2 L4.7,-1.2 L1.9,0.9 L2.9,4.2 L0,2.3 L-2.9,4.2 L-1.9,0.9 L-4.7,-1.2 L-1.2,-1.2 Z" 
+                                 fill="currentColor" stroke="var(--stroke-color)" stroke-width="2" />
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="royal-bottom">CONQUEST</span>
                 </h1>
+                <img 
+                  src="./assets/images/s10title.png" 
+                  alt="Season 10 Royal" 
+                  class="season-img" 
+                />
             </div>
+
             <div class="leaderboard-container">
               <div class="leaderboard">
                 <router-view />
@@ -30,15 +59,22 @@ import MainContent from './components/MainContent.vue';
     </main>
 
     <Footer />
-
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap');
+
 .body {
-  min-height: 100vh;
+  /* USE THE JAVASCRIPT VARIABLE INSTEAD OF 100vh */
+  /* Fallback for browsers without JS */
+  min-height: 100vh; 
+  /* Height that accounts for mobile UI */
+  min-height: calc(var(--vh, 1vh) * 100); 
+
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .main-container {
@@ -47,7 +83,7 @@ import MainContent from './components/MainContent.vue';
   justify-content: center;
   align-items: flex-start;
   padding: var(--spacing-large) 0;
-  background-image: url(./assets/images/s7background.png);
+  background-image: url(./assets/images/s10background.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -71,30 +107,76 @@ import MainContent from './components/MainContent.vue';
   margin: 0 auto;
 }
 
-.title {
+/* --- TITLE STYLING --- */
+.title-container {
   display: flex;
-  justify-content: center;
-  font-family: 'Signika Negative', sans-serif;
-  font-size: var(--font-size-xlarge);
-  color: var(--white-color);
-  margin-bottom: var(--spacing-medium);
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
-.titleimg {
-  height: 325px;
+.royal-header {
+  font-family: 'Cinzel Decorative', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.85;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.royal-top-row {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.eu-icon {
+  width: 100px;
+  height: 100px;
+  color: rgb(37, 150, 190); 
+  --stroke-color: rgb(17, 73, 94); 
   position: relative;
-  top: -30px;
+  top: -5px;
 }
 
+.royal-text-top {
+  font-size: 80px;
+  color: #FFFDF5;
+  -webkit-text-stroke: 2px #c28888; 
+  text-shadow: 4px 4px 0px #8f5353; 
+  letter-spacing: 2px;
+}
+
+.smugs-red {
+  -webkit-text-stroke: 2px rgb(189, 38, 43); 
+  text-shadow: 4px 4px 0px rgb(100, 20, 23);
+}
+
+.royal-bottom {
+  font-size: 110px;
+  color: #FFFDF5;
+  -webkit-text-stroke: 3px #c28888;
+  text-shadow: 5px 5px 0px #8f5353;
+  letter-spacing: -2px;
+}
+
+.season-img {
+  width: 600px; 
+  max-width: 90%;
+  height: auto;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+  margin-top: 20px; 
+}
+
+/* --- LEADERBOARD GRID --- */
 .leaderboard-container {
   display: grid;
+  /* Desktop Layout */
   grid-template-columns: 1fr minmax(1000px, auto) 1fr;
   gap: var(--spacing-large);
   align-items: flex-start;
-}
-
-.leaderboard-left {
-  grid-column: 1;
 }
 
 .leaderboard {
@@ -102,7 +184,34 @@ import MainContent from './components/MainContent.vue';
   width: 100%;
 }
 
-.leaderboard-right {
-  grid-column: 3;
+/* 
+   Media Query for mobile devices
+   (Screens smaller than 1024px) 
+*/
+@media (max-width: 1024px) {
+  .leaderboard-container {
+    /* Switch to a single column layout */
+    grid-template-columns: 1fr;
+    /* Side Padding */
+    padding: 0 15px;
+  }
+
+  .leaderboard {
+    /* Ensure it takes up the full single column */
+    grid-column: 1;
+  }
+
+  .main-container {
+      background-attachment: scroll;
+  }
+}
+
+/* Responsive Font Sizing */
+@media (max-width: 768px) {
+    .royal-text-top { font-size: 40px; -webkit-text-stroke: 1px #c28888; text-shadow: 2px 2px 0px #8f5353;}
+    .smugs-red { -webkit-text-stroke: 1px rgb(189, 38, 43); text-shadow: 2px 2px 0px rgb(100, 20, 23); }
+    .eu-icon { width: 50px; height: 50px; }
+    .royal-bottom { font-size: 60px; -webkit-text-stroke: 1.5px #c28888; text-shadow: 3px 3px 0px #8f5353;}
+    .season-img { width: 100%; margin-top: 10px;}
 }
 </style>

@@ -1,3 +1,9 @@
+<template>
+    <!-- Empty template to remove the header bar completely, commented the old Header for now -->
+    <header style="display: none;"></header>
+</template>
+
+<!--
 <script>
 export default {
     name: "Header",
@@ -41,18 +47,20 @@ export default {
 
     <nav class="header-nav">
         <!-- Show RULES link only on the leaderboard page -->
-        <router-link 
-            v-if="$route.path === '/'" 
-            to="/rules" 
+         <!--
+        <router-link
+            v-if="$route.path === '/'"
+            to="/rules"
             class="nav-item"
         >
             Rules
         </router-link>
 
         <!-- Show LEADERBOARD link only on the rules page -->
-        <router-link 
-            v-if="$route.path === '/rules'" 
-            to="/" 
+         <!--
+        <router-link
+            v-if="$route.path === '/rules'"
+            to="/"
             class="nav-item"
         >
             Leaderboard
@@ -143,3 +151,4 @@ header {
     }
     .box { padding: 20px; background: #eee; border: 1px solid #aaa; margin-top: 10px; }
 </style>
+-->

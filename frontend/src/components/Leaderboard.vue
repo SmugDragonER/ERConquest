@@ -11,6 +11,26 @@ export default {
     },
     data() {
         return {
+            // Copy of dictionary for frontend mapping
+            characterMap: {
+                1: "Jackie Mini", 2: "Aya Mini", 3: "Fiora Mini", 4: "Magnus Mini", 5: "Zahir Mini",
+                6: "Nadine Mini", 7: "Hyunwoo Mini", 8: "Hart Mini", 9: "Isol Mini", 10: "Li Dailin Mini",
+                11: "Yuki Mini", 12: "Hyejin Mini", 13: "Xiukai Mini", 14: "Chiara Mini", 15: "Sissela Mini",
+                16: "Silvia Mini", 17: "Adriana Mini", 18: "Shoichi Mini", 19: "Emma Mini", 20: "Lenox Mini",
+                21: "Rozzi Mini", 22: "Luke Mini", 23: "Cathy Mini", 24: "Adela Mini", 25: "Bernice Mini",
+                26: "Barbara Mini", 27: "Alex Mini", 28: "Sua Mini", 29: "Leon Mini", 30: "Eleven Mini",
+                31: "Rio Mini", 32: "William Mini", 33: "Nicky Mini", 34: "Nathapon Mini", 35: "Jan Mini",
+                36: "Eva Mini", 37: "Daniel Mini", 38: "Jenny Mini", 39: "Camilo Mini", 40: "Chloe Mini",
+                41: "Johann Mini", 42: "Bianca Mini", 43: "Celine Mini", 44: "Echion Mini", 45: "Mai Mini",
+                46: "Aiden Mini", 47: "Laura Mini", 48: "Tia Mini", 49: "Felix Mini", 50: "Elena Mini",
+                51: "Priya Mini", 52: "Adina Mini", 53: "Markus Mini", 54: "Karla Mini", 55: "Estelle Mini",
+                56: "Piolo Mini", 57: "Martina Mini", 58: "Haze Mini", 59: "Isaac Mini", 60: "Tazia Mini",
+                61: "Irem Mini", 62: "Theodore Mini", 63: "Ly Anh Mini", 64: "Vanya Mini", 65: "Debi & Marlene Mini",
+                66: "Arda Mini", 67: "Abigail Mini", 68: "Alonso Mini", 69: "Leni Mini", 70: "Tsubame Mini",
+                71: "Kenneth Mini", 72: "Katja Mini", 73: "Charlotte Mini", 74: "Darko Mini", 75: "Lenore Mini",
+                76: "Garnet Mini", 77: "Yumin Mini", 78: "Hisui Mini", 79: "Justyna Mini", 80: "István Mini",
+                81: "NiaH Mini", 82: "Xuelin Mini", 83: "Henry Mini", 84: "Blair Mini", 85: "Mirka Mini",
+            }
         };
     },
     watch: {
@@ -29,32 +49,17 @@ export default {
     },
     methods: {
         setRankImage(mmr){
-            let rankImage;
-            if (mmr >= 7000) {
-                rankImage = "Immortal.png";
-            } else if (mmr >= 6400) {
-                rankImage = "Meteorite.png";
-            } else if (mmr >= 5000) {
-                rankImage = "Diamond.png";
-            } else if (mmr >= 3600) {
-                rankImage = "Platinum.png";
-            } else {
-                rankImage = "Unranked.png";
-            }
-
-            return rankImage;
+            if (mmr >= 7000) return "Immortal.png";
+            if (mmr >= 6400) return "Meteorite.png";
+            if (mmr >= 5000) return "Diamond.png";
+            if (mmr >= 3600) return "Platinum.png";
+            return "Unranked.png";
         },
         placeClass(index){
-            let podium = null;
-            if (index == 0) {
-                podium = "firstPlace";
-            } else if (index == 1) {
-                podium = "secondPlace";
-            } else if (index == 2) {
-                podium = "thirdPlace";
-            }
-
-            return podium;
+            if (index == 0) return "firstPlace";
+            if (index == 1) return "secondPlace";
+            if (index == 2) return "thirdPlace";
+            return null;
         },
         top3Characters(player) {
             const list = Array.isArray(player.character_stats) ? player.character_stats : [];
@@ -62,16 +67,15 @@ export default {
                 .sort((a, b) => (b.totalGames ?? 0) - (a.totalGames ?? 0))
                 .slice(0, 3);
         },
-        characterId(cs) {
-            return cs?.characterId ?? cs?.characterCode;
-        },
         pickRate(cs, player) {
             const total = player?.games ?? 0;
             const g = cs?.totalGames ?? 0;
             return total > 0 ? ((g / total) * 100).toFixed(1) : "0.0";
         },
-        characterIconPath(characterId) {
-            return `/src/assets/images/character_icons/${characterId}.png`;
+        getCharIconPath(code) {
+            const fileName = this.characterMap[code];
+            if (!fileName) return "";
+            return new URL(`../assets/images/character_icons/${fileName}.png`, import.meta.url).href;
         }
     },
 }
@@ -115,17 +119,17 @@ export default {
       </p>
 
       <!-- DEBUG: show computed top 3 ids -->
-      <span class="top3Debug">
-        icons={{ player.top_character_icons }} | top3={{ top3Characters(player).map(cs => cs.characterCode) }}
-      </span>
+    <!--  <span class="top3Debug"> -->
+    <!--    icons={{ player.top_character_icons }} | top3={{ top3Characters(player).map(cs => cs.characterCode) }} -->
+    <!--  </span> -->
 
         <!-- Char 1 -->
       <div class="playerCharacter1">
-        <template v-if="player.top_character_icons?.[0] && top3Characters(player)[0]">
+        <template v-if="top3Characters(player)[0]">
           <img
             class="playerCharacter1-img"
-            :src="`/src/assets/images/character_icons/${player.top_character_icons[0]}`"
-            alt=""
+            :src="getCharIconPath(top3Characters(player)[0].characterCode)"
+            :alt="characterMap[top3Characters(player)[0].characterCode]"
           />
           <div class="charStat">{{ pickRate(top3Characters(player)[0], player) }}%</div>
         </template>
@@ -133,11 +137,11 @@ export default {
 
       <!-- Char 2 -->
       <div class="playerCharacter2">
-        <template v-if="player.top_character_icons?.[1] && top3Characters(player)[1]">
+        <template v-if="top3Characters(player)[1]">
           <img
             class="playerCharacter2-img"
-            :src="`/src/assets/images/character_icons/${player.top_character_icons[1]}`"
-            alt=""
+            :src="getCharIconPath(top3Characters(player)[1].characterCode)"
+            :alt="characterMap[top3Characters(player)[1].characterCode]"
           />
           <div class="charStat">{{ pickRate(top3Characters(player)[1], player) }}%</div>
         </template>
@@ -145,11 +149,11 @@ export default {
 
       <!-- Char 3 -->
       <div class="playerCharacter3">
-        <template v-if="player.top_character_icons?.[2] && top3Characters(player)[2]">
+        <template v-if="top3Characters(player)[2]">
           <img
             class="playerCharacter3-img"
-            :src="`/src/assets/images/character_icons/${player.top_character_icons[2]}`"
-            alt=""
+            :src="getCharIconPath(top3Characters(player)[2].characterCode)"
+            :alt="characterMap[top3Characters(player)[2].characterCode]"
           />
           <div class="charStat">{{ pickRate(top3Characters(player)[2], player) }}%</div>
         </template>
@@ -159,12 +163,19 @@ export default {
       <a
         class="twitchLink"
         :href="`https://twitch.tv/${player.twitch}`"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <i class="fa-brands fa-twitch"></i>
       </a>
-      <!-- Dak Icon -->
-      <a :href="`https://dak.gg/er/players/${player.playerName}`" class="playerDak">
 
+      <!-- Dak Icon -->
+      <a
+        :href="`https://dak.gg/er/players/${player.name}`"
+        class="playerDak"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src="https://cdn.dak.gg/er/images/gnb/dakgg.svg" alt="Dak.gg" class="dakIcon" />
       </a>
 
@@ -177,19 +188,21 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
 }
-
-.top3Debug {
-  grid-column: 7 / 10;   /* spans columns 7-9 */
-  justify-self: center;
-  font-size: 10px;
-  opacity: 0.8;
-}
+/*
+.top3Debug {*/
+/*  grid-column: 7 / 10;   /* spans columns 7-9 */
+ /*  justify-self: center;*/
+ /* font-size: 10px;*/
+ /* opacity: 0.8;*/
+/*}*/
 
 .charStat {
-  font-size: 10px;
-  text-align: center;
-  margin-top: 2px;
-  opacity: 0.9;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 4px;
+  text-shadow: 1px 1px 2px #000000, 0 0 1em #000000;
+  opacity: 1;
 }
 
 .playerCard {
@@ -223,12 +236,12 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - 2px); /* Adjust to account for the border width */
-  height: calc(100% - 2px); /* Adjust to account for the border width */
-  z-index: -1; /* Ensure it stays behind the content */
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  z-index: -1;
   border-radius: var(
     --border-radius-medium
-  ); /* Match the card's border radius */
+  );
 }
 
 .firstPlace::before {
@@ -311,15 +324,21 @@ export default {
 .playerWinRate {
   grid-column: 6;
 }
-.playerCharacter1 {
-  grid-column: 7;
-}
-.playerCharacter2 {
-  grid-column: 8;
-}
+
+.playerCharacter1,
+.playerCharacter2,
 .playerCharacter3 {
-  grid-column: 9;
+  justify-self: center;
+  margin-left: 0;
+
+  /* Flexbox to stack icons and text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
+
 .twitchLiveStatus {
   grid-column: 10;
 }
@@ -330,11 +349,17 @@ export default {
   align-self: self-end;
   font-size: smaller;
 }
+
 .playerCharacter1-img,
 .playerCharacter2-img,
 .playerCharacter3-img {
-  height: 60px;
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 2px 3px rgba(0,0,0,0.3));
 }
+
+
 .stat-label {
   color: var(--font-light-color);
   font-weight: lighter;
