@@ -223,10 +223,14 @@ export default {
   background-color: var(--background-dark-grey);
   align-items: center;
   width: 100%;
-  border: var(--border-color) solid 1px;
+  border: var(--border-color) solid 2px;
+  border-radius: var(
+    --border-radius-medium
+  );
   justify-items: left;
   position: relative;
   z-index: 2;
+  margin-bottom: 1px; /* To put some space between each playerCard */
 }
 
 .firstPlace::before,
@@ -234,10 +238,10 @@ export default {
 .thirdPlace::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(100% - 2px);
-  height: calc(100% - 2px);
+  top: -2px; /* To put the colored border right on top of the classic one */
+  left: -2px; /* To put the colored border right on top of the classic one */
+  width: calc(100%);
+  height: calc(100%);
   z-index: -1;
   border-radius: var(
     --border-radius-medium

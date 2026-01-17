@@ -1,4 +1,4 @@
-<script setup>
+<script>
 </script>
 
 <template>
@@ -11,9 +11,9 @@
           Rules:
         </span>
         - 90% of Games must be streamed
-        <br>
+        <br/>
         - All Games must be played on the EU server
-        <br>
+        <br/>
         - General Fair Play rules
       </p>
 
@@ -24,7 +24,8 @@
           How do Eliminations work?
         </span>
         - First 3 Days: No Eliminations
-        - After Day 3: 
+        <br/>
+        - After Day 3:
       </p>
     </div>
   </div>
@@ -32,10 +33,25 @@
 </template>
 
 <style scoped>
-.rules-page {
-  color: white;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-}
+    .rules-page {
+        color: white;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    .Rules{
+        background-color: var(--background-dark-grey);
+        padding: var(--spacing-small);
+        border: var(--border-color) solid 1px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: var(--accent-color);
+    }
+    .RuleWord{
+        color: var(--primary-color);
+        display: flex;
+        justify-content: start;
+        padding-left: 3%;
+    }
 </style>
