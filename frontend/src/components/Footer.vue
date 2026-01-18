@@ -117,6 +117,8 @@ export default {
 
 <style scoped>
     footer {
+        position: sticky; /* Makes the footer sticking the position even after scrolling */
+        bottom: 0;
         font-family: Arial, Helvetica, sans-serif;
         font-size: var(--font-size-small);
         color: var(--primary-color);
@@ -130,6 +132,7 @@ export default {
         padding: 10px 20px; /* Horizontal padding for the side links */
         flex: 0 0 auto;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 99;
     }
 
     /* SECTION ALIGNMENT */

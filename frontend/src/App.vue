@@ -1,41 +1,65 @@
-<script setup>
-import { onMounted } from 'vue';
+<script>
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 
-// Attempt to fix mobile viewport height
-onMounted(() => {
-  const setVhVariable = () => {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-  };
+export default {
+    name: "App",
+    data() {
+        return {
 
-  setVhVariable();
-  
-  // Run it again whenever the window is resized
-  window.addEventListener('resize', setVhVariable);
-});
+        };
+    },
+    components: {
+        Footer,
+        Header,
+    },
+    watch: {
+
+    },
+    computed: {
+        getClassForRoute() {
+            switch (this.$route.path) {
+                case "/": return "leaderboard";
+                    break;
+                case "/pickEm": return "pickEm";
+                    break;
+                default: return null;
+            }
+        }
+
+    },
+    methods: {
+        setVhVariable() {
+          let vh = window.innerHeight * 0.01;
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+    },
+    mounted() {
+        // Attempt to fix mobile viewport height
+        this.setVhVariable();
+
+        window.addEventListener('resize', this.setVhVariable);
+    }
+}
 </script>
 
 <template>
+  <Header />
   <div class="body">
-    <Header />
-
     <main class="main-container">
         <div class="content-container">
-            
             <div class="title-container">
                 <h1 class="royal-header">
                   <div class="royal-top-row">
                     <span class="royal-text-top">
                         <span class="smugs-red">SMUG'S</span>
-                        EU 
+                        EU
                     </span>
                     <svg class="eu-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                       <g transform="translate(50,50)">
-                        <path d="M0,-35 L2.5,-42 L-2.5,-42 Z M0,-38 L1.5,-33 L-1.5,-33 Z" transform="scale(0)" /> 
+                        <path d="M0,-35 L2.5,-42 L-2.5,-42 Z M0,-38 L1.5,-33 L-1.5,-33 Z" transform="scale(0)" />
                         <g v-for="i in 12" :key="i" :transform="`rotate(${i * 30}) translate(0, -35)`">
-                           <path d="M0,-4.5 L1.2,-1.2 L4.7,-1.2 L1.9,0.9 L2.9,4.2 L0,2.3 L-2.9,4.2 L-1.9,0.9 L-4.7,-1.2 L-1.2,-1.2 Z" 
+                           <path d="M0,-4.5 L1.2,-1.2 L4.7,-1.2 L1.9,0.9 L2.9,4.2 L0,2.3 L-2.9,4.2 L-1.9,0.9 L-4.7,-1.2 L-1.2,-1.2 Z"
                                  fill="currentColor" stroke="var(--stroke-color)" stroke-width="2" />
                         </g>
                       </g>
@@ -43,23 +67,23 @@ onMounted(() => {
                   </div>
                   <span class="royal-bottom">CONQUEST</span>
                 </h1>
-                <img 
-                  src="./assets/images/s10title.png" 
-                  alt="Season 10 Royal" 
-                  class="season-img" 
+                <img
+                  src="./assets/images/s10title.png"
+                  alt="Season 10 Royal"
+                  class="season-img"
                 />
             </div>
 
-            <div class="leaderboard-container">
-              <div class="leaderboard">
+            <div :class="getClassForRoute + '-container'">
+              <div :class="getClassForRoute">
                 <router-view />
               </div>
             </div>
         </div>
     </main>
 
-    <Footer />
   </div>
+  <Footer />
 </template>
 
 <style>
@@ -68,9 +92,9 @@ onMounted(() => {
 .body {
   /* USE THE JAVASCRIPT VARIABLE INSTEAD OF 100vh */
   /* Fallback for browsers without JS */
-  min-height: 100vh; 
+  min-height: 100vh;
   /* Height that accounts for mobile UI */
-  min-height: calc(var(--vh, 1vh) * 100); 
+  min-height: calc(var(--vh, 1vh) * 100);
 
   display: flex;
   flex-direction: column;
@@ -103,7 +127,6 @@ onMounted(() => {
 .content-container {
   z-index: 2;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -129,14 +152,14 @@ onMounted(() => {
 .royal-top-row {
   display: flex;
   align-items: center;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .eu-icon {
   width: 100px;
   height: 100px;
-  color: rgb(37, 150, 190); 
-  --stroke-color: rgb(17, 73, 94); 
+  color: rgb(37, 150, 190);
+  --stroke-color: rgb(17, 73, 94);
   position: relative;
   top: -5px;
 }
@@ -144,13 +167,13 @@ onMounted(() => {
 .royal-text-top {
   font-size: 80px;
   color: #FFFDF5;
-  -webkit-text-stroke: 2px #c28888; 
-  text-shadow: 4px 4px 0px #8f5353; 
+  -webkit-text-stroke: 2px #c28888;
+  text-shadow: 4px 4px 0px #8f5353;
   letter-spacing: 2px;
 }
 
 .smugs-red {
-  -webkit-text-stroke: 2px rgb(189, 38, 43); 
+  -webkit-text-stroke: 2px rgb(189, 38, 43);
   text-shadow: 4px 4px 0px rgb(100, 20, 23);
 }
 
@@ -163,11 +186,11 @@ onMounted(() => {
 }
 
 .season-img {
-  width: 600px; 
+  width: 600px;
   max-width: 90%;
   height: auto;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 /* --- LEADERBOARD GRID --- */
@@ -184,9 +207,18 @@ onMounted(() => {
   width: 100%;
 }
 
-/* 
+/* --- PICK'EM GRID --- */
+.pickem-container {
+
+}
+
+.pickem {
+    width: 100%;
+}
+
+/*
    Media Query for mobile devices
-   (Screens smaller than 1024px) 
+   (Screens smaller than 1024px)
 */
 @media (max-width: 1024px) {
   .leaderboard-container {
