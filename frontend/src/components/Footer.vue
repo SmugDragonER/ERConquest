@@ -23,7 +23,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px 20px;
+        padding: 5px 5px;
         flex: 0 0 auto;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         z-index: 99;

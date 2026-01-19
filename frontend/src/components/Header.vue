@@ -83,7 +83,7 @@ export default {
         display: flex;
         gap: 20px;
         justify-content: space-between;
-        width: auto;
+        width: 100%;
     }
 
     .nav-link {
@@ -91,6 +91,8 @@ export default {
         font-weight: bold;
         cursor: pointer;
         transition: color 0.2s;
+        justify-content: space-between;
+        width: auto;
     }
 
     .nav-link:hover { color: #ad936e; }
