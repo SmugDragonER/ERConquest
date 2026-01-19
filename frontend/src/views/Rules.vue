@@ -3,14 +3,14 @@
 
 <template>
   <div class="rules-page">
-    <h1>Rules</h1>
+    <h1>Event Information</h1>
 
     <div class="rule-container">
       <p class="Rules">
         <span class="RuleWord">
-          Rules:
+        Rules
         </span>
-        - 90% of Games must be streamed
+        - 60% of Games must be streamed
         <br/>
         - All Games must be played on the EU server
         <br/>
@@ -21,11 +21,11 @@
     <div class="rule-container">
       <p class="Rules">
         <span class="RuleWord">
-          How do Eliminations work?
+          Eliminations:
         </span>
-        - First 3 Days: No Eliminations
+        - Day 1-3: No Eliminations
         <br/>
-        - After Day 3:
+        - Day 3-x: Y Elimination
       </p>
     </div>
   </div>
@@ -34,7 +34,8 @@
 
 <style scoped>
     .rules-page {
-        color: white;
+        background-color:var(--background-dark-grey);
+        color: var(--primary-color);
         max-width: 800px;
         margin: 0 auto;
         padding: 2rem;
@@ -51,7 +52,8 @@
     .RuleWord{
         color: var(--primary-color);
         display: flex;
-        justify-content: start;
-        padding-left: 3%;
+        font-size: large;
+        justify-content: center;
+        padding-bottom: 0.5rem;
     }
 </style>

@@ -1,78 +1,129 @@
 <script>
+import Rules from '../views/Rules.vue';
+
 export default {
     name: "Header",
-    components: {
-    },
+    components: { Rules },
     data() {
         return {
+            isOpenContact: false,
+            isOpenRules: false
         };
     },
     watch: {
-    },
-    computed: {
+        isOpenContact(val) { this.handleListener(val); },
+        isOpenRules(val) { this.handleListener(val); }
     },
     methods: {
+        handleListener(val) {
+            if (val) {
+                setTimeout(() => document.addEventListener("click", this.handleClickOutside), 0);
+            } else if (!this.isOpenContact && !this.isOpenRules) {
+                document.removeEventListener("click", this.handleClickOutside);
+            }
+        },
+        toggleBox(elementToToggle) {
+            this["isOpen" + elementToToggle] = !this["isOpen" + elementToToggle];
+        },
+        closeBox(elementToClose) {
+            this["isOpen" + elementToClose] = false;
+        },
+        handleClickOutside(event) {
+            const contactBox = document.getElementById("contact-box");
+            const contactBtn = document.getElementById("contact-button");
+            const rulesBox = document.getElementById("rules-box");
+            const rulesBtn = document.getElementById("rules-button");
+
+            if (contactBox && !contactBox.contains(event.target) && event.target !== contactBtn) {
+                this.closeBox("Contact");
+            }
+            if (rulesBox && !rulesBox.contains(event.target) && event.target !== rulesBtn) {
+                this.closeBox("Rules");
+            }
+        }
     },
+    beforeUnmount() {
+        document.removeEventListener("click", this.handleClickOutside);
+    }
 }
 </script>
 
 <template>
-    <header>
-        <div class="left-header">
-        </div>
+    <header class="main-header">
+        <div class="nav-container">
+            <div class="popup-wrapper">
+                <span @click.stop="toggleBox('Rules')" id="rules-button" class="nav-link">Rules</span>
+                <div v-if="isOpenRules" id="rules-box" class="dropdown-box rules-wide">
+                    <Rules/>
+                </div>
+            </div>
 
-        <div>
-            <p id="last-updated">Loading last updated time...</p>
-        </div>
-
-        <div class="right-header">
+            <div class="popup-wrapper">
+                <span @click.stop="toggleBox('Contact')" id="contact-button" class="nav-link">Contact</span>
+                <div v-if="isOpenContact" id="contact-box" class="dropdown-box">
+                    <p class="title">In case of Issues:</p>
+                    <p class="info">Discord: <strong>SmugDragonER</strong></p>
+                </div>
+            </div>
         </div>
     </header>
 </template>
 
-<style>
-    /* Header Styles */
-    header {
-        position: sticky; /* Makes the header sticking the position even after scrolling */
-        top: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: var(--font-size-small);
-        color: var(--primary-color);
+<style scoped>
+    .main-header {
+        background: var(--background-dark-grey);
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         display: flex;
+        width: 100%;
         justify-content: space-between;
-        padding-left: var(--spacing-medium);
-        padding-right: var(--spacing-medium);
-        align-items: center;
-        background-color: var(--background-dark-grey);
-        flex: 0, 0, auto;
-        z-index: 99;
-    }
-    header div {
-        width: 33%;
     }
 
-    .left-header {
-        text-align: left;
-    }
-
-    .right-header {
-        text-align: right;
-    }
-
-    .header-nav {
+    .nav-container {
         display: flex;
-        gap: 1.5rem;
+        gap: 20px;
+        justify-content: space-between;
+        width: auto;
     }
 
-    .nav-item {
+    .nav-link {
         color: var(--primary-color);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: var(--font-size-small);
+        font-weight: bold;
         cursor: pointer;
-        text-decoration: none;
+        transition: color 0.2s;
     }
 
-    .nav-item:hover {
-        color: #ad936e; /* same hover as your contact text */
+    .nav-link:hover { color: #ad936e; }
+
+    .popup-wrapper { position: relative; }
+
+    .dropdown-box {
+        position: absolute;
+        top: 150%; /* Opens Down */
+        right: 0;
+        background: #2a2a2a;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #444;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        width: 220px;
+        color: white;
     }
+
+    .rules-wide { width: 400px; }
+
+    /* Downward Arrow */
+    .dropdown-box::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        right: 15px;
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent #2a2a2a transparent;
+    }
+
+    .title { font-size: 12px; margin-bottom: 5px; opacity: 0.8; }
+    .info { color: #ad936e; font-size: 14px; }
 </style>
