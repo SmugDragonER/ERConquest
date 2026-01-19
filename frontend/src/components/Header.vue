@@ -75,7 +75,7 @@ export default {
         padding: 10px 20px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         display: flex;
-        width: 100%;
+        width: auto;
         justify-content: space-between;
     }
 
@@ -99,6 +99,10 @@ export default {
 
     .popup-wrapper { position: relative; }
 
+    .header-left {
+        left: 0;
+    }
+
     .dropdown-box {
         position: absolute;
         top: 150%; /* Opens Down */
@@ -113,7 +117,10 @@ export default {
         color: white;
     }
 
-    .rules-wide { width: 400px; }
+    .rules-wide {
+        width: 400px;
+        left: 0;
+    }
 
     /* Downward Arrow */
     .dropdown-box::after {
@@ -124,6 +131,11 @@ export default {
         border-width: 6px;
         border-style: solid;
         border-color: transparent transparent #2a2a2a transparent;
+    }
+
+    .rules-wide::after {
+        left: 15px; /* Aligns arrow with the button kinda */
+        right: auto !important;
     }
 
     .title { font-size: 12px; margin-bottom: 5px; opacity: 0.8; }
