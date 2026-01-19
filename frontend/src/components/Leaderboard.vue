@@ -109,7 +109,13 @@ export default {
         />
         <span class="playerMMRNumber">{{ player.mmr }} RP</span>
       </p>
-      <p class="playerName">{{ player.name }}</p>
+      <div class="playerNameContainer">
+        <p class="playerName">{{ player.name }}</p>
+      
+        <div v-if="player.twitchStatus" class="twitchLiveStatus">
+          <span class="red-dot"></span>
+        </div>
+      </div>
       <p class="playerGames">
         <span class="stat-label">Games:</span>
         {{ player.games }}
@@ -158,6 +164,8 @@ export default {
           <div class="charStat">{{ pickRate(top3Characters(player)[2], player) }}%</div>
         </template>
       </div>
+
+      
 
       <!-- Twitch Icon -->
       <a
@@ -345,7 +353,44 @@ export default {
 
 .twitchLiveStatus {
   grid-column: 10;
+  margin-left: auto;
 }
+
+/* Container for the Name + Dot */
+.playerNameContainer {
+  grid-column: 4; /* Occupies the name column */
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between name and dot */
+}
+
+.twitchLiveStatus {
+  display: flex;
+  align-items: center;
+}
+
+.red-dot {
+  height: 10px;
+  width: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #ff0000;
+  animation: pulse-red 2s infinite;
+  flex-shrink: 0; /* Prevents the dot from squishing if the name is long */
+}
+
+.playerName {
+  font-size: var(--font-size-large);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@keyframes pulse-red {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 0, 0, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
 .playerCharacter1,
 .playerCharacter2,
 .playerCharacter3 {
@@ -372,6 +417,7 @@ export default {
 .twitchLink {
   grid-column: 11;
   justify-self: end;
+  padding-right: 6px;
 }
 .twitchLink:link {
   color: var(--twitch-main-color);

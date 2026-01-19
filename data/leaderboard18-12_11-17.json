@@ -39,7 +39,7 @@
                 }
             ],
             "twitch": "smugdragon",
-            "is_live_on_twitch": false,
+            "is_live_on_twitch": true,
             "is_eliminated": false,
             "eliminated_at_rank": null
         },
