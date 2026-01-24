@@ -1,59 +1,88 @@
-<script>
-</script>
-
 <template>
   <div class="rules-page">
     <h1>Event Information</h1>
 
     <div class="rule-container">
-      <p class="Rules">
-        <span class="RuleWord">
-        Rules
-        </span>
-        - 60% of Games must be streamed
-        <br/>
-        - All Games must be played on the EU server
-        <br/>
-        - General Fair Play rules
-      </p>
-
+      <span class="RuleWord">Rules</span>
+      <ul class="rules-list">
+        <li>60% of Games must be streamed</li>
+        <li>All Games must be played on the EU server</li>
+        <li>General Fair Play rules</li>
+      </ul>
     </div>
-    <div class="rule-container">
-      <p class="Rules">
-        <span class="RuleWord">
-          Eliminations:
-        </span>
-        - Day 1-3: No Eliminations
-        <br/>
-        - Day 3-x: Y Elimination
-      </p>
+
+    <div class="rule-container" id="elimination-container">
+      <span class="RuleWord">Eliminations</span>
+      <p class="rules-subtitle">Eliminations happen at <strong>3 AM CET</strong></p>
+      
+      <div class="elim-grid">
+        <div class="grid-row"><span>29.01 - 31.01:</span> <strong>0 Elims</strong></div>
+        <div class="grid-row"><span>01.02:</span>         <strong>5 Elims</strong></div>
+        <div class="grid-row"><span>02.02:</span>         <strong>4 Elims</strong></div>
+        <div class="grid-row"><span>03.02 - 04.02:</span> <strong>3 Elims</strong></div>
+        <div class="grid-row"><span>05.02 - 06.02:</span> <strong>2 Elims</strong></div>
+        <div class="grid-row"><span>07.02 - 10.02:</span> <strong>1 Elim</strong></div>
+      </div>
     </div>
   </div>
-
 </template>
 
 <style scoped>
-    .rules-page {
-        background-color:var(--background-dark-grey);
-        color: var(--primary-color);
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 2rem;
+    .rule-container {
+        background-color: #1a1d26; 
+        padding: 1.5rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px; 
+        margin-bottom: 2rem;
     }
-    .Rules{
-        background-color: var(--background-dark-grey);
-        padding: var(--spacing-small);
-        border: var(--border-color) solid 1px;
+
+    .RuleWord {
+        color: var(--primary-color);
+        font-size: 1.4rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
         display: block;
-        justify-content: center;
-        align-items: center;
-        color: var(--accent-color);
     }
-    .RuleWord{
+    .rules-list {
+        list-style: none;
+        padding: 0;
+        color: var(--accent-color);
+        text-align: left;
+        display: inline-block; 
+    }
+
+    .rules-list li {
+        margin-bottom: 0.5rem;
+        position: relative;
+        padding-left: 1.5rem;
+    }
+
+    .rules-list li::before {
+        content: "•";
         color: var(--primary-color);
+        position: absolute;
+        left: 0;
+    }
+
+    .elim-grid {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .grid-row {
         display: flex;
-        font-size: large;
-        justify-content: center;
-        padding-bottom: 0.5rem;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    .grid-row:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .grid-row strong {
+        color: var(--primary-color);
     }
 </style>
