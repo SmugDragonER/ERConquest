@@ -58,6 +58,28 @@ export default {
                 </div>
             </div>
 
+            <div class="left-header">
+                <nav class="header-nav">
+                    <!-- Show Pick'Em link only on the leaderboard page -->
+                    <router-link
+                        v-if="$route.path === '/'"
+                        to="/pickEm"
+                        class="nav-item"
+                    >
+                        Pick'em
+                    </router-link>
+
+                    <!-- Show LEADERBOARD link only on the Pick'Em page -->
+                    <router-link
+                        v-if="$route.path === '/pickEm'"
+                        to="/"
+                        class="nav-item"
+                    >
+                        Leaderboard
+                    </router-link>
+                </nav>
+            </div>
+
             <div class="popup-wrapper">
                 <span @click.stop="toggleBox('Contact')" id="contact-button" class="nav-link">Contact</span>
                 <div v-if="isOpenContact" id="contact-box" class="dropdown-box">
