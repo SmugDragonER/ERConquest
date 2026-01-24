@@ -1,6 +1,6 @@
 <template>
   <div class="rules-page">
-    <h1>Event Information</h1>
+    <h1 id="event-information">Event Information</h1>
 
     <div class="rule-container">
       <span class="RuleWord">Rules</span>
@@ -85,4 +85,11 @@
     .grid-row strong {
         color: var(--primary-color);
     }
+    
+  h1 {
+    color: var(--primary-color);
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 </style>

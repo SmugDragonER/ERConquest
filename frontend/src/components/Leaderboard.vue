@@ -121,7 +121,7 @@ export default {
         {{ player.games }}
       </p>
       <p class="playerWinRate">
-        <span class="stat-label"> Winrate: </span> {{ player.win_rate }} %
+        <span class="stat-label"> Winrate: </span> {{ player.win_rate }}%
       </p>
 
       <!-- DEBUG: show computed top 3 ids -->
@@ -206,10 +206,10 @@ export default {
 
 .charStat {
   font-size: 11px;
-  font-weight: bold;
-  color: #ffffff;
+  /* font-weight: bold; */
+  /* color: #ffffff; */
   margin-top: 4px;
-  text-shadow: 1px 1px 2px #000000, 0 0 1em #000000;
+  /* text-shadow: 1px 1px 2px #000000, 0 0 1em #000000; */
   opacity: 1;
 }
 
