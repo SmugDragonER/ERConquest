@@ -25,7 +25,7 @@ export default {
     <div class="tooltip iconAndName">
         <img
           class="playerIcon"
-          :src="`/src/assets/images/${playerName}.png`"
+          :src="`/assets/images/${playerName}.png`"
           :alt="playerName + 's Icon'"
         />
         <span class="tooltiptext">{{ playerName }}</span>

@@ -68,7 +68,7 @@ export default {
                   <span class="royal-bottom">CONQUEST</span>
                 </h1>
                 <img
-                  src="./assets/images/s10title.png"
+                  src="/assets/images/s10title.png"
                   alt="Season 10 Royal"
                   class="season-img"
                 />
@@ -107,7 +107,7 @@ export default {
   justify-content: center;
   align-items: flex-start;
   padding: var(--spacing-large) 0;
-  background-image: url(./assets/images/s10background.png);
+  background-image: url(/assets/images/s10background.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

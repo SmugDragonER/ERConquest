@@ -75,7 +75,7 @@ export default {
         getCharIconPath(code) {
             const fileName = this.characterMap[code];
             if (!fileName) return "";
-            return new URL(`../assets/images/character_icons/${fileName}.png`, import.meta.url).href;
+            return new URL(`/assets/images/character_icons/${fileName}.png`, import.meta.url).href;
         }
     },
 }
@@ -97,14 +97,14 @@ export default {
       <p class="rank">{{ index + 1 }}</p>
       <img
         class="playerIcon"
-        :src="`/src/assets/images/${player.name}.png`"
+        :src="`/assets/images/${player.name}.png`"
         :alt="player.name + 's Icon'"
       />
 
       <p class="playerMMR">
         <img
           class="rankImage"
-          :src="`/src/assets/images/EternalReturnRanks/${setRankImage(player.mmr)}`"
+          :src="`/assets/images/EternalReturnRanks/${setRankImage(player.mmr)}`"
           alt="Rank icon"
         />
         <span class="playerMMRNumber">{{ player.mmr }} RP</span>
