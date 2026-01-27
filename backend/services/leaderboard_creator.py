@@ -65,7 +65,7 @@ def build_leaderboard():
 
     #fetches the data, creates the leaderboard and fills it; sorted by mmr
 
-    signups_list = load_signups_from_csv("data/test_signup_data.csv")
+    signups_list = load_signups_from_csv("data/EU_Conquest_2_Season_10_signup_data.csv")
     signups_by_name = {s.Name: s for s in signups_list}
 
     player_id_dict = get_all_player_ids(signups_by_name.keys()) # Dict - Key: PlayerName, Value: Player ID

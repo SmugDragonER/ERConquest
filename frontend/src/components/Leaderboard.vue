@@ -75,7 +75,7 @@ export default {
         getCharIconPath(code) {
             const fileName = this.characterMap[code];
             if (!fileName) return "";
-            return new URL(`/assets/images/character_icons/${fileName}.png`, import.meta.url).href;
+            return `/assets/images/character_icons/${fileName}.png`;
         }
     },
 }
@@ -97,7 +97,7 @@ export default {
       <p class="rank">{{ index + 1 }}</p>
       <img
         class="playerIcon"
-        :src="`/assets/images/${player.name}.png`"
+        :src="`/assets/images/player_icons/${player.name}.png`"
         :alt="player.name + 's Icon'"
       />
 
@@ -118,6 +118,7 @@ export default {
       </div>
       <p class="playerGames">
         <span class="stat-label">Games:</span>
+        <br>
         {{ player.games }}
       </p>
       <p class="playerWinRate">
