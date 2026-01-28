@@ -5,6 +5,6 @@ export default createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: MainContent },   // homepage = leaderboard
-    { path: '/pickEm', component: PickEm },
+    // { path: '/pickEm', component: PickEm },
   ]
 })
