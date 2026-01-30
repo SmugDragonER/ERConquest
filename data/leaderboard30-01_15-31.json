@@ -1,0 +1,714 @@
+{
+    "entries": {
+        "KitasanBlack": {
+            "name": "KitasanBlack",
+            "mmr": 4209,
+            "games": 10,
+            "wins": 2,
+            "win_rate": 20.0,
+            "character_stats": [
+                {
+                    "characterCode": 65,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 2,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 3
+                },
+                {
+                    "characterCode": 49,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 2,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                },
+                {
+                    "characterCode": 60,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 2,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                }
+            ],
+            "twitch": "1shifa",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Debi & Marlene Mini.png",
+                "Felix Mini.png",
+                "Tazia Mini.png"
+            ]
+        },
+        "Arky\u30fc": {
+            "name": "Arky\u30fc",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "arky_er",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        },
+        "Leitnessen": {
+            "name": "Leitnessen",
+            "mmr": 4648,
+            "games": 9,
+            "wins": 1,
+            "win_rate": 11.1,
+            "character_stats": [
+                {
+                    "characterCode": 20,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 3,
+                    "top3": 2,
+                    "wins": 1,
+                    "top3Rate": 1,
+                    "averageRank": 3
+                },
+                {
+                    "characterCode": 81,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 8,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                },
+                {
+                    "characterCode": 85,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 0,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "leitnessen",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Lenox Mini.png",
+                "NiaH Mini.png",
+                "Mirka Mini.png"
+            ]
+        },
+        "MajinTenshinhan": {
+            "name": "MajinTenshinhan",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "majintenshinhan",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        },
+        "Gtracks": {
+            "name": "Gtracks",
+            "mmr": 4603,
+            "games": 11,
+            "wins": 1,
+            "win_rate": 9.1,
+            "character_stats": [
+                {
+                    "characterCode": 31,
+                    "totalGames": 5,
+                    "usages": 5,
+                    "maxKillings": 8,
+                    "top3": 3,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 70,
+                    "totalGames": 4,
+                    "usages": 4,
+                    "maxKillings": 4,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                },
+                {
+                    "characterCode": 72,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 5,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 2
+                }
+            ],
+            "twitch": "gravitytracks",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Rio Mini.png",
+                "Tsubame Mini.png",
+                "Katja Mini.png"
+            ]
+        },
+        "Baumi": {
+            "name": "Baumi",
+            "mmr": 4330,
+            "games": 8,
+            "wins": 2,
+            "win_rate": 25.0,
+            "character_stats": [
+                {
+                    "characterCode": 28,
+                    "totalGames": 8,
+                    "usages": 8,
+                    "maxKillings": 8,
+                    "top3": 3,
+                    "wins": 2,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "baumi_er",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Sua Mini.png"
+            ]
+        },
+        "HajtoNaMotorze": {
+            "name": "HajtoNaMotorze",
+            "mmr": 5211,
+            "games": 13,
+            "wins": 2,
+            "win_rate": 15.4,
+            "character_stats": [
+                {
+                    "characterCode": 16,
+                    "totalGames": 11,
+                    "usages": 11,
+                    "maxKillings": 10,
+                    "top3": 4,
+                    "wins": 2,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 58,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 1,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 3
+                },
+                {
+                    "characterCode": 39,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 4,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 7
+                }
+            ],
+            "twitch": "hajtonamotorze",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Silvia Mini.png",
+                "Haze Mini.png",
+                "Camilo Mini.png"
+            ]
+        },
+        "ImNotBreathing": {
+            "name": "ImNotBreathing",
+            "mmr": 4419,
+            "games": 7,
+            "wins": 0,
+            "win_rate": 0.0,
+            "character_stats": [
+                {
+                    "characterCode": 85,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 2,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                },
+                {
+                    "characterCode": 65,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 4,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 9,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 5,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 2
+                }
+            ],
+            "twitch": "7munchy",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Mirka Mini.png",
+                "Debi & Marlene Mini.png",
+                "Isol Mini.png"
+            ]
+        },
+        "yaebalturel": {
+            "name": "yaebalturel",
+            "mmr": 3936,
+            "games": 13,
+            "wins": 2,
+            "win_rate": 15.4,
+            "character_stats": [
+                {
+                    "characterCode": 9,
+                    "totalGames": 5,
+                    "usages": 5,
+                    "maxKillings": 6,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 83,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 3,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                },
+                {
+                    "characterCode": 54,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 0,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                }
+            ],
+            "twitch": "van_ka_in",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Isol Mini.png",
+                "Henry Mini.png",
+                "Karla Mini.png"
+            ]
+        },
+        "Kudeta": {
+            "name": "Kudeta",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "kudetaa",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        },
+        "Yazidron": {
+            "name": "Yazidron",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "yazidron",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        },
+        "LewMalpa": {
+            "name": "LewMalpa",
+            "mmr": 3600,
+            "games": 2,
+            "wins": 0,
+            "win_rate": 0.0,
+            "character_stats": [
+                {
+                    "characterCode": 22,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 1,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                },
+                {
+                    "characterCode": 39,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 2,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 3
+                }
+            ],
+            "twitch": "zunim8",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Luke Mini.png",
+                "Camilo Mini.png"
+            ]
+        },
+        "Yoruchan": {
+            "name": "Yoruchan",
+            "mmr": 4450,
+            "games": 12,
+            "wins": 0,
+            "win_rate": 0.0,
+            "character_stats": [
+                {
+                    "characterCode": 82,
+                    "totalGames": 7,
+                    "usages": 7,
+                    "maxKillings": 6,
+                    "top3": 4,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 84,
+                    "totalGames": 4,
+                    "usages": 4,
+                    "maxKillings": 5,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                }
+            ],
+            "twitch": "chiiyoru",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Xuelin Mini.png",
+                "Blair Mini.png"
+            ]
+        },
+        "DEADDEADDEMONS": {
+            "name": "DEADDEADDEMONS",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "deaddeaddemons11111",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        },
+        "Lesys": {
+            "name": "Lesys",
+            "mmr": 3205,
+            "games": 9,
+            "wins": 2,
+            "win_rate": 22.2,
+            "character_stats": [
+                {
+                    "characterCode": 15,
+                    "totalGames": 5,
+                    "usages": 5,
+                    "maxKillings": 3,
+                    "top3": 3,
+                    "wins": 2,
+                    "top3Rate": 1,
+                    "averageRank": 3
+                },
+                {
+                    "characterCode": 61,
+                    "totalGames": 4,
+                    "usages": 4,
+                    "maxKillings": 3,
+                    "top3": 2,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "lesys72",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Sissela Mini.png",
+                "Irem Mini.png"
+            ]
+        },
+        "Denzy": {
+            "name": "Denzy",
+            "mmr": 1963,
+            "games": 9,
+            "wins": 3,
+            "win_rate": 33.3,
+            "character_stats": [
+                {
+                    "characterCode": 17,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 12,
+                    "top3": 2,
+                    "wins": 1,
+                    "top3Rate": 1,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 6,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 12,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 33,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 3,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 6
+                }
+            ],
+            "twitch": "denzyvalentino",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Adriana Mini.png",
+                "Nadine Mini.png",
+                "Nicky Mini.png"
+            ]
+        },
+        "Photograph": {
+            "name": "Photograph",
+            "mmr": 4416,
+            "games": 7,
+            "wins": 1,
+            "win_rate": 14.3,
+            "character_stats": [
+                {
+                    "characterCode": 32,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 5,
+                    "top3": 1,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 39,
+                    "totalGames": 3,
+                    "usages": 3,
+                    "maxKillings": 7,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 20,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 4,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 5
+                }
+            ],
+            "twitch": "justmorisad",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "William Mini.png",
+                "Camilo Mini.png",
+                "Lenox Mini.png"
+            ]
+        },
+        "GonnaEinALittle": {
+            "name": "GonnaEinALittle",
+            "mmr": 4667,
+            "games": 11,
+            "wins": 2,
+            "win_rate": 18.2,
+            "character_stats": [
+                {
+                    "characterCode": 54,
+                    "totalGames": 11,
+                    "usages": 11,
+                    "maxKillings": 12,
+                    "top3": 6,
+                    "wins": 2,
+                    "top3Rate": 1,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "metalieme",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Karla Mini.png"
+            ]
+        },
+        "FDGood": {
+            "name": "FDGood",
+            "mmr": 5370,
+            "games": 8,
+            "wins": 0,
+            "win_rate": 0.0,
+            "character_stats": [
+                {
+                    "characterCode": 10,
+                    "totalGames": 7,
+                    "usages": 7,
+                    "maxKillings": 6,
+                    "top3": 4,
+                    "wins": 0,
+                    "top3Rate": 1,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 56,
+                    "totalGames": 1,
+                    "usages": 1,
+                    "maxKillings": 1,
+                    "top3": 0,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 7
+                }
+            ],
+            "twitch": "fdgoodvx",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Li Dailin Mini.png",
+                "Piolo Mini.png"
+            ]
+        },
+        "Nyabi": {
+            "name": "Nyabi",
+            "mmr": 4348,
+            "games": 14,
+            "wins": 2,
+            "win_rate": 14.3,
+            "character_stats": [
+                {
+                    "characterCode": 28,
+                    "totalGames": 7,
+                    "usages": 7,
+                    "maxKillings": 8,
+                    "top3": 3,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 58,
+                    "totalGames": 5,
+                    "usages": 5,
+                    "maxKillings": 7,
+                    "top3": 2,
+                    "wins": 0,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                },
+                {
+                    "characterCode": 85,
+                    "totalGames": 2,
+                    "usages": 2,
+                    "maxKillings": 6,
+                    "top3": 1,
+                    "wins": 1,
+                    "top3Rate": 0,
+                    "averageRank": 4
+                }
+            ],
+            "twitch": "nyabi___",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": [
+                "Sua Mini.png",
+                "Haze Mini.png",
+                "Mirka Mini.png"
+            ]
+        },
+        "SmugDragon": {
+            "name": "SmugDragon",
+            "mmr": 0,
+            "games": 0,
+            "wins": 0,
+            "win_rate": 0,
+            "character_stats": [],
+            "twitch": "smugdragoner",
+            "is_live_on_twitch": false,
+            "is_eliminated": false,
+            "eliminated_at_rank": null,
+            "top_character_icons": []
+        }
+    }
+}

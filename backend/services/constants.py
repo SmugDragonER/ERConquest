@@ -4,7 +4,7 @@ from enum import Enum
 
 ### CONSTANT DATA ###
 # This shouldn't never change, only updated if ER Api gets updated
-seasonID = 35
+seasonID = 37
 
 class MatchingMode(Enum):
     NORMAL = 2

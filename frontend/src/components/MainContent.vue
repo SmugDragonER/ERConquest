@@ -7,11 +7,16 @@ export default {
         Leaderboard,
     },
     data() {
+
+        const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+         const base = isProduction 
+        ? 'https://smugdragon.xyz' 
+        : 'http://127.0.0.1:8000';
         return {
             players: [],
             loading: true,
             error: null,
-            apiUrl: '/api/get_latest_leaderboard',
+            apiUrl: `${base}/api/get_latest_leaderboard`,
         };
     },
     watch: {

@@ -16,10 +16,10 @@
       <p class="rules-subtitle">Eliminations happen at <strong>3 AM CET</strong></p>
       
       <div class="elim-grid">
-        <div class="grid-row"><span>29.01 - 31.01:</span> <strong>0 Elims</strong></div>
-        <div class="grid-row"><span>01.02:</span>         <strong>5 Elims</strong></div>
-        <div class="grid-row"><span>02.02:</span>         <strong>4 Elims</strong></div>
-        <div class="grid-row"><span>03.02 - 04.02:</span> <strong>3 Elims</strong></div>
+        <div class="grid-row"><span>29.01 - 01.02:</span> <strong>0 Elims</strong></div>
+        <div class="grid-row"><span>02.02:</span>         <strong>5 Elims</strong></div>
+        <div class="grid-row"><span>03.02:</span>         <strong>4 Elims</strong></div>
+        <div class="grid-row"><span>04.02:</span>         <strong>3 Elims</strong></div>
         <div class="grid-row"><span>05.02 - 06.02:</span> <strong>2 Elims</strong></div>
         <div class="grid-row"><span>07.02 - 10.02:</span> <strong>1 Elim</strong></div>
       </div>

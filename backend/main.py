@@ -1,5 +1,5 @@
 from datetime import datetime
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from backend.services.leaderboard_creator import build_leaderboard, get_latest_leaderboard
@@ -7,8 +7,9 @@ from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_da
 
 app = FastAPI()
 
-app.router.prefix = "/api"
+router = APIRouter(prefix="/api")
 
+#app.router.prefix = "/api"
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
@@ -37,7 +38,7 @@ async def root():
 # async def update_all_player_ids():
     # return get_all_player_ids(player_name_list) 
 
-@app.get("/get_latest_leaderboard")
+@router.get("/get_latest_leaderboard")
 async def get_leaderboard_data():
     lb_data = get_latest_leaderboard()
     if lb_data is None:
@@ -51,7 +52,7 @@ async def get_leaderboard_data():
 
     return leaderboard_to_dict(lb)
 
-@app.get("/build_leaderboard")
+@router.get("/build_leaderboard")
 async def send_leaderboard():
     """
     Fully fetches new data, creates a new leaderboard and saves it with the current time at the end
@@ -63,6 +64,9 @@ async def send_leaderboard():
     timestamp = datetime.now().strftime("%d-%m_%H-%M")
     save_data_to_json(lb_json, f'data/leaderboard{timestamp}.json')
     return lb_json
+
+
+app.include_router(router)
 
 def main():
     uvicorn.run(

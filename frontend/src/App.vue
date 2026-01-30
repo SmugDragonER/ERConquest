@@ -49,26 +49,8 @@ export default {
     <main class="main-container">
         <div class="content-container">
             <div class="title-container">
-                <h1 class="royal-header">
-                  <div class="royal-top-row">
-                    <span class="royal-text-top">
-                        <span class="smugs-red">SMUG'S</span>
-                        EU
-                    </span>
-                    <svg class="eu-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                      <g transform="translate(50,50)">
-                        <path d="M0,-35 L2.5,-42 L-2.5,-42 Z M0,-38 L1.5,-33 L-1.5,-33 Z" transform="scale(0)" />
-                        <g v-for="i in 12" :key="i" :transform="`rotate(${i * 30}) translate(0, -35)`">
-                           <path d="M0,-4.5 L1.2,-1.2 L4.7,-1.2 L1.9,0.9 L2.9,4.2 L0,2.3 L-2.9,4.2 L-1.9,0.9 L-4.7,-1.2 L-1.2,-1.2 Z"
-                                 fill="currentColor" stroke="var(--stroke-color)" stroke-width="2" />
-                        </g>
-                      </g>
-                    </svg>
-                  </div>
-                  <span class="royal-bottom">CONQUEST</span>
-                </h1>
                 <img
-                  src="/assets/images/s10title.png"
+                  src="/assets/images/S10EUQTitle.png"
                   alt="Season 10 Royal"
                   class="season-img"
                 />
@@ -186,8 +168,8 @@ export default {
 }
 
 .season-img {
-  width: 600px;
-  max-width: 90%;
+  width: 1000px;
+  max-width: 100%;
   height: auto;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
   margin-top: 20px;
