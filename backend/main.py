@@ -7,9 +7,13 @@ from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_da
 
 app = FastAPI()
 
+app.router.prefix = "/api"
+
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://smugdragon.xyz",
+    "https://www.smugdragon.xyz",
 ]
 
 app.add_middleware(

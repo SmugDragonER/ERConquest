@@ -11,7 +11,7 @@ export default {
             players: [],
             loading: true,
             error: null,
-            apiUrl: 'http://127.0.0.1:8000/get_latest_leaderboard',
+            apiUrl: '/api/get_latest_leaderboard',
         };
     },
     watch: {
