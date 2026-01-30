@@ -1,10 +1,13 @@
 from datetime import datetime
-from fastapi import FastAPI, HTTPException, APIRouter
+from fastapi import FastAPI, HTTPException, APIRouter, Query
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
+import uvicorn, os
 from backend.services.leaderboard_creator import build_leaderboard, get_latest_leaderboard
 from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_data_to_json
+from dotenv import load_dotenv
 
+load_dotenv()
+ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY")
 app = FastAPI()
 
 router = APIRouter(prefix="/api")
@@ -21,7 +24,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 @app.get("/")
@@ -53,10 +56,12 @@ async def get_leaderboard_data():
     return leaderboard_to_dict(lb)
 
 @router.get("/build_leaderboard")
-async def send_leaderboard():
+async def send_leaderboard(key: str = Query(None)):
     """
     Fully fetches new data, creates a new leaderboard and saves it with the current time at the end
     """
+    if key != ADMIN_SECRET_KEY:
+        raise HTTPException(status_code=401, detail="You cant do that buddy")
     lb = build_leaderboard() # sorted by mmr
 
     lb_json = leaderboard_to_dict(lb)
@@ -73,7 +78,7 @@ def main():
         "main:app",   # falls die Datei main.py heißt
         host="127.0.0.1",
         port=8000,
-        reload=True,
+        reload=False,
     )
 
 if __name__ == "__main__":
