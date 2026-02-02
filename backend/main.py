@@ -5,6 +5,7 @@ import uvicorn, os
 from backend.services.leaderboard_creator import build_leaderboard, get_latest_leaderboard
 from backend.utils.util import leaderboard_to_dict, dict_to_leaderboard, save_data_to_json
 from dotenv import load_dotenv
+from backend.services.playerLocker import lockLowestPlayer
 
 load_dotenv()
 ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY")
@@ -69,6 +70,31 @@ async def send_leaderboard(key: str = Query(None)):
     timestamp = datetime.now().strftime("%d-%m_%H-%M")
     save_data_to_json(lb_json, f'data/leaderboard{timestamp}.json')
     return lb_json
+
+@router.post("/eliminate_players")
+async def lock_players(count: int = 1, key: str = Query(None)):
+    if key != ADMIN_SECRET_KEY:
+        raise HTTPException(status_code=401, detail="You cant do that buddy")
+    
+    latest_data = get_latest_leaderboard()
+    if not latest_data:
+        raise HTTPException(status_code=404, detail="NO data exists. Please create data first!")
+
+
+    lb = dict_to_leaderboard(latest_data)
+
+    for _ in range(count):
+        lb = lockLowestPlayer(lb)
+
+    lb_json = leaderboard_to_dict(lb)
+    timestamp = datetime.now().strftime("%d-%m_%H-%M")
+    save_data_to_json(lb_json, f'data/leaderboard-elimination-on-{timestamp}.json')
+
+    return {
+        "message": f"Successfully locked {count} players.",
+        "leaderboard": lb_json
+    }
+
 
 
 app.include_router(router)

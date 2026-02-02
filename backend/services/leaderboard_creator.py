@@ -6,7 +6,7 @@ from .twitchAPI import check_is_player_live
 from .loadSignupDataFromCsv import load_signups_from_csv
 from .ER_data import get_all_player_ids, get_all_player_stats, get_data_from_json
 from .constants import characterCodeDict
-
+from ..utils.util import dict_to_leaderboard
 def get_top_character_icons(character_stats, top_n=3):
     if not character_stats:
         return []
@@ -21,12 +21,22 @@ def get_top_character_icons(character_stats, top_n=3):
             icons.append(f"{base_name}.png") 
     return icons
 
-def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_dict: Dict[str, dict], signups_by_name: Dict[str, PlayerLeaderboardEntry]) -> Leaderboard:
+def create_leaderboard_data(
+        player_id_dict: Dict[str, int], 
+        all_player_stats_dict: Dict[str, dict], 
+        signups_by_name: Dict[str, PlayerLeaderboardEntry],
+        previous_lb: Leaderboard = None,
+) -> Leaderboard:
+    
     lb = Leaderboard()
 
-    # create a new leaderboard and fill it with given data
-
+    #check if the player has already been shot
     for pn in player_id_dict:
+        prev_entry = previous_lb.get(pn) if previous_lb else None
+        
+        if prev_entry and prev_entry.is_eliminated:
+            lb.add_entry(prev_entry)
+            continue
 
         user_stats_json = all_player_stats_dict[pn] #player_name : dict (the json)
         user_stats_list = user_stats_json.get("userStats", []) #from the json the userStats list
@@ -41,8 +51,6 @@ def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_di
             top_character_icons = []
         else:
             user_stats_entry = user_stats_list[0] # there is only 1 element in the list
-
-            
             mmr = user_stats_entry["mmr"] #in the userStats list, get the value of the mmr key
             games = user_stats_entry["totalGames"]
             wins = user_stats_entry["totalWins"]
@@ -53,8 +61,6 @@ def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_di
 
         player_twitch = signups_by_name[pn].Twitch
         is_live_on_twitch: bool = check_is_player_live(player_twitch)
-        is_eliminated: bool = False
-        eliminated_at_rank = None
 
         lb.add_entry(
             PlayerLeaderboardEntry(
@@ -67,13 +73,19 @@ def create_leaderboard_data( player_id_dict: Dict[str, int], all_player_stats_di
                 top_character_icons=top_character_icons,
                 twitch= player_twitch,
                 is_live_on_twitch=is_live_on_twitch,
-                is_eliminated=is_eliminated,
+                is_eliminated=False,
                 eliminated_at_rank=None,
             )
         )
     return lb
 
 def build_leaderboard():
+
+
+    latest_data = get_latest_leaderboard()
+    previous_lb = None
+    if latest_data:
+        previous_lb = dict_to_leaderboard(latest_data)
 
     #fetches the data, creates the leaderboard and fills it; sorted by mmr
 
@@ -83,7 +95,7 @@ def build_leaderboard():
     player_id_dict = get_all_player_ids(signups_by_name.keys()) # Dict - Key: PlayerName, Value: Player ID
     all_player_stats_dict = get_all_player_stats(signups_by_name,player_id_dict)    # Dict - Key: PlayerName, Value: PlayerStats
 
-    lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name)
+    lb = create_leaderboard_data(player_id_dict, all_player_stats_dict, signups_by_name, previous_lb)
 
     return lb
 

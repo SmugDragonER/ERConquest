@@ -1,4 +1,4 @@
-from backend.models.models import PlayerLeaderboardEntry
+from backend.models.models import PlayerLeaderboardEntry, Leaderboard
 
 def unlockAllPlayer(sorted_leaderboard: list[PlayerLeaderboardEntry]):
     for player in sorted_leaderboard:
@@ -6,15 +6,16 @@ def unlockAllPlayer(sorted_leaderboard: list[PlayerLeaderboardEntry]):
         player.eliminated_at_rank = None
     return sorted_leaderboard
 
-def lockLowestPlayer(sorted_leaderboard: list[PlayerLeaderboardEntry]):
+def lockLowestPlayer(lb: Leaderboard):
     '''  
     Locks the lowest player and saves their placement
     '''
 
-    if isinstance(sorted_leaderboard, list):
-        for original_index, player in reversed(list(enumerate(sorted_leaderboard))):
-            if not player.is_eliminated:
-                player.is_eliminated = True
-                player.eliminated_at_rank = original_index
-                break
-    return sorted_leaderboard
+    sorted_player_list = lb.sorted_by_mmr()
+
+    for original_index, player in reversed(list(enumerate(sorted_player_list))):
+        if not player.is_eliminated:
+            player.is_eliminated = True
+            player.eliminated_at_rank = original_index +1
+            break
+    return lb
