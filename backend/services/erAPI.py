@@ -21,7 +21,6 @@ def rate_limited_request(url, params=None):
 def get_ER_data(endpoint: str, params: dict = None) -> dict:
     # Construct the full URL
     url = f"{ER_BASE_URL}{endpoint}"
-    
     response = rate_limited_request(url, params)
     if response.status_code == 200:
         # Return the JSON response if successful
@@ -32,8 +31,17 @@ def get_ER_data(endpoint: str, params: dict = None) -> dict:
         response.raise_for_status()
 
 def get_player_id(player_name:str) -> int:
+
+
+    fixed_name = player_name
+    if "Arky" in player_name:
+        fixed_name = player_name.replace("--", "").strip()
+
     # Get the user number for a given player name
-    user_info = get_ER_data('v1/user/nickname', {'query': player_name})
+    user_info = get_ER_data('v1/user/nickname', {'query': fixed_name})
+    if not user_info or 'user' not in user_info:
+        print(f"CRITICAL: Player '{player_name}' not found or API error! Response: {user_info}")
+        return 0
     player_id: int = user_info['user']['userId']
     return player_id
 
