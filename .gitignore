@@ -1,5 +1,5 @@
 .env
-
+data/leaderboard*.json
 # Bytecode / Caches
 __pycache__/
 *.py[cod]

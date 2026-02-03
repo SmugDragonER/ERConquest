@@ -1,18 +1,22 @@
 <script>
+import { RouterLink } from 'vue-router';
+import Bounty from '../views/Bounty.vue';
 import Rules from '../views/Rules.vue';
 
 export default {
     name: "Header",
-    components: { Rules },
+    components: { Rules, /*Bounty*/ },
     data() {
         return {
             isOpenContact: false,
-            isOpenRules: false
+            isOpenRules: false,
+            //isOpenBounty: false,
         };
     },
     watch: {
         isOpenContact(val) { this.handleListener(val); },
-        isOpenRules(val) { this.handleListener(val); }
+        isOpenRules(val) { this.handleListener(val); },
+        //isOpenBounty(val) { this.handleListener(val); },
     },
     methods: {
         handleListener(val) {
@@ -33,6 +37,8 @@ export default {
             const contactBtn = document.getElementById("contact-button");
             const rulesBox = document.getElementById("rules-box");
             const rulesBtn = document.getElementById("rules-button");
+           // const bountyBox = document.getElementById("bounty-box");
+           // const bountyBtn = document.getElementById("bounty-button");
 
             if (contactBox && !contactBox.contains(event.target) && event.target !== contactBtn) {
                 this.closeBox("Contact");
@@ -40,6 +46,9 @@ export default {
             if (rulesBox && !rulesBox.contains(event.target) && event.target !== rulesBtn) {
                 this.closeBox("Rules");
             }
+            // if (bountyBox && !bountyBox.contains(event.target) && event.target !== bountyBtn) {
+            //     this.closeBox("Bounty");
+            // }
         }
     },
     beforeUnmount() {
@@ -49,13 +58,37 @@ export default {
 </script>
 
 <template>
+
     <header class="main-header">
         <div class="nav-container">
-            <div class="popup-wrapper">
-                <span @click.stop="toggleBox('Rules')" id="rules-button" class="nav-link">Rules</span>
-                <div v-if="isOpenRules" id="rules-box" class="dropdown-box rules-wide">
-                    <Rules/>
+            
+            <div class="left-nav-group">
+           
+                <!-- Drop Down Rules -->
+
+                <div class="popup-wrapper">
+                    <span @click.stop="toggleBox('Rules')" id="rules-button" class="nav-link">Event Information</span>
+                    <div v-if="isOpenRules" id="rules-box" class="dropdown-box rules-wide">
+                        <Rules/>
+                    </div>
                 </div>
+
+                <router-link
+                    v-if="$route.path === '/'"
+                    to="/bounty"
+                    class="nav-link"
+                    id="bounty-button"
+                >
+                    Bounty Board
+                </router-link>
+
+                <router-link
+                    v-if="$route.path === '/bounty'"
+                    to="/"
+                    class="nav-link"
+                >
+                    Leaderboard
+                </router-link>
             </div>
 <!--
             <div class="left-header">
@@ -104,23 +137,38 @@ export default {
 
     .nav-container {
         display: flex;
-        gap: 20px;
         justify-content: space-between;
         width: 100%;
     }
 
-    .nav-link {
+    .nav-link,
+    .nav-link:visited,
+    .nav-link:active {
         color: var(--primary-color);
         font-weight: bold;
         cursor: pointer;
         transition: color 0.2s;
         justify-content: space-between;
         width: auto;
+        text-decoration: none;
+    }
+
+    .left-nav-group{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .left-nav-group > .popup-wrapper::after {
+        content: "|";
+        color: var(--primary-color);
+        margin-left: 20px;
+        font-weight: bold;
+        pointer-events: none;
     }
 
     .nav-link:hover { color: #ad936e; }
 
-    .popup-wrapper { position: relative; }
+    .popup-wrapper { position: relative; color: var(--primary-color) }
 
     .header-left {
         left: 0;
@@ -163,4 +211,7 @@ export default {
 
     .title { font-size: 12px; margin-bottom: 5px; opacity: 0.8; }
     .info { color: #ad936e; font-size: 14px; }
+
+
+
 </style>

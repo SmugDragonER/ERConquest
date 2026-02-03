@@ -82,8 +82,6 @@ export default {
 </script>
 
 <template>
-  <p>DEBUG Leaderboard mounted</p>
-
   <div id="leaderboard-inner">
     <div
       v-for="(player, index) in sortedPlayers"

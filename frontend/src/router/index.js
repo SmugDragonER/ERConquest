@@ -5,6 +5,9 @@ export default createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: MainContent },   // homepage = leaderboard
+    { 
+      path: '/bounty', component: () => import('../views/Bounty.vue')
+    },
     // { path: '/pickEm', component: PickEm },
   ]
 })

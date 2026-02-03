@@ -23,6 +23,8 @@ export default {
                     break;
                 case "/pickEm": return "pickEm";
                     break;
+                case "/bounty": return "bounty"
+                    break;
                 default: return null;
             }
         }
