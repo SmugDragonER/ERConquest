@@ -26,13 +26,20 @@
 
       <div class="bounty-card">
         <div class="bounty-header">
-          <h3 class="bounty-title">360 noscope
+          <h3 class="bounty-title strike-through">360 noscope
             <span class="bounty-reward">10€</span>
           </h3>
         </div>
         <div class="bounty-body">
-          <p class="bounty-desc">Spin around for at least 360 degrees, then land the final blow on an enemy test subject with sniper skill (D)
-                                <br/><br/>(Doesnt count if they give up and stand still)
+          <a href="https://www.twitch.tv/metalieme/clip/FunnyAmericanMarjoramBuddhaBar-BDT96w6Tsd4gxggH" target="_blank" class="claim-anchor">
+            <div class="claimed-banner">
+              <span class="claimed-label">CLAIMED BY: </span>
+              <span class="claimed-winner">GonnaEinALittle</span>
+            </div>
+          </a>          
+            <p class="bounty-desc strike-through">
+            Spin around for at least 360 degrees, then land the final blow on an enemy test subject with sniper skill (D)
+            <br/><br/>(Doesnt count if they give up and stand still)
           </p>
           <div class="bounty-poster">
             <span class="posted-by">Posted by: </span>
@@ -55,6 +62,24 @@
           <div class="bounty-poster">
             <span class="posted-by">Posted by: </span>
             <strong>SmugDragon</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="bounty-card">
+        <div class="bounty-header">
+          <h3 class="bounty-title"> Jumping strike
+            <span class="bounty-reward">ER BATTLE PASS</span>
+          </h3>
+        </div>
+        <div class="bounty-body">
+          <p class="bounty-desc">Kill a team after stunning at least one of them by landing on them using a vls. 
+            <br/><br/>
+            (if you read this you are cute catrose)
+          </p>
+          <div class="bounty-poster">
+            <span class="posted-by">Posted by: </span>
+            <strong>Leitnessen</strong>
           </div>
         </div>
       </div>
@@ -169,6 +194,74 @@ export default {
   .posted-by {
     color: #a0a0a0;
   }
+
+  .strike-through {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--primary-color); /* Rote Linie für den Kontrast */
+  opacity: 0.9;
+}
+
+/**/
+
+.is-claimed {
+  border-color: var(--primary-color) !important;
+  background-color: #151820; 
+}
+
+.claim-anchor {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.claimed-banner {
+  /* Nutzt deine Farbe mit Transparenz für den Hintergrund */
+  background: linear-gradient(135deg, rgba(196, 161, 90, 0.2) 0%, rgba(20, 23, 30, 0.9) 100%);
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.claimed-label {
+  color: var(--primary-color);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.claimed-winner {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  /* Glow-Effekt mit deiner Farbe */
+  text-shadow: 0 0 15px rgba(196, 161, 90, 0.3);
+}
+
+.view-clip-hint {
+  color: var(--primary-color);
+  font-size: 0.75rem;
+  margin-top: 5px;
+  opacity: 0.7;
+}
+
+/* Hover-Effekte */
+.claim-anchor:hover .claimed-banner {
+  background: linear-gradient(135deg, rgba(196, 161, 90, 0.3) 0%, rgba(30, 35, 45, 1) 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.claim-anchor:hover .claimed-winner {
+  text-shadow: 0 0 20px rgba(196, 161, 90, 0.6);
+}
 
   @media (max-width: 768px) {
     .bounty-grid {
